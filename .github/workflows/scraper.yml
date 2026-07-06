@@ -30,5 +30,6 @@ jobs:
     - name: Run Scraper Script
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
       run: |
         python test2.py
