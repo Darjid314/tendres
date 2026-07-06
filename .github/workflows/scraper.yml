@@ -1,39 +1,40 @@
 name: Oman Tenders Hourly Scraper
 
 on:
-  name: Oman Tenders Hourly Scraper
   schedule:
-    - cron: '15 * * * *'  # 👈 Ab exact 0 ke bajaye har ghante ki 15th minute par chalega (Queue se bachne ke liye)
+    - cron: '15 * * * *'  # Har ghante ki 15th minute par chalega (GitHub server queue se bachne ke liye)
   push:
     branches:
-      - main              # 👈 Jab bhi aap code badlenge, yeh turant ek baar test run ho jayega
-  workflow_dispatch:     # 👈 Manual button bhi chalta rahega
+      - main              # Jab bhi aap code commit/save karenge, yeh turant automatic run hoga
+  workflow_dispatch:     # Manual "Run workflow" button bhi chalta rahega
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v4  # Node.js 24 compatible version
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5  # Node.js 24 compatible version
+    - name: Setup Python Environment
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
+        cache: 'pip'
 
-    - name: Install Dependencies
+    - name: Install System Dependencies & Pip Packages
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Install Playwright Browsers
+        pip install playwright beautifulsoup4 gspread google-auth deep-translator
+        
+    - name: Install Playwright Chromium Browser
       run: |
-        python -m playwright install chromium --with-deps
+        playwright install chromium --with-deps
 
-    - name: Run Scraper Script
+    - name: Run Scraper Script & Trigger Email Alerts
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }} # Google Account se banaya hua 16-digit code
       run: |
         python test2.py
+        
