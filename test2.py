@@ -15,8 +15,8 @@ from deep_translator import GoogleTranslator
 # CONFIGURATION & RECIPIENTS
 # =========================================================
 SHEET_NAME = "Oman Tenders"
-SENDER_EMAIL = "your-email@gmail.com"   # 👈 APNA Gmail ID likhein
-RECEIVER_EMAIL = "your-email@gmail.com" # 👈 Receiver Gmail ID likhein
+SENDER_EMAIL = "darjid314@gmail.com"   # 👈 APNA Gmail ID likhein
+RECEIVER_EMAIL = "sales@allakuniversal.com" # 👈 Receiver Gmail ID likhein
 
 KEYWORDS = [
     "network", "networking", "it infrastructure", "cctv", "surveillance", 
