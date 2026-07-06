@@ -1,9 +1,15 @@
 name: Oman Tenders Hourly Scraper
 
 on:
+  name: Oman Tenders Hourly Scraper
+
+on:
   schedule:
-    - cron: '0 * * * *'  # Har ghante automatic chalega
-  workflow_dispatch:      # Manual chalaane ka button
+    - cron: '15 * * * *'  # 👈 Ab exact 0 ke bajaye har ghante ki 15th minute par chalega (Queue se bachne ke liye)
+  push:
+    branches:
+      - main              # 👈 Jab bhi aap code badlenge, yeh turant ek baar test run ho jayega
+  workflow_dispatch:     # 👈 Manual button bhi chalta rahega
 
 jobs:
   run-scraper:
