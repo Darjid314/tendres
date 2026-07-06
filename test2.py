@@ -6,12 +6,17 @@ from google.oauth2.service_account import Credentials
 import re
 import time
 import os
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from deep_translator import GoogleTranslator
 
 # =========================================================
-# CONFIGURATION
+# CONFIGURATION & RECIPIENTS
 # =========================================================
 SHEET_NAME = "Oman Tenders"
+SENDER_EMAIL = "your-email@gmail.com"   # 👈 APNA Gmail ID likhein
+RECEIVER_EMAIL = "your-email@gmail.com" # 👈 Receiver Gmail ID likhein
 
 KEYWORDS = [
     "network", "networking", "it infrastructure", "cctv", "surveillance", 
@@ -35,31 +40,64 @@ except Exception as e:
     print(f"❌ Google Sheet Connection Error: {e}")
     exit()
 
-def translate_to_english(text):
-    if not text or not text.strip():
-        return "N/A"
+def send_email_alert(new_tenders_list):
+    gmail_pass = os.environ.get("GMAIL_PASSWORD")
+    if not gmail_pass: return
+
+    msg = MIMEMultipart()
+    msg['From'] = SENDER_EMAIL
+    msg['To'] = RECEIVER_EMAIL
+    msg['Subject'] = f"🚀 Alert: {len(new_tenders_list)} New Oman Tenders Matched!"
+
+    html = f"""
+    <html>
+    <body>
+        <h2>Bhai, New Tenders Matched Your ICT/ELV Keywords!</h2>
+        <table border="1" cellpadding="5" cellspacing="0" style="border-collapse:collapse; font-family:Arial;">
+            <tr style="background-color:#f2f2f2;">
+                <th>Tender No</th>
+                <th>Title</th>
+                <th>Agency</th>
+                <th>Governorate</th>
+                <th>Sales Start</th>
+            </tr>
+    """
+    for t in new_tenders_list:
+        html += f"""
+            <tr>
+                <td><b>{t[1]}</b></td>
+                <td>{t[2]}</td>
+                <td>{t[3]}</td>
+                <td>{t[4]}</td>
+                <td>{t[8]}</td>
+            </tr>
+        """
+    html += "</table></body></html>"
+    msg.attach(MIMEText(html, 'html'))
     try:
-        # Chota sa pause taaki Google block na kare
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(SENDER_EMAIL, gmail_pass)
+        server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, msg.as_string())
+        server.quit()
+    except Exception as e:
+        print(f"❌ Email Alert Error: {e}")
+
+def translate_to_english(text):
+    if not text or not text.strip(): return "N/A"
+    try:
         time.sleep(0.5)
         return GoogleTranslator(source='auto', target='en').translate(text)
-    except Exception as e:
-        # Block hone par raw text wapas bhej do taaki script na ruke
+    except:
         return text
 
 def parse_sequential_dates(full_text):
-    clean_dates = []
-    all_dates_with_time = re.findall(r"\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}", full_text)
-    for dt in all_dates_with_time:
-        clean_dates.append(f"'{dt.strip()}")
-            
-    if not clean_dates:
-        plain_dates = re.findall(r"\d{2}-\d{2}-\d{4}", full_text)
-        seen = set()
-        clean_dates = [f"'{x}" for x in plain_dates if not (x in seen or seen.add(x))]
-        
-    if len(clean_dates) < 3:
-        plain_dates = re.findall(r"\d{2}-\d{2}-\d{4}", full_text)
-        clean_dates = [f"'{x}" for x in plain_dates]
+    """Bina kisi data compression ke strict format me dates select karna"""
+    # DD-MM-YYYY HH:MM ya plain DD-MM-YYYY ke saare instances pure text se order me nikalna
+    raw_dates = re.findall(r"\d{2}-\d{2}-\d{4}(?:\s+\d{2}:\d{2})?", full_text)
+    
+    # Har date ke aage single quote (') force karna bina sorting chhede
+    clean_dates = [f"'{d.strip()}" for d in raw_dates if d.strip()]
 
     s_start, s_end, p_start, p_end, sub_close, bid_open = ["N/A"] * 6
     if len(clean_dates) >= 1: s_start = clean_dates[0]
@@ -84,10 +122,7 @@ def get_total_pages(soup):
 async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True) 
-        context = await browser.new_context(
-            locale="en-US",
-            timezone_id="Asia/Muscat"
-        )
+        context = await browser.new_context(locale="en-US", timezone_id="Asia/Muscat")
         page = await context.new_page()
         
         base_url = "https://etendering.tenderboard.gov.om/product/publicDash?viewFlag=NewTenders"
@@ -97,11 +132,11 @@ async def main():
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
         total_pages = get_total_pages(soup)
-        print(f"📊 Total Pages detected on Website: {total_pages}. Starting Full Automation Scan...\n")
+        print(f"📊 Total Pages detected: {total_pages}. Scanning...\n")
         
         all_rows = sheet.get_all_values()
         existing_tenders = [row[1] for row in all_rows] if len(all_rows) > 0 else []
-        new_rows = []
+        new_rows_session = []
         
         for current_page in range(1, total_pages + 1):
             url = f"{base_url}&pageNo={current_page}"
@@ -110,7 +145,6 @@ async def main():
             try:
                 await page.goto(url, wait_until="networkidle", timeout=60000)
             except Exception:
-                print("     ⏳ Connection slow. Retrying page load...")
                 await asyncio.sleep(3)
                 await page.goto(url, wait_until="networkidle", timeout=60000)
                 
@@ -119,15 +153,7 @@ async def main():
             soup = BeautifulSoup(content, 'html.parser')
             
             tables = soup.find_all('table')
-            if len(tables) < 2: 
-                print("     🔄 View broken. Attempting page hot reload...")
-                await page.reload(wait_until="networkidle")
-                content = await page.content()
-                soup = BeautifulSoup(content, 'html.parser')
-                tables = soup.find_all('table')
-                if len(tables) < 2:
-                    print(f"     ❌ Page {current_page} skipped due to network timeout.")
-                    continue
+            if len(tables) < 2: continue
                 
             tender_table = tables[1]
             rows = tender_table.find_all('tr')[1:]
@@ -172,11 +198,12 @@ async def main():
                             if popup_html:
                                 popup_soup = BeautifulSoup(popup_html, 'html.parser')
                                 raw_text = popup_soup.get_text()
+                                
+                                # Pure chronological ordering fix
                                 s_start, s_end, p_start, p_end, sub_close, bid_open = parse_sequential_dates(raw_text)
                                 
-                                # Master Double-Check Rule: Pehle English translation test karo
+                                # Safe English Parsing Layer
                                 eng_text = translate_to_english(raw_text)
-                                
                                 gov_m = re.search(r"(?:Governorate|Governorates)\s*:\s*([^:\n\d]+)", eng_text, re.IGNORECASE)
                                 state_m = re.search(r"(?:State|States|Wilayat)\s*:\s*([^:\n\d]+)", eng_text, re.IGNORECASE)
                                 bg_m = re.search(r"(?:Bank guarantee value|Bank Guarantee)\s*:\s*([^:\n]+)", eng_text, re.IGNORECASE)
@@ -187,22 +214,18 @@ async def main():
                                 bg = bg_m.group(1).strip() if bg_m else "N/A"
                                 fee = fee_m.group(1).strip() if fee_m else "N/A"
                                 
-                                # Arabic Dual Fallback Layer: Agar upar N/A aaya, toh direct Arabic text se dhoondho
-                                if gov == "N/A" or state == "N/A":
-                                    gov_ar = re.search(r"المحافظة\s*:\s*([^\s:\n]+)", raw_text)
-                                    state_ar = re.search(r"الولاية\s*:\s*([^\s:\n]+)", raw_text)
-                                    
-                                    if gov == "N/A" and gov_ar:
-                                        gov = translate_to_english(gov_ar.group(1).strip())
-                                    if state == "N/A" and state_ar:
-                                        state = translate_to_english(state_ar.group(1).strip())
-                                        
+                                # Smart Fallback to raw layout tokens if English Translation drops out
+                                if gov == "N/A" or "محافظة" in raw_text:
+                                    gov_ar = re.search(r"(?:المحافظة|Governorate)\s*:\s*([^\n\d:]+)", raw_text, re.IGNORECASE)
+                                    if gov_ar: gov = translate_to_english(gov_ar.group(1).split('\t')[0].strip())
+                                if state == "N/A" or "الولاية" in raw_text:
+                                    state_ar = re.search(r"(?:الولاية|State|Wilayat)\s*:\s*([^\n\d:]+)", raw_text, re.IGNORECASE)
+                                    if state_ar: state = translate_to_english(state_ar.group(1).split('\t')[0].strip())
                                 if bg == "N/A":
-                                    bg_ar = re.search(r"قيمة الضمان البنكي\s*:\s*([^:\n]+)", raw_text)
+                                    bg_ar = re.search(r"(?:الضمان|Guarantee)\s*:\s*([^:\n]+)", raw_text, re.IGNORECASE)
                                     if bg_ar: bg = translate_to_english(bg_ar.group(1).strip())
-                                    
                                 if fee == "N/A":
-                                    fee_ar = re.search(r"رسوم المناقصة\s*:\s*([^:\n]+)", raw_text)
+                                    fee_ar = re.search(r"(?:رسوم|Fees)\s*:\s*([^:\n]+)", raw_text, re.IGNORECASE)
                                     if fee_ar: fee = translate_to_english(fee_ar.group(1).strip())
                             
                             print(f"     ✓ Extracted -> Gov: {gov} | State: {state} | Start: {s_start}")
@@ -219,19 +242,20 @@ async def main():
                         sheet.update(range_name=cell_range, values=[row_values])
                         print(f"     🔄 Updated Row {sheet_row_idx} details.")
                     else:
-                        serial_no = len(existing_tenders) + len(new_rows) + 1
-                        new_rows.append([serial_no, tender_no, english_title, english_agency] + row_values)
-                        print(f"     ✓ Added new entry to spreadsheet queue.")
+                        serial_no = len(existing_tenders) + len(new_rows_session) + 1
+                        entry_pack = [serial_no, tender_no, english_title, english_agency] + row_values
+                        new_rows_session.append(entry_pack)
+                        print(f"     ✓ Added new entry to cache pack.")
                         
-            if new_rows:
-                sheet.append_rows(new_rows)
-                existing_tenders.extend([r[1] for r in new_rows])
-                new_rows = []
+            if new_rows_session:
+                sheet.append_rows(new_rows_session)
+                existing_tenders.extend([r[1] for r in new_rows_session])
+                send_email_alert(new_rows_session)
+                new_rows_session = []
                 
-            # Anti-blocking server breather
             await asyncio.sleep(2)
 
-        print(f"\n🎉 ALL {total_pages} PAGES SCANNED COMPLETELY! No more N/A drops.")
+        print(f"\n🎉 ALL {total_pages} PAGES SCANNED COMPLETELY!")
         await browser.close()
 
 if __name__ == "__main__":
