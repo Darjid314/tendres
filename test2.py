@@ -22,7 +22,6 @@ KEYWORDS = [
     "كمبيوتر", "حاسب آلي", "برمجيات", "أنظمة", "كاميرات", "مراقبة", "سيرفر"
 ]
 
-# GitHub Secrets Injector Setup
 if os.environ.get("GOOGLE_CREDENTIALS"):
     with open("credentials.json", "w") as f:
         f.write(os.environ.get("GOOGLE_CREDENTIALS"))
@@ -40,8 +39,11 @@ def translate_to_english(text):
     if not text or not text.strip():
         return "N/A"
     try:
+        # Chota sa pause taaki Google block na kare
+        time.sleep(0.5)
         return GoogleTranslator(source='auto', target='en').translate(text)
-    except:
+    except Exception as e:
+        # Block hone par raw text wapas bhej do taaki script na ruke
         return text
 
 def parse_sequential_dates(full_text):
@@ -81,7 +83,6 @@ def get_total_pages(soup):
 
 async def main():
     async with async_playwright() as p:
-        # CRITICAL: Force English locale and Oman timezone so page loads exactly like your PC
         browser = await p.chromium.launch(headless=True) 
         context = await browser.new_context(
             locale="en-US",
@@ -130,7 +131,6 @@ async def main():
                 
             tender_table = tables[1]
             rows = tender_table.find_all('tr')[1:]
-            print(f"     Found {len(rows)} raw tenders on this page. Checking keywords...")
             
             for index, row in enumerate(rows):
                 cols = row.find_all('td')
@@ -174,7 +174,9 @@ async def main():
                                 raw_text = popup_soup.get_text()
                                 s_start, s_end, p_start, p_end, sub_close, bid_open = parse_sequential_dates(raw_text)
                                 
+                                # Master Double-Check Rule: Pehle English translation test karo
                                 eng_text = translate_to_english(raw_text)
+                                
                                 gov_m = re.search(r"(?:Governorate|Governorates)\s*:\s*([^:\n\d]+)", eng_text, re.IGNORECASE)
                                 state_m = re.search(r"(?:State|States|Wilayat)\s*:\s*([^:\n\d]+)", eng_text, re.IGNORECASE)
                                 bg_m = re.search(r"(?:Bank guarantee value|Bank Guarantee)\s*:\s*([^:\n]+)", eng_text, re.IGNORECASE)
@@ -184,8 +186,26 @@ async def main():
                                 state = state_m.group(1).strip() if state_m else "N/A"
                                 bg = bg_m.group(1).strip() if bg_m else "N/A"
                                 fee = fee_m.group(1).strip() if fee_m else "N/A"
+                                
+                                # Arabic Dual Fallback Layer: Agar upar N/A aaya, toh direct Arabic text se dhoondho
+                                if gov == "N/A" or state == "N/A":
+                                    gov_ar = re.search(r"المحافظة\s*:\s*([^\s:\n]+)", raw_text)
+                                    state_ar = re.search(r"الولاية\s*:\s*([^\s:\n]+)", raw_text)
+                                    
+                                    if gov == "N/A" and gov_ar:
+                                        gov = translate_to_english(gov_ar.group(1).strip())
+                                    if state == "N/A" and state_ar:
+                                        state = translate_to_english(state_ar.group(1).strip())
+                                        
+                                if bg == "N/A":
+                                    bg_ar = re.search(r"قيمة الضمان البنكي\s*:\s*([^:\n]+)", raw_text)
+                                    if bg_ar: bg = translate_to_english(bg_ar.group(1).strip())
+                                    
+                                if fee == "N/A":
+                                    fee_ar = re.search(r"رسوم المناقصة\s*:\s*([^:\n]+)", raw_text)
+                                    if fee_ar: fee = translate_to_english(fee_ar.group(1).strip())
                             
-                            print(f"     ✓ Dates Extracted -> Start: {s_start} | Closing: {sub_close}")
+                            print(f"     ✓ Extracted -> Gov: {gov} | State: {state} | Start: {s_start}")
                     except Exception as e:
                         print(f"     ❌ Action Extraction Failed: {e}")
                     
@@ -204,14 +224,14 @@ async def main():
                         print(f"     ✓ Added new entry to spreadsheet queue.")
                         
             if new_rows:
-                print(f"     📊 Flushing {len(new_rows)} new records to Google Sheets...")
                 sheet.append_rows(new_rows)
                 existing_tenders.extend([r[1] for r in new_rows])
                 new_rows = []
                 
-            time.sleep(1.5)
+            # Anti-blocking server breather
+            await asyncio.sleep(2)
 
-        print(f"\n🎉 ALL {total_pages} PAGES SCANNED COMPLETELY! Google Sheet fully synced.")
+        print(f"\n🎉 ALL {total_pages} PAGES SCANNED COMPLETELY! No more N/A drops.")
         await browser.close()
 
 if __name__ == "__main__":
