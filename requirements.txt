@@ -1,0 +1,5 @@
+playwright
+beautifulsoup4
+gspread
+google-auth
+deep-translator
