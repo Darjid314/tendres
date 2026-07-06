@@ -2,8 +2,6 @@ name: Oman Tenders Hourly Scraper
 
 on:
   name: Oman Tenders Hourly Scraper
-
-on:
   schedule:
     - cron: '15 * * * *'  # 👈 Ab exact 0 ke bajaye har ghante ki 15th minute par chalega (Queue se bachne ke liye)
   push:
