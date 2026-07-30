@@ -2,39 +2,38 @@ name: Oman Tenders Hourly Scraper
 
 on:
   schedule:
-    - cron: '15 * * * *'  # Har ghante ki 15th minute par chalega (GitHub server queue se bachne ke liye)
+    - cron: '15 */3 * * *'  # Har 3 ghante me ek baar (jaise: 00:15, 03:15, 06:15, etc.)
   push:
     branches:
-      - main              # Jab bhi aap code commit/save karenge, yeh turant automatic run hoga
-  workflow_dispatch:     # Manual "Run workflow" button bhi chalta rahega
+      - main              # Jab bhi code push karenge, yeh chalega
+  workflow_dispatch:      # Manual "Run workflow" button
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository Code
-      uses: actions/checkout@v4
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
 
-    - name: Setup Python Environment
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-        cache: 'pip'
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
 
-    - name: Install System Dependencies & Pip Packages
-      run: |
-        python -m pip install --upgrade pip
-        pip install playwright beautifulsoup4 gspread google-auth deep-translator
-        
-    - name: Install Playwright Chromium Browser
-      run: |
-        playwright install chromium --with-deps
+      - name: Install System Dependencies & Pip Packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright beautifulsoup4 gspread google-auth deep-translator
 
-    - name: Run Scraper Script & Trigger Email Alerts
-      env:
-        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-        GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }} # Google Account se banaya hua 16-digit code
-      run: |
-        python test2.py
-        
+      - name: Install Playwright Chromium Browser
+        run: |
+          playwright install chromium --with-deps
+
+      - name: Run Scraper Script & Trigger Email Alerts
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        run: |
+          python test2.py
