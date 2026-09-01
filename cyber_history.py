@@ -34,7 +34,8 @@ client = gspread.authorize(creds)
 
 # Sheet Setup - Ye aapki sheet me "Cybersecurity_Tenders" tab create/open karega
 SHEET_NAME = 'Oman_Tenders_Tracker'
-sh = client.open(SHEET_NAME)
+SHEET_ID = "13NYIVsOVC0RY0j424UdmJGzSR7BZ22DbcLz_KP31i_s"
+sh = client.open_by_key(SHEET_ID)
 
 try:
   worksheet = sh.worksheet('Cybersecurity_Tenders')
