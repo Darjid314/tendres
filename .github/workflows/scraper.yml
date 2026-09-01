@@ -34,5 +34,5 @@ jobs:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
       - name: Export Keys
         run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" base64
-        run: |
-          python test2.py
+      #  run: |
+       #   python test2.py
