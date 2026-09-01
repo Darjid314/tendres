@@ -32,5 +32,5 @@ jobs:
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
-          run: |
-         python test2.py
+        run: |
+          python test2.py
