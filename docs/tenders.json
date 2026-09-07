@@ -7846,5 +7846,23 @@
     "bid_open": "'15-10-2026 06:30",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97559&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=68409460076c95ea90b8140e1e7c61b2255fcdba95881f6639e4c673d1c70b7a",
     "is_new": false
+  },
+  {
+    "serial": "438",
+    "tender_no": "2026/7/م ظ/ م ر -7",
+    "title": "توريد وتركيب جهاز التخزين ال.....",
+    "agency": "محافظة ظفار",
+    "governorate": "محافظة ظفار الولايات",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'07-09-2026",
+    "sales_end": "'07-09-2026 22:00",
+    "purchase_start": "'27-09-2026 10:00",
+    "purchase_end": "'07-09-2026 22:15",
+    "submission_close": "'27-09-2026 10:15",
+    "bid_open": "'29-09-2026 10:00",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97592&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=b58fb1d9d3e8ea430d3f98bb4240609f66369270327c97d37c6243cd2b371920",
+    "is_new": true
   }
 ]
