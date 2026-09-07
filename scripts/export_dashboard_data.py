@@ -170,11 +170,9 @@ def main():
         }
 
 
-        /*
-        A tender is NEW only when its
-        tender number did not exist in
-        the previous dashboard export.
-        */
+        # A tender is NEW only when its
+        # tender number did not exist in
+        # the previous dashboard export.
 
         tender["is_new"] = (
             tender_no not in previous
