@@ -13,185 +13,200 @@ content="width=device-width,initial-scale=1">
 <style>
 
 *{
-box-sizing:border-box
+    box-sizing:border-box;
 }
 
 body{
-margin:0;
-background:#08111f;
-color:#e8eef7;
-font-family:system-ui,sans-serif
+    margin:0;
+    background:#08111f;
+    color:#e8eef7;
+    font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
 
 .wrap{
-max-width:1100px;
-margin:auto;
-padding:18px
+    max-width:1100px;
+    margin:auto;
+    padding:18px;
 }
 
 h1{
-margin:0;
-font-size:28px
+    margin:0;
+    font-size:28px;
 }
 
 p{
-color:#91a2b9
+    color:#91a2b9;
+    margin-top:8px;
 }
 
 .stats{
-display:grid;
-grid-template-columns:
-repeat(4,1fr);
-gap:10px
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
 }
 
 .card,
 .toolbar{
-background:#101c2d;
-border:1px solid #20334d;
-border-radius:16px;
-padding:15px;
-box-shadow:0 8px 30px #0003
+    background:#101c2d;
+    border:1px solid #20334d;
+    border-radius:16px;
+    padding:15px;
+    box-shadow:0 8px 30px #0003;
 }
 
 .stat b{
-display:block;
-font-size:25px
+    display:block;
+    font-size:25px;
 }
 
 .stat span{
-font-size:12px;
-color:#91a2b9
+    font-size:12px;
+    color:#91a2b9;
 }
 
 .toolbar{
-display:grid;
-grid-template-columns:
-1.5fr .8fr .8fr auto;
-gap:9px;
-margin:14px 0
+    display:grid;
+    grid-template-columns:1.5fr .8fr .9fr;
+    gap:9px;
+    margin:14px 0;
 }
 
 input,
-select,
-button{
-width:100%;
-padding:11px;
-border-radius:10px;
-border:1px solid #2a405e;
-background:#0a1525;
-color:#e8eef7
+select{
+    width:100%;
+    padding:11px;
+    border-radius:10px;
+    border:1px solid #2a405e;
+    background:#0a1525;
+    color:#e8eef7;
+    outline:none;
 }
 
-button{
-font-weight:700
+input:focus,
+select:focus{
+    border-color:#4b83b5;
 }
 
 .list{
-display:grid;
-gap:10px
+    display:grid;
+    gap:10px;
 }
 
 .top{
-display:flex;
-justify-content:space-between;
-gap:12px
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
 }
 
 .title{
-font-weight:800
+    font-weight:800;
+    line-height:1.4;
 }
 
 .no{
-color:#70b7ff;
-font-size:12px;
-margin-top:5px
+    color:#70b7ff;
+    font-size:12px;
+    margin-top:5px;
 }
 
 .meta{
-display:flex;
-flex-wrap:wrap;
-gap:7px;
-margin-top:10px
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px;
+    margin-top:10px;
 }
 
 .pill{
-font-size:11px;
-padding:5px 8px;
-border-radius:999px;
-background:#162941;
-color:#bcd0e8
+    font-size:11px;
+    padding:5px 8px;
+    border-radius:999px;
+    background:#162941;
+    color:#bcd0e8;
 }
 
 .deadline{
-margin-top:12px;
-font-size:13px
+    margin-top:12px;
+    font-size:13px;
 }
 
 .soon{
-font-weight:800
+    font-weight:800;
 }
 
 a{
-color:#75c1ff;
-text-decoration:none;
-font-weight:800
+    color:#75c1ff;
+    text-decoration:none;
+    font-weight:800;
+    white-space:nowrap;
+}
+
+a:hover{
+    text-decoration:underline;
 }
 
 .empty{
-text-align:center;
-color:#91a2b9
+    text-align:center;
+    color:#91a2b9;
 }
-
 
 /* NEW TENDER */
 
 .new-badge{
-display:inline-block;
-font-size:10px;
-font-weight:900;
-padding:4px 7px;
-border-radius:999px;
-margin-left:7px;
-background:#234a38;
-color:#a8f0c2
+    display:inline-block;
+    font-size:10px;
+    font-weight:900;
+    padding:4px 7px;
+    border-radius:999px;
+    margin-left:7px;
+    background:#234a38;
+    color:#a8f0c2;
+    vertical-align:middle;
 }
 
 .new-card{
-border-width:2px
+    border:2px solid #29563f;
 }
 
 .new-info{
-background:#142b22;
-border:1px solid #29563f;
-color:#a8f0c2;
-padding:12px 15px;
-border-radius:14px;
-margin-bottom:12px;
-font-size:13px;
-font-weight:700
+    background:#142b22;
+    border:1px solid #29563f;
+    color:#a8f0c2;
+    padding:12px 15px;
+    border-radius:14px;
+    margin-bottom:12px;
+    font-size:13px;
+    font-weight:700;
 }
 
+/* AUTO UPDATE STATUS */
+
+.update-status{
+    margin-top:10px;
+    font-size:11px;
+    color:#71849d;
+    text-align:right;
+}
+
+/* MOBILE */
 
 @media(max-width:700px){
 
-.stats{
-grid-template-columns:
-repeat(2,1fr)
-}
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+    }
 
-.toolbar{
-grid-template-columns:
-1fr 1fr
-}
+    .toolbar{
+        grid-template-columns:1fr;
+    }
 
-.toolbar input{
-grid-column:1/-1
-}
+    .top{
+        flex-direction:column;
+    }
 
-.top{
-flex-direction:column
-}
+    a{
+        white-space:normal;
+    }
 
 }
 
@@ -216,6 +231,8 @@ new tender detection •
 direct tender links
 </p>
 
+
+<!-- STATS -->
 
 <section class="stats">
 
@@ -267,11 +284,14 @@ Closing within 3 days
 </section>
 
 
+<!-- FILTER / SORT -->
+
 <div class="toolbar">
 
 
 <input
 id="search"
+type="search"
 placeholder="🔎 Search tender, agency, number..."
 >
 
@@ -318,22 +338,33 @@ All dates
 </select>
 
 
-<button onclick="load()">
-↻ Refresh
-</button>
-
-
 </div>
 
 
-<div id="newInfo"
+<!-- NEW INFO -->
+
+<div
+id="newInfo"
 class="new-info"
-style="display:none">
+style="display:none"
+>
 
 🆕 These tenders were added in the latest scraper run.
 
 </div>
 
+
+<!-- AUTO UPDATE -->
+
+<div
+id="updateStatus"
+class="update-status"
+>
+Checking tender data...
+</div>
+
+
+<!-- TENDER LIST -->
 
 <div id="list">
 
@@ -350,764 +381,856 @@ Loading tender data…
 <script>
 
 
-const DATA_URL =
-"./tenders.json";
+/* =========================================================
+   CONFIG
+   ========================================================= */
 
+const DATA_URL = "./tenders.json";
 
 const PORTAL_URL =
-"https://etendering.tenderboard.gov.om/product/publicDash?switchLangFlag=1&viewFlag=NewTenders";
+"https://etendering.tenderboard.gov.om/product/publicDash?viewFlag=NewTenders";
+
+const AUTO_REFRESH_MS = 120000;
+
+let data = [];
 
 
-let data=[];
+/* =========================================================
+   SHORTCUT
+   ========================================================= */
+
+const $ = function(id){
+    return document.getElementById(id);
+};
 
 
-const $ =
-x => document.getElementById(x);
+/* =========================================================
+   DATE PARSER
+   ========================================================= */
 
+function pd(value){
 
+    if(!value){
+        return null;
+    }
 
-/* DATE PARSER */
+    let text = String(value)
+        .replace(/^'/,"")
+        .trim();
 
-function pd(s){
+    /*
+       Expected format:
+       DD-MM-YYYY
+       DD-MM-YYYY HH:MM
+    */
 
-if(!s)
-return null;
+    let match = text.match(
+        /(\d{2})-(\d{2})-(\d{4})(?:\s+(\d{2}):(\d{2}))?/
+    );
 
-let m =
-String(s)
-.replace(/^'/,'')
-.match(
-/(\d{2})-(\d{2})-(\d{4})(?:\s+(\d{2}):(\d{2}))?/
-);
+    if(!match){
+        return null;
+    }
 
-return m
-?
-new Date(
-+m[3],
-+m[2]-1,
-+m[1],
-+(m[4]||0),
-+(m[5]||0)
-)
-:null;
-
+    return new Date(
+        Number(match[3]),
+        Number(match[2]) - 1,
+        Number(match[1]),
+        Number(match[4] || 0),
+        Number(match[5] || 0)
+    );
 }
 
 
+/* =========================================================
+   SERIAL NUMBER
+   ========================================================= */
 
-/* SERIAL NUMBER */
+function serialNum(tender){
 
-function serialNum(t){
+    let value = parseInt(
+        String(tender.serial || "")
+        .replace(/[^0-9]/g,""),
+        10
+    );
 
-let n =
-parseInt(
-String(t.serial||'')
-.replace(/[^0-9]/g,''),
-10
-);
+    if(Number.isFinite(value)){
+        return value;
+    }
 
-return Number.isFinite(n)
-?
-n
-:
-0;
-
+    return 0;
 }
 
 
+/* =========================================================
+   HTML ESCAPE
+   ========================================================= */
 
-/* HTML ESCAPE */
+function esc(value){
 
-function esc(s){
+    return String(value ?? "")
+        .replace(/[&<>"']/g,function(char){
 
-return String(s??"")
-.replace(
-/[&<>"']/g,
-c => ({
-"&":"&amp;",
-"<":"&lt;",
-">":"&gt;",
-'"':"&quot;",
-"'":"&#39;"
-}[c])
-);
+            const map = {
+                "&":"&amp;",
+                "<":"&lt;",
+                ">":"&gt;",
+                '"':"&quot;",
+                "'":"&#39;"
+            };
 
+            return map[char];
+
+        });
 }
 
 
+/* =========================================================
+   SAFE URL
+   ========================================================= */
 
-/* SAFE URL */
+function safeUrl(value){
 
-function safeUrl(s){
+    try{
 
-try{
+        const url = new URL(
+            String(value || "")
+        );
 
-let u =
-new URL(s);
+        if(
+            url.protocol === "https:" &&
+            (
+                url.hostname === "tenderboard.gov.om" ||
+                url.hostname.endsWith(".tenderboard.gov.om")
+            )
+        ){
 
-if(
-u.protocol === "https:"
-&&
-u.hostname.endsWith(
-"tenderboard.gov.om"
-)
-){
+            return url.href;
 
-return u.href;
+        }
 
+        return PORTAL_URL;
+
+    }catch(error){
+
+        return PORTAL_URL;
+
+    }
 }
 
-return PORTAL_URL;
 
-}catch{
+/* =========================================================
+   CHECK IF DIRECT URL EXISTS
+   ========================================================= */
 
-return PORTAL_URL;
+function hasDirectUrl(tender){
 
+    const value =
+        String(tender.tender_url || "")
+        .trim();
+
+    if(!value){
+        return false;
+    }
+
+    try{
+
+        const url = new URL(value);
+
+        return (
+            url.protocol === "https:" &&
+            (
+                url.hostname === "tenderboard.gov.om" ||
+                url.hostname.endsWith(".tenderboard.gov.om")
+            )
+        );
+
+    }catch(error){
+
+        return false;
+
+    }
 }
 
-}
 
-
-
-/* RENDER */
+/* =========================================================
+   RENDER DASHBOARD
+   ========================================================= */
 
 function render(){
 
-let q =
-$("search")
-.value
-.toLowerCase()
-.trim();
+    const query =
+        $("search").value
+        .toLowerCase()
+        .trim();
+
+    const now = new Date();
+
+    const days =
+        Number($("days").value);
+
+    const limit =
+        new Date(
+            now.getTime() +
+            days * 86400000
+        );
 
 
-let now =
-new Date();
+    /* -----------------------------------------------------
+       FILTER
+       ----------------------------------------------------- */
+
+    let arr = data.filter(function(tender){
+
+        const text = [
+
+            tender.tender_no,
+            tender.title,
+            tender.agency,
+            tender.governorate,
+            tender.state
+
+        ]
+        .join(" ")
+        .toLowerCase();
 
 
-let days =
-+$("days").value;
+        /* SEARCH */
+
+        if(
+            query &&
+            !text.includes(query)
+        ){
+
+            return false;
+
+        }
 
 
-let limit =
-new Date(
-now.getTime()
-+
-days*86400000
-);
+        /*
+           DATE FILTER
+
+           When Newest Added is selected,
+           days automatically becomes 9999.
+        */
+
+        if(days < 9999){
+
+            const closeDate =
+                pd(tender.submission_close);
+
+            if(
+                !closeDate ||
+                closeDate < now ||
+                closeDate > limit
+            ){
+
+                return false;
+
+            }
+
+        }
 
 
+        return true;
 
-let arr =
-data.filter(t => {
-
-
-let text = [
-
-t.tender_no,
-t.title,
-t.agency,
-t.governorate,
-t.state
-
-]
-.join(" ")
-.toLowerCase();
+    });
 
 
+    /* -----------------------------------------------------
+       SORT
+       ----------------------------------------------------- */
 
-if(
-q &&
-!text.includes(q)
-){
+    const mode =
+        $("sort").value;
 
-return false;
+
+    arr.sort(function(a,b){
+
+
+        /* -----------------------------------------------
+           NEWEST ADDED
+           ----------------------------------------------- */
+
+        if(mode === "new"){
+
+            /*
+               NEW TENDERS FIRST
+            */
+
+            const aNew =
+                a.is_new === true;
+
+            const bNew =
+                b.is_new === true;
+
+
+            if(aNew !== bNew){
+
+                return aNew ? -1 : 1;
+
+            }
+
+
+            /*
+               Within same group,
+               newest serial first.
+            */
+
+            return (
+                serialNum(b) -
+                serialNum(a)
+            );
+
+        }
+
+
+        /* -----------------------------------------------
+           CLOSING SOON
+           ----------------------------------------------- */
+
+        if(mode === "close"){
+
+            const dateA =
+                pd(a.submission_close);
+
+            const dateB =
+                pd(b.submission_close);
+
+
+            const timeA =
+                dateA
+                ? dateA.getTime()
+                : 9e15;
+
+
+            const timeB =
+                dateB
+                ? dateB.getTime()
+                : 9e15;
+
+
+            return timeA - timeB;
+
+        }
+
+
+        /* -----------------------------------------------
+           SALES START
+           ----------------------------------------------- */
+
+        if(mode === "sales"){
+
+            const dateA =
+                pd(a.sales_start);
+
+            const dateB =
+                pd(b.sales_start);
+
+
+            const timeA =
+                dateA
+                ? dateA.getTime()
+                : 0;
+
+
+            const timeB =
+                dateB
+                ? dateB.getTime()
+                : 0;
+
+
+            /*
+               Latest sales start first.
+            */
+
+            return timeB - timeA;
+
+        }
+
+
+        /* -----------------------------------------------
+           SERIAL ORDER
+           ----------------------------------------------- */
+
+        return (
+            serialNum(b) -
+            serialNum(a)
+        );
+
+    });
+
+
+    /* -----------------------------------------------------
+       SHOWING COUNT
+       ----------------------------------------------------- */
+
+    $("showing").textContent =
+        arr.length;
+
+
+    /* -----------------------------------------------------
+       NEW COUNT
+       ----------------------------------------------------- */
+
+    const newCount =
+        data.filter(function(tender){
+
+            return tender.is_new === true;
+
+        }).length;
+
+
+    $("newCount").textContent =
+        newCount;
+
+
+    if(newCount > 0){
+
+        $("newInfo")
+            .style.display = "block";
+
+    }else{
+
+        $("newInfo")
+            .style.display = "none";
+
+    }
+
+
+    /* -----------------------------------------------------
+       RENDER TENDERS
+       ----------------------------------------------------- */
+
+    if(arr.length === 0){
+
+        $("list").innerHTML = `
+
+            <div class="card empty">
+
+                No matching tenders found.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    $("list").innerHTML =
+        arr.map(function(tender){
+
+
+            const closeDate =
+                pd(tender.submission_close);
+
+
+            let diff = null;
+
+
+            if(closeDate){
+
+                diff =
+                    Math.ceil(
+                        (
+                            closeDate.getTime() -
+                            now.getTime()
+                        ) /
+                        86400000
+                    );
+
+            }
+
+
+            const direct =
+                hasDirectUrl(tender);
+
+
+            const link =
+                safeUrl(tender.tender_url);
+
+
+            const newClass =
+                tender.is_new === true
+                ? "new-card"
+                : "";
+
+
+            const newBadge =
+                tender.is_new === true
+                ?
+                '<span class="new-badge">🆕 NEW</span>'
+                :
+                "";
+
+
+            const linkText =
+                direct
+                ? "Open Tender ↗"
+                : "Open Portal ↗";
+
+
+            const agency =
+                tender.agency
+                ?
+                `
+                <span class="pill">
+                    🏢 ${esc(tender.agency)}
+                </span>
+                `
+                :
+                "";
+
+
+            const governorate =
+                tender.governorate
+                ?
+                `
+                <span class="pill">
+                    📍 ${esc(tender.governorate)}
+                </span>
+                `
+                :
+                "";
+
+
+            const state =
+                tender.state
+                ?
+                `
+                <span class="pill">
+                    🏙 ${esc(tender.state)}
+                </span>
+                `
+                :
+                "";
+
+
+            const fee =
+                tender.fee
+                ?
+                `
+                <span class="pill">
+                    💰 Fee: ${esc(tender.fee)}
+                </span>
+                `
+                :
+                "";
+
+
+            const guarantee =
+                tender.bank_guarantee
+                ?
+                `
+                <span class="pill">
+                    🛡 Guarantee:
+                    ${esc(tender.bank_guarantee)}
+                </span>
+                `
+                :
+                "";
+
+
+            let deadlineClass = "";
+
+
+            if(
+                diff !== null &&
+                diff <= 3
+            ){
+
+                deadlineClass = "soon";
+
+            }
+
+
+            let remaining = "";
+
+
+            if(diff !== null){
+
+                if(diff < 0){
+
+                    remaining = " • Closed";
+
+                }else if(diff === 0){
+
+                    remaining = " • Closing today";
+
+                }else{
+
+                    remaining =
+                        " • " +
+                        diff +
+                        " day(s) left";
+
+                }
+
+            }
+
+
+            return `
+
+                <article
+                    class="card ${newClass}"
+                >
+
+
+                    <div class="top">
+
+
+                        <div>
+
+                            <div class="title">
+
+                                ${esc(tender.title)}
+
+                                ${newBadge}
+
+                            </div>
+
+
+                            <div class="no">
+
+                                Tender No:
+                                ${esc(tender.tender_no)}
+
+                            </div>
+
+                        </div>
+
+
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="${esc(link)}"
+                        >
+
+                            ${linkText}
+
+                        </a>
+
+
+                    </div>
+
+
+                    <div class="meta">
+
+                        ${agency}
+
+                        ${governorate}
+
+                        ${state}
+
+                        ${fee}
+
+                        ${guarantee}
+
+                    </div>
+
+
+                    <div
+                        class="deadline ${deadlineClass}"
+                    >
+
+                        ⏳ Submission close:
+
+                        ${esc(
+                            tender.submission_close ||
+                            "N/A"
+                        )}
+
+                        ${remaining}
+
+                    </div>
+
+
+                </article>
+
+            `;
+
+        })
+        .join("");
 
 }
 
 
-
-if(days < 9999){
-
-let d =
-pd(t.submission_close);
-
-if(
-!d ||
-d < now ||
-d > limit
-){
-
-return false;
-
-}
-
-}
-
-
-
-return true;
-
-});
-
-
-
-/* SORT */
-
-arr.sort(
-(a,b) => {
-
-
-let mode =
-$("sort").value;
-
-
-
-/* NEW FIRST */
-
-if(
-mode === "new"
-){
-
-if(
-a.is_new !== b.is_new
-){
-
-return a.is_new
-?
--1
-:
-1;
-
-}
-
-return
-serialNum(b)
--
-serialNum(a);
-
-}
-
-
-
-/* CLOSING SOON */
-
-if(
-mode === "close"
-){
-
-let da =
-pd(a.submission_close);
-
-let db =
-pd(b.submission_close);
-
-return
-(
-da?.getTime()
-||
-9e15
-)
--
-(
-db?.getTime()
-||
-9e15
-);
-
-}
-
-
-
-/* SALES START */
-
-if(
-mode === "sales"
-){
-
-let da =
-pd(a.sales_start);
-
-let db =
-pd(b.sales_start);
-
-return
-(
-db?.getTime()
-||
-0
-)
--
-(
-da?.getTime()
-||
-0
-);
-
-}
-
-
-
-/* SERIAL */
-
-return
-serialNum(b)
--
-serialNum(a);
-
-});
-
-
-
-$("showing")
-.textContent =
-arr.length;
-
-
-
-/* NEW COUNT */
-
-let newCount =
-data.filter(
-t => t.is_new
-).length;
-
-
-$("newCount")
-.textContent =
-newCount;
-
-
-
-if(newCount > 0){
-
-$("newInfo")
-.style.display =
-"block";
-
-}else{
-
-$("newInfo")
-.style.display =
-"none";
-
-}
-
-
-
-/* RENDER CARDS */
-
-$("list").innerHTML =
-
-arr.length
-
-?
-
-arr.map(t => {
-
-
-let d =
-pd(
-t.submission_close
-);
-
-
-let diff =
-d
-?
-Math.ceil(
-(d-now)
-/86400000
-)
-:null;
-
-
-let direct =
-t.tender_url
-&&
-String(
-t.tender_url
-)
-.startsWith(
-"http"
-);
-
-
-let link =
-safeUrl(
-t.tender_url
-);
-
-
-return `
-
-<article
-class="card ${t.is_new ? "new-card" : ""}"
->
-
-
-<div class="top">
-
-
-<div>
-
-
-<div class="title">
-
-${esc(t.title)}
-
-${
-t.is_new
-?
-'<span class="new-badge">🆕 NEW</span>'
-:
-""
-}
-
-</div>
-
-
-<div class="no">
-
-Tender No:
-${esc(t.tender_no)}
-
-</div>
-
-
-</div>
-
-
-<a
-
-target="_blank"
-
-rel="noopener"
-
-href="${esc(link)}"
-
->
-
-${
-direct
-?
-"Open Tender ↗"
-:
-"Open Portal ↗"
-}
-
-</a>
-
-
-</div>
-
-
-
-<div class="meta">
-
-
-${
-t.agency
-?
-`
-<span class="pill">
-
-🏢
-${esc(t.agency)}
-
-</span>
-`
-:
-""
-}
-
-
-${
-t.governorate
-?
-`
-<span class="pill">
-
-📍
-${esc(t.governorate)}
-
-</span>
-`
-:
-""
-}
-
-
-${
-t.state
-?
-`
-<span class="pill">
-
-🏙
-${esc(t.state)}
-
-</span>
-`
-:
-""
-}
-
-
-${
-t.fee
-?
-`
-<span class="pill">
-
-💰 Fee:
-${esc(t.fee)}
-
-</span>
-`
-:
-""
-}
-
-
-${
-t.bank_guarantee
-?
-`
-<span class="pill">
-
-🛡 Guarantee:
-${esc(t.bank_guarantee)}
-
-</span>
-`
-:
-""
-}
-
-
-</div>
-
-
-
-<div
-class="deadline
-${
-diff!==null
-&&
-diff<=3
-?
-"soon"
-:
-""
-}"
->
-
-
-⏳ Submission close:
-
-${esc(
-t.submission_close
-||
-"N/A"
-)}
-
-
-${
-diff!==null
-?
-`
- •
- ${
-diff<0
- ?
- "Closed"
- :
- diff+" day(s) left"
- }
-`
-:
-""
-}
-
-
-</div>
-
-
-</article>
-
-`;
-
-})
-
-.join("")
-
-:
-
-`
-
-<div class="card empty">
-
-No matching tenders found.
-
-</div>
-
-`;
-
-}
-
-
-
-/* LOAD */
+/* =========================================================
+   LOAD TENDER DATA
+   ========================================================= */
 
 async function load(){
 
-try{
+    try{
+
+        const response =
+            await fetch(
+                DATA_URL +
+                "?v=" +
+                Date.now(),
+                {
+                    cache:"no-store"
+                }
+            );
 
 
-let r =
-await fetch(
-DATA_URL
-+
-"?v="
-+
-Date.now(),
-{
-cache:
-"no-store"
+        if(!response.ok){
+
+            throw new Error(
+                "HTTP " +
+                response.status
+            );
+
+        }
+
+
+        const json =
+            await response.json();
+
+
+        /*
+           Supports both:
+           [ ... ]
+           and
+           { "tenders":[...] }
+        */
+
+        if(Array.isArray(json)){
+
+            data = json;
+
+        }else{
+
+            data =
+                Array.isArray(json.tenders)
+                ? json.tenders
+                : [];
+
+        }
+
+
+        /* TOTAL */
+
+        $("total").textContent =
+            data.length;
+
+
+        /* CLOSING COUNT */
+
+        const now =
+            new Date();
+
+
+        const threeDays =
+            new Date(
+                now.getTime() +
+                3 * 86400000
+            );
+
+
+        const closingCount =
+            data.filter(function(tender){
+
+                const closeDate =
+                    pd(tender.submission_close);
+
+
+                return (
+                    closeDate &&
+                    closeDate >= now &&
+                    closeDate <= threeDays
+                );
+
+            }).length;
+
+
+        $("closing").textContent =
+            closingCount;
+
+
+        /* LAST UPDATE */
+
+        $("updateStatus").textContent =
+            "🟢 Live • Updated " +
+            new Date().toLocaleTimeString();
+
+
+        render();
+
+
+    }catch(error){
+
+        $("updateStatus").textContent =
+            "🔴 Data update failed";
+
+
+        $("list").innerHTML = `
+
+            <div class="card empty">
+
+                Tender data not available yet.
+
+                <br><br>
+
+                ${esc(error.message)}
+
+            </div>
+
+        `;
+
+    }
+
 }
+
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+$("search").addEventListener(
+    "input",
+    render
 );
 
 
+/* =========================================================
+   DATE FILTER
+   ========================================================= */
 
-if(!r.ok){
-
-throw Error(
-"HTTP "
-+
-r.status
-);
-
-}
-
-
-
-let j =
-await r.json();
-
-
-
-data =
-Array.isArray(j)
-?
-j
-:
-(j.tenders||[]);
-
-
-
-$("total")
-.textContent =
-data.length;
-
-
-
-let now =
-new Date();
-
-
-let three =
-new Date(
-now.getTime()
-+
-3*86400000
+$("days").addEventListener(
+    "change",
+    render
 );
 
 
+/* =========================================================
+   SORT CHANGE
+   ========================================================= */
 
-$("closing")
-.textContent =
-data.filter(t => {
-
-let d =
-pd(
-t.submission_close
-);
-
-return (
-d
-&&
-d>=now
-&&
-d<=three
-);
-
-}).length;
+$("sort").addEventListener(
+    "change",
+    function(){
 
 
+        /*
+           IMPORTANT:
 
-render();
+           If user selects NEWEST ADDED,
+           automatically switch date filter
+           to ALL DATES.
 
+           This prevents newly added tenders
+           from being hidden by the
+           "Next 3 days" filter.
+        */
 
-}catch(e){
+        if(
+            $("sort").value === "new"
+        ){
 
+            $("days").value =
+                "9999";
 
-$("list")
-.innerHTML = `
-
-<div class="card empty">
-
-Tender data not available yet.
-
-<br>
-
-${esc(e.message)}
-
-</div>
-
-`;
-
-}
-
-}
-
-
-
-/* EVENTS */
-
-$("search")
-.oninput =
-render;
-
-
-$("days")
-.onchange =
-render;
-
-
-$("sort")
-.onchange =
-render;
-
-
-
-/* FIRST LOAD */
-
-load();
-
-
-
-/*
-Refresh every 2 minutes.
-*/
-
-setInterval(
-load,
-120000
-);
-
-
-</script>
-
-</body>
-
-</html>
+ 
