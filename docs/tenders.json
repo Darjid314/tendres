@@ -14,7 +14,8 @@
     "purchase_end": "'07-07-2026 09:00",
     "submission_close": "'12-07-2026 09:00",
     "bid_open": "'16-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "3",
@@ -31,7 +32,8 @@
     "purchase_end": "'06-07-2026 14:00",
     "submission_close": "'28-07-2026 16:00",
     "bid_open": "'03-08-2026 20:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "4",
@@ -48,7 +50,8 @@
     "purchase_end": "'06-07-2026 14:00",
     "submission_close": "'21-07-2026 14:00",
     "bid_open": "'23-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "5",
@@ -65,7 +68,8 @@
     "purchase_end": "'06-07-2026 11:30",
     "submission_close": "'09-07-2026 11:30",
     "bid_open": "'13-07-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "6",
@@ -82,7 +86,8 @@
     "purchase_end": "'06-07-2026 12:20",
     "submission_close": "'08-07-2026 12:20",
     "bid_open": "'12-07-2026 12:20",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "7",
@@ -99,7 +104,8 @@
     "purchase_end": "'05-07-2026 13:15",
     "submission_close": "'08-07-2026 13:15",
     "bid_open": "'09-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "8",
@@ -116,7 +122,8 @@
     "purchase_end": "'05-07-2026 12:30",
     "submission_close": "'23-07-2026 12:30",
     "bid_open": "'06-08-2026 12:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "9",
@@ -133,7 +140,8 @@
     "purchase_end": "'05-07-2026 13:00",
     "submission_close": "'05-07-2026 15:00",
     "bid_open": "'09-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "10",
@@ -150,7 +158,8 @@
     "purchase_end": "'05-07-2026 10:00",
     "submission_close": "'08-07-2026 10:00",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "11",
@@ -167,7 +176,8 @@
     "purchase_end": "'05-07-2026 08:00",
     "submission_close": "'14-07-2026 12:00",
     "bid_open": "'19-07-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "12",
@@ -184,7 +194,8 @@
     "purchase_end": "'02-07-2026 15:00",
     "submission_close": "'09-07-2026 15:00",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "13",
@@ -201,7 +212,8 @@
     "purchase_end": "'01-07-2026 21:00",
     "submission_close": "'19-07-2026 10:00",
     "bid_open": "'26-07-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "14",
@@ -218,7 +230,8 @@
     "purchase_end": "'02-07-2026 08:24",
     "submission_close": "'09-07-2026 08:24",
     "bid_open": "'12-07-2026 12:24",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "15",
@@ -235,7 +248,8 @@
     "purchase_end": "'02-07-2026 08:30",
     "submission_close": "'14-07-2026 12:30",
     "bid_open": "'21-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "16",
@@ -252,7 +266,8 @@
     "purchase_end": "'01-07-2026 15:00",
     "submission_close": "'06-07-2026 15:00",
     "bid_open": "'12-07-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "17",
@@ -269,7 +284,8 @@
     "purchase_end": "'01-07-2026 14:00",
     "submission_close": "'05-07-2026 11:00",
     "bid_open": "'06-07-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "18",
@@ -286,7 +302,8 @@
     "purchase_end": "'01-07-2026 10:00",
     "submission_close": "'15-07-2026 10:05",
     "bid_open": "'16-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "19",
@@ -303,7 +320,8 @@
     "purchase_end": "'01-07-2026 10:00",
     "submission_close": "'06-07-2026 10:00",
     "bid_open": "'12-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "20",
@@ -320,7 +338,8 @@
     "purchase_end": "'01-07-2026 10:29",
     "submission_close": "'06-07-2026 10:29",
     "bid_open": "'12-07-2026 11:29",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "21",
@@ -337,7 +356,8 @@
     "purchase_end": "'01-07-2026 08:30",
     "submission_close": "'12-07-2026 02:30",
     "bid_open": "'15-07-2026 10:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "22",
@@ -354,7 +374,8 @@
     "purchase_end": "'01-07-2026 14:30",
     "submission_close": "'23-07-2026 14:30",
     "bid_open": "'12-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "23",
@@ -371,7 +392,8 @@
     "purchase_end": "'02-07-2026 19:39",
     "submission_close": "'26-07-2026 19:39",
     "bid_open": "'06-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "24",
@@ -388,7 +410,8 @@
     "purchase_end": "'02-07-2026 19:00",
     "submission_close": "'26-07-2026 19:00",
     "bid_open": "'06-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "25",
@@ -405,7 +428,8 @@
     "purchase_end": "'30-06-2026 17:59",
     "submission_close": "'14-07-2026 17:59",
     "bid_open": "'15-07-2026 17:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "26",
@@ -422,7 +446,8 @@
     "purchase_end": "'30-06-2026 17:14",
     "submission_close": "'15-07-2026 17:14",
     "bid_open": "'16-07-2026 17:14",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "27",
@@ -439,7 +464,8 @@
     "purchase_end": "'30-06-2026 10:15",
     "submission_close": "'05-07-2026 16:15",
     "bid_open": "'07-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "28",
@@ -456,7 +482,8 @@
     "purchase_end": "'29-06-2026 15:30",
     "submission_close": "'29-06-2026 17:30",
     "bid_open": "'05-07-2026 09:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "29",
@@ -473,7 +500,8 @@
     "purchase_end": "'29-06-2026 15:15",
     "submission_close": "'29-06-2026 17:15",
     "bid_open": "'05-07-2026 09:15",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "30",
@@ -490,7 +518,8 @@
     "purchase_end": "'29-06-2026 15:00",
     "submission_close": "'16-07-2026 12:00",
     "bid_open": "'02-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "31",
@@ -507,7 +536,8 @@
     "purchase_end": "'29-06-2026 13:14",
     "submission_close": "'04-07-2026 13:14",
     "bid_open": "'08-07-2026 08:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "32",
@@ -524,7 +554,8 @@
     "purchase_end": "'29-06-2026 12:00",
     "submission_close": "'12-07-2026 08:00",
     "bid_open": "'13-07-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "33",
@@ -541,7 +572,8 @@
     "purchase_end": "'29-06-2026 12:00",
     "submission_close": "'04-07-2026 12:00",
     "bid_open": "'07-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "34",
@@ -558,7 +590,8 @@
     "purchase_end": "'29-06-2026 11:03",
     "submission_close": "'04-07-2026 11:03",
     "bid_open": "'07-07-2026 08:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "35",
@@ -575,7 +608,8 @@
     "purchase_end": "'29-06-2026 11:00",
     "submission_close": "'22-07-2026 17:00",
     "bid_open": "'27-07-2026 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "36",
@@ -592,7 +626,8 @@
     "purchase_end": "'28-06-2026 14:00",
     "submission_close": "'23-07-2026 14:00",
     "bid_open": "'27-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "37",
@@ -609,7 +644,8 @@
     "purchase_end": "'28-06-2026 13:32",
     "submission_close": "'01-07-2026 16:32",
     "bid_open": "'05-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "38",
@@ -626,7 +662,8 @@
     "purchase_end": "'25-06-2026 13:15",
     "submission_close": "'05-07-2026 11:15",
     "bid_open": "'06-07-2026 09:15",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "39",
@@ -643,7 +680,8 @@
     "purchase_end": "'25-06-2026 10:59",
     "submission_close": "'08-07-2026 23:59",
     "bid_open": "'14-07-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "40",
@@ -660,7 +698,8 @@
     "purchase_end": "'29-06-2026 14:00",
     "submission_close": "'12-07-2026 14:00",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "41",
@@ -677,7 +716,8 @@
     "purchase_end": "'25-06-2026 11:00",
     "submission_close": "'30-06-2026 11:00",
     "bid_open": "'07-07-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "42",
@@ -694,7 +734,8 @@
     "purchase_end": "'24-06-2026 18:06",
     "submission_close": "'09-07-2026 18:06",
     "bid_open": "'14-07-2026 18:06",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "43",
@@ -711,7 +752,8 @@
     "purchase_end": "'24-06-2026 17:40",
     "submission_close": "'25-06-2026 08:40",
     "bid_open": "'25-06-2026 10:40",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "44",
@@ -728,7 +770,8 @@
     "purchase_end": "'24-06-2026 16:00",
     "submission_close": "'29-06-2026 16:00",
     "bid_open": "'20-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "45",
@@ -745,7 +788,8 @@
     "purchase_end": "'24-06-2026 15:07",
     "submission_close": "'29-06-2026 15:07",
     "bid_open": "'22-07-2026 15:07",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "46",
@@ -762,7 +806,8 @@
     "purchase_end": "'24-06-2026 14:22",
     "submission_close": "'03-07-2026 14:22",
     "bid_open": "'20-07-2026 07:22",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "47",
@@ -779,7 +824,8 @@
     "purchase_end": "'24-06-2026 14:02",
     "submission_close": "'08-07-2026 14:02",
     "bid_open": "'20-07-2026 07:02",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "48",
@@ -796,7 +842,8 @@
     "purchase_end": "'24-06-2026 14:00",
     "submission_close": "'24-06-2026 16:00",
     "bid_open": "'29-06-2026 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "49",
@@ -813,7 +860,8 @@
     "purchase_end": "'24-06-2026 10:00",
     "submission_close": "'06-07-2026 10:00",
     "bid_open": "'08-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "50",
@@ -830,7 +878,8 @@
     "purchase_end": "'23-06-2026 12:00",
     "submission_close": "'25-06-2026 12:00",
     "bid_open": "'02-07-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "51",
@@ -847,7 +896,8 @@
     "purchase_end": "'30-06-2026 14:08",
     "submission_close": "'29-07-2026 14:08",
     "bid_open": "'04-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "52",
@@ -864,7 +914,8 @@
     "purchase_end": "'23-06-2026 14:30",
     "submission_close": "'02-07-2026 14:30",
     "bid_open": "'07-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "53",
@@ -881,7 +932,8 @@
     "purchase_end": "'21-06-2026 14:31",
     "submission_close": "'09-08-2026 14:31",
     "bid_open": "'11-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "54",
@@ -898,7 +950,8 @@
     "purchase_end": "'21-06-2026 14:44",
     "submission_close": "'30-06-2026 14:44",
     "bid_open": "'20-07-2026 07:44",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "55",
@@ -915,7 +968,8 @@
     "purchase_end": "'21-06-2026 11:30",
     "submission_close": "'12-07-2026 11:30",
     "bid_open": "'14-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "56",
@@ -932,7 +986,8 @@
     "purchase_end": "'21-06-2026 11:30",
     "submission_close": "'12-07-2026 11:30",
     "bid_open": "'14-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "57",
@@ -949,7 +1004,8 @@
     "purchase_end": "'17-06-2026 14:30",
     "submission_close": "'22-06-2026 14:30",
     "bid_open": "'06-07-2026 14:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "58",
@@ -966,7 +1022,8 @@
     "purchase_end": "'17-06-2026 14:00",
     "submission_close": "'27-06-2026 14:00",
     "bid_open": "'13-07-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "59",
@@ -983,7 +1040,8 @@
     "purchase_end": "'17-06-2026 22:37",
     "submission_close": "'25-06-2026 22:37",
     "bid_open": "'27-06-2026 22:37",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "60",
@@ -1000,7 +1058,8 @@
     "purchase_end": "'17-06-2026 10:39",
     "submission_close": "'19-07-2026 10:39",
     "bid_open": "'26-07-2026 10:39",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "61",
@@ -1017,7 +1076,8 @@
     "purchase_end": "'22-06-2026 08:00",
     "submission_close": "'16-07-2026 08:00",
     "bid_open": "'23-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "62",
@@ -1034,7 +1094,8 @@
     "purchase_end": "'17-06-2026 08:00",
     "submission_close": "'15-07-2026 23:59",
     "bid_open": "'26-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "63",
@@ -1051,7 +1112,8 @@
     "purchase_end": "'16-06-2026 23:52",
     "submission_close": "'21-06-2026 23:52",
     "bid_open": "'08-07-2026 08:52",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "64",
@@ -1068,7 +1130,8 @@
     "purchase_end": "'28-06-2026 12:01",
     "submission_close": "'08-07-2026 12:00",
     "bid_open": "'27-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "65",
@@ -1085,7 +1148,8 @@
     "purchase_end": "'15-06-2026 15:00",
     "submission_close": "'22-06-2026 17:00",
     "bid_open": "'01-07-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "66",
@@ -1102,7 +1166,8 @@
     "purchase_end": "'15-06-2026 12:18",
     "submission_close": "'20-06-2026 12:18",
     "bid_open": "'04-07-2026 12:18",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "67",
@@ -1119,7 +1184,8 @@
     "purchase_end": "'15-06-2026 11:15",
     "submission_close": "'06-07-2026 17:15",
     "bid_open": "'27-07-2026 11:15",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "68",
@@ -1136,7 +1202,8 @@
     "purchase_end": "'15-06-2026 11:15",
     "submission_close": "'06-07-2026 17:15",
     "bid_open": "'27-07-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "69",
@@ -1153,7 +1220,8 @@
     "purchase_end": "'18-06-2026 14:30",
     "submission_close": "'05-07-2026 14:30",
     "bid_open": "'29-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "70",
@@ -1170,7 +1238,8 @@
     "purchase_end": "'15-06-2026 20:00",
     "submission_close": "'06-07-2026 13:00",
     "bid_open": "'13-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "71",
@@ -1187,7 +1256,8 @@
     "purchase_end": "'14-06-2026 12:30",
     "submission_close": "'01-07-2026 12:30",
     "bid_open": "'12-07-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "72",
@@ -1204,7 +1274,8 @@
     "purchase_end": "'14-06-2026 11:31",
     "submission_close": "'19-06-2026 11:31",
     "bid_open": "'30-06-2026 08:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "73",
@@ -1221,7 +1292,8 @@
     "purchase_end": "'14-06-2026 22:50",
     "submission_close": "'19-06-2026 22:50",
     "bid_open": "'24-06-2026 22:50",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "74",
@@ -1238,7 +1310,8 @@
     "purchase_end": "'11-06-2026 15:00",
     "submission_close": "'16-06-2026 15:00",
     "bid_open": "'30-06-2026 15:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "75",
@@ -1255,7 +1328,8 @@
     "purchase_end": "'24-06-2026 07:30",
     "submission_close": "'01-07-2026 13:30",
     "bid_open": "'09-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "76",
@@ -1272,7 +1346,8 @@
     "purchase_end": "'23-06-2026 09:45",
     "submission_close": "'30-06-2026 09:45",
     "bid_open": "'13-07-2026 15:45",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "77",
@@ -1289,7 +1364,8 @@
     "purchase_end": "'09-06-2026 11:15",
     "submission_close": "'10-06-2026 11:15",
     "bid_open": "'14-06-2026 07:15",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "78",
@@ -1306,7 +1382,8 @@
     "purchase_end": "'08-06-2026 23:19",
     "submission_close": "'07-07-2026 23:19",
     "bid_open": "'14-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "79",
@@ -1323,7 +1400,8 @@
     "purchase_end": "'09-06-2026 23:02",
     "submission_close": "'07-07-2026 23:02",
     "bid_open": "'14-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "80",
@@ -1340,7 +1418,8 @@
     "purchase_end": "'09-06-2026 09:00",
     "submission_close": "'01-07-2026 09:00",
     "bid_open": "'09-07-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "81",
@@ -1357,7 +1436,8 @@
     "purchase_end": "'05-06-2026 14:30",
     "submission_close": "'03-07-2026 15:30",
     "bid_open": "'14-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "82",
@@ -1374,7 +1454,8 @@
     "purchase_end": "'04-06-2026 13:36",
     "submission_close": "'25-06-2026 13:36",
     "bid_open": "'26-07-2026 13:36",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "83",
@@ -1391,7 +1472,8 @@
     "purchase_end": "'02-06-2026 10:00",
     "submission_close": "'25-06-2026 14:00",
     "bid_open": "'12-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "84",
@@ -1408,7 +1490,8 @@
     "purchase_end": "'01-06-2026 16:30",
     "submission_close": "'10-06-2026 12:30",
     "bid_open": "'14-06-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "85",
@@ -1425,7 +1508,8 @@
     "purchase_end": "'02-06-2026 13:00",
     "submission_close": "'11-06-2026 13:00",
     "bid_open": "'02-07-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "86",
@@ -1442,7 +1526,8 @@
     "purchase_end": "'01-06-2026 09:00",
     "submission_close": "'23-06-2026 09:00",
     "bid_open": "'07-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "87",
@@ -1459,7 +1544,8 @@
     "purchase_end": "'01-06-2026 08:10",
     "submission_close": "'06-06-2026 08:10",
     "bid_open": "'09-07-2026 23:10",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "88",
@@ -1476,7 +1562,8 @@
     "purchase_end": "'25-05-2026 14:00",
     "submission_close": "'24-06-2026 14:00",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "89",
@@ -1493,7 +1580,8 @@
     "purchase_end": "'25-05-2026 09:10",
     "submission_close": "'02-07-2026 09:10",
     "bid_open": "'13-07-2026 09:10",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "90",
@@ -1510,7 +1598,8 @@
     "purchase_end": "'25-05-2026 08:22",
     "submission_close": "'16-06-2026 08:22",
     "bid_open": "'06-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "91",
@@ -1527,7 +1616,8 @@
     "purchase_end": "'20-05-2026 14:27",
     "submission_close": "'25-06-2026 14:27",
     "bid_open": "'08-07-2026 17:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "92",
@@ -1544,7 +1634,8 @@
     "purchase_end": "'21-05-2026 15:10",
     "submission_close": "'06-07-2026 15:10",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "93",
@@ -1561,7 +1652,8 @@
     "purchase_end": "'18-05-2026 15:00",
     "submission_close": "'11-06-2026 15:00",
     "bid_open": "'08-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "94",
@@ -1578,7 +1670,8 @@
     "purchase_end": "'14-05-2026 14:30",
     "submission_close": "'04-06-2026 14:30",
     "bid_open": "'08-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "95",
@@ -1595,7 +1688,8 @@
     "purchase_end": "'28-04-2026 08:00",
     "submission_close": "'04-06-2026 08:00",
     "bid_open": "'07-06-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "96",
@@ -1612,7 +1706,8 @@
     "purchase_end": "'23-04-2026 05:00",
     "submission_close": "'21-05-2026 05:00",
     "bid_open": "'22-06-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "97",
@@ -1629,7 +1724,8 @@
     "purchase_end": "'21-04-2026 12:30",
     "submission_close": "'05-05-2026 14:30",
     "bid_open": "'13-05-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "98",
@@ -1646,7 +1742,8 @@
     "purchase_end": "'20-04-2026 11:00",
     "submission_close": "'22-04-2026 15:00",
     "bid_open": "'22-04-2026 15:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "99",
@@ -1663,7 +1760,8 @@
     "purchase_end": "'13-04-2026 12:30",
     "submission_close": "'18-04-2026 12:30",
     "bid_open": "'02-05-2026 12:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "100",
@@ -1680,7 +1778,8 @@
     "purchase_end": "'08-04-2026 17:00",
     "submission_close": "'25-04-2026 13:00",
     "bid_open": "'15-06-2026 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "101",
@@ -1697,7 +1796,8 @@
     "purchase_end": "'05-04-2026 15:00",
     "submission_close": "'19-04-2026 15:00",
     "bid_open": "'26-05-2026 15:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "102",
@@ -1714,7 +1814,8 @@
     "purchase_end": "'09-03-2026 14:00",
     "submission_close": "'31-03-2026 13:00",
     "bid_open": "'19-05-2026 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "103",
@@ -1731,7 +1832,8 @@
     "purchase_end": "'22-02-2026 11:45",
     "submission_close": "'27-02-2026 11:45",
     "bid_open": "'13-03-2026 11:45",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "104",
@@ -1748,7 +1850,8 @@
     "purchase_end": "'17-02-2026 08:32",
     "submission_close": "'12-03-2026 08:32",
     "bid_open": "'06-04-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "105",
@@ -1765,7 +1868,8 @@
     "purchase_end": "'09-02-2026 10:30",
     "submission_close": "'11-02-2026 10:30",
     "bid_open": "'11-02-2026 19:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "106",
@@ -1782,7 +1886,8 @@
     "purchase_end": "'08-02-2026 11:00",
     "submission_close": "'11-02-2026 11:00",
     "bid_open": "'15-02-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "107",
@@ -1799,7 +1904,8 @@
     "purchase_end": "'14-01-2026 13:00",
     "submission_close": "'20-01-2026 08:00",
     "bid_open": "'21-01-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "108",
@@ -1816,7 +1922,8 @@
     "purchase_end": "'06-01-2026 12:30",
     "submission_close": "'14-01-2026 12:30",
     "bid_open": "'27-01-2026 12:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "109",
@@ -1833,7 +1940,8 @@
     "purchase_end": "'10-12-2025 10:00",
     "submission_close": "'14-12-2025 10:00",
     "bid_open": "'17-12-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "110",
@@ -1850,7 +1958,8 @@
     "purchase_end": "'16-11-2025 13:00",
     "submission_close": "'17-11-2025 13:00",
     "bid_open": "'26-11-2025 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "111",
@@ -1867,7 +1976,8 @@
     "purchase_end": "'11-11-2025 11:00",
     "submission_close": "'18-11-2025 11:00",
     "bid_open": "'20-11-2025 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "112",
@@ -1884,7 +1994,8 @@
     "purchase_end": "'06-11-2025 15:00",
     "submission_close": "'11-11-2025 15:00",
     "bid_open": "'13-11-2025 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "113",
@@ -1901,7 +2012,8 @@
     "purchase_end": "'22-10-2025 11:10",
     "submission_close": "'12-11-2025 23:00",
     "bid_open": "'23-11-2025 23:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "114",
@@ -1918,7 +2030,8 @@
     "purchase_end": "'06-10-2025 11:30",
     "submission_close": "'11-10-2025 11:30",
     "bid_open": "'25-10-2025 11:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "115",
@@ -1935,7 +2048,8 @@
     "purchase_end": "'17-09-2025 11:00",
     "submission_close": "'22-09-2025 11:00",
     "bid_open": "'06-10-2025 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "116",
@@ -1952,7 +2066,8 @@
     "purchase_end": "'08-09-2025 11:40",
     "submission_close": "'11-09-2025 11:40",
     "bid_open": "'14-09-2025 11:40",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "117",
@@ -1969,7 +2084,8 @@
     "purchase_end": "'16-06-2025 15:30",
     "submission_close": "'03-07-2025 13:30",
     "bid_open": "'08-07-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "118",
@@ -1986,7 +2102,8 @@
     "purchase_end": "'15-06-2025 15:59",
     "submission_close": "'30-06-2025 23:59",
     "bid_open": "'06-07-2025 12:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "119",
@@ -2003,7 +2120,8 @@
     "purchase_end": "'29-05-2025 09:54",
     "submission_close": "'11-06-2025 09:54",
     "bid_open": "'22-06-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "120",
@@ -2020,7 +2138,8 @@
     "purchase_end": "'29-04-2025 09:48",
     "submission_close": "'06-05-2025 09:48",
     "bid_open": "'08-05-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "121",
@@ -2037,7 +2156,8 @@
     "purchase_end": "'16-04-2025 15:53",
     "submission_close": "'23-04-2025 09:53",
     "bid_open": "'24-04-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "122",
@@ -2054,7 +2174,8 @@
     "purchase_end": "'13-04-2025 11:00",
     "submission_close": "'24-04-2025 14:30",
     "bid_open": "'27-04-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "123",
@@ -2071,7 +2192,8 @@
     "purchase_end": "'17-03-2025 11:00",
     "submission_close": "'23-03-2025 11:00",
     "bid_open": "'27-03-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "124",
@@ -2088,7 +2210,8 @@
     "purchase_end": "'10-03-2025 08:00",
     "submission_close": "'13-03-2025 12:00",
     "bid_open": "'24-03-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "125",
@@ -2105,7 +2228,8 @@
     "purchase_end": "'01-01-2025 08:00",
     "submission_close": "'09-01-2025 01:00",
     "bid_open": "'12-01-2025 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "126",
@@ -2122,7 +2246,8 @@
     "purchase_end": "'26-11-2024 08:30",
     "submission_close": "'28-11-2024 12:00",
     "bid_open": "'03-12-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "127",
@@ -2139,7 +2264,8 @@
     "purchase_end": "'19-11-2024 11:41",
     "submission_close": "'01-12-2024 11:41",
     "bid_open": "'10-12-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "128",
@@ -2156,7 +2282,8 @@
     "purchase_end": "'12-08-2024 09:30",
     "submission_close": "'21-08-2024 13:00",
     "bid_open": "'23-08-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "129",
@@ -2173,7 +2300,8 @@
     "purchase_end": "'26-06-2024 11:59",
     "submission_close": "'04-07-2024 11:58",
     "bid_open": "'11-07-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "130",
@@ -2190,7 +2318,8 @@
     "purchase_end": "'27-05-2024 08:10",
     "submission_close": "'31-05-2024 08:20",
     "bid_open": "'02-06-2024 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "131",
@@ -2207,7 +2336,8 @@
     "purchase_end": "'26-05-2024 07:30",
     "submission_close": "'30-05-2024 14:30",
     "bid_open": "'01-06-2024 23:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "132",
@@ -2224,7 +2354,8 @@
     "purchase_end": "'25-04-2024 10:30",
     "submission_close": "'29-05-2024 12:30",
     "bid_open": "'01-06-2024 07:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "133",
@@ -2241,7 +2372,8 @@
     "purchase_end": "'07-03-2024 08:00",
     "submission_close": "'20-03-2024 14:00",
     "bid_open": "'25-03-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "134",
@@ -2258,7 +2390,8 @@
     "purchase_end": "'07-02-2024 10:00",
     "submission_close": "'19-02-2024 13:00",
     "bid_open": "'22-02-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "135",
@@ -2275,7 +2408,8 @@
     "purchase_end": "'25-01-2024 18:00",
     "submission_close": "'07-04-2024 13:00",
     "bid_open": "'15-04-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "136",
@@ -2292,7 +2426,8 @@
     "purchase_end": "'24-01-2024 15:00",
     "submission_close": "'25-01-2024 08:00",
     "bid_open": "'25-01-2024 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "137",
@@ -2309,7 +2444,8 @@
     "purchase_end": "'23-01-2024 17:35",
     "submission_close": "'24-01-2024 11:30",
     "bid_open": "'27-01-2024 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "138",
@@ -2326,7 +2462,8 @@
     "purchase_end": "'05-12-2023 08:32",
     "submission_close": "'20-12-2023 16:00",
     "bid_open": "'26-12-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "139",
@@ -2343,7 +2480,8 @@
     "purchase_end": "'02-12-2023 16:48",
     "submission_close": "'07-12-2023 16:48",
     "bid_open": "'12-12-2023 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "140",
@@ -2360,7 +2498,8 @@
     "purchase_end": "'27-11-2023 11:40",
     "submission_close": "'30-11-2023 14:30",
     "bid_open": "'04-12-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "141",
@@ -2377,7 +2516,8 @@
     "purchase_end": "'20-11-2023 08:00",
     "submission_close": "'04-12-2023 12:00",
     "bid_open": "'05-12-2023 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "142",
@@ -2394,7 +2534,8 @@
     "purchase_end": "'05-11-2023 11:30",
     "submission_close": "'08-11-2023 14:30",
     "bid_open": "'12-11-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "143",
@@ -2411,7 +2552,8 @@
     "purchase_end": "'19-09-2023 11:00",
     "submission_close": "'05-10-2023 16:00",
     "bid_open": "'12-10-2023 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "144",
@@ -2428,7 +2570,8 @@
     "purchase_end": "'24-08-2023 10:30",
     "submission_close": "'04-09-2023 10:00",
     "bid_open": "'07-09-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "145",
@@ -2445,7 +2588,8 @@
     "purchase_end": "'24-07-2023 13:00",
     "submission_close": "'21-08-2023 14:00",
     "bid_open": "'27-08-2023 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "146",
@@ -2462,7 +2606,8 @@
     "purchase_end": "'24-07-2023 12:00",
     "submission_close": "'08-08-2023 12:12",
     "bid_open": "'13-08-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "147",
@@ -2479,7 +2624,8 @@
     "purchase_end": "'16-07-2023 16:00",
     "submission_close": "'19-07-2023 14:33",
     "bid_open": "'24-07-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "148",
@@ -2496,7 +2642,8 @@
     "purchase_end": "'16-07-2023 08:00",
     "submission_close": "'20-07-2023 14:00",
     "bid_open": "'26-07-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "149",
@@ -2513,7 +2660,8 @@
     "purchase_end": "'05-07-2023 18:00",
     "submission_close": "'18-07-2023 12:24",
     "bid_open": "'25-07-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "150",
@@ -2530,7 +2678,8 @@
     "purchase_end": "'13-07-2023 08:00",
     "submission_close": "'17-07-2023 14:00",
     "bid_open": "'23-07-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "151",
@@ -2547,7 +2696,8 @@
     "purchase_end": "'03-05-2023 11:30",
     "submission_close": "'21-05-2023 16:00",
     "bid_open": "'24-05-2023 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "152",
@@ -2564,7 +2714,8 @@
     "purchase_end": "'16-04-2023 11:27",
     "submission_close": "'14-05-2023 14:27",
     "bid_open": "'21-05-2023 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "153",
@@ -2581,7 +2732,8 @@
     "purchase_end": "'24-01-2023 10:00",
     "submission_close": "'06-02-2023 12:00",
     "bid_open": "'07-02-2023 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "154",
@@ -2598,7 +2750,8 @@
     "purchase_end": "'01-01-2023 13:00",
     "submission_close": "'04-01-2023 15:00",
     "bid_open": "'05-01-2023 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "155",
@@ -2615,7 +2768,8 @@
     "purchase_end": "'08-12-2022 15:00",
     "submission_close": "'13-12-2022 10:00",
     "bid_open": "'18-12-2022 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "156",
@@ -2632,7 +2786,8 @@
     "purchase_end": "'04-12-2022 13:30",
     "submission_close": "'07-12-2022 14:30",
     "bid_open": "'11-12-2022 12:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "157",
@@ -2649,7 +2804,8 @@
     "purchase_end": "'20-11-2022 18:00",
     "submission_close": "'27-11-2022 13:22",
     "bid_open": "'30-11-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "158",
@@ -2666,7 +2822,8 @@
     "purchase_end": "'25-10-2022 14:01",
     "submission_close": "'06-11-2022 13:01",
     "bid_open": "'15-11-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "159",
@@ -2683,7 +2840,8 @@
     "purchase_end": "'19-10-2022 08:00",
     "submission_close": "'19-10-2022 22:00",
     "bid_open": "'20-10-2022 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "160",
@@ -2700,7 +2858,8 @@
     "purchase_end": "'06-10-2022 13:00",
     "submission_close": "'07-10-2022 11:00",
     "bid_open": "'12-10-2022 07:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "161",
@@ -2717,7 +2876,8 @@
     "purchase_end": "'21-09-2022 14:34",
     "submission_close": "'28-09-2022 10:34",
     "bid_open": "'29-09-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "162",
@@ -2734,7 +2894,8 @@
     "purchase_end": "'20-09-2022 14:57",
     "submission_close": "'25-10-2022 12:57",
     "bid_open": "'27-10-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "163",
@@ -2751,7 +2912,8 @@
     "purchase_end": "'13-09-2022 10:10",
     "submission_close": "'13-09-2022 14:20",
     "bid_open": "'26-09-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "164",
@@ -2768,7 +2930,8 @@
     "purchase_end": "'11-09-2022 08:00",
     "submission_close": "'26-09-2022 13:12",
     "bid_open": "'29-09-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "165",
@@ -2785,7 +2948,8 @@
     "purchase_end": "'05-09-2022 13:00",
     "submission_close": "'31-10-2022 23:01",
     "bid_open": "'03-11-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "166",
@@ -2802,7 +2966,8 @@
     "purchase_end": "'05-09-2022 14:00",
     "submission_close": "'17-10-2022 09:00",
     "bid_open": "'19-10-2022 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "167",
@@ -2819,7 +2984,8 @@
     "purchase_end": "'04-09-2022 15:49",
     "submission_close": "'12-09-2022 14:49",
     "bid_open": "'14-09-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "168",
@@ -2836,7 +3002,8 @@
     "purchase_end": "'18-08-2022 14:00",
     "submission_close": "'28-08-2022 15:00",
     "bid_open": "'30-08-2022 18:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "169",
@@ -2853,7 +3020,8 @@
     "purchase_end": "'12-06-2022 13:40",
     "submission_close": "'14-06-2022 14:30",
     "bid_open": "'16-06-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "170",
@@ -2870,7 +3038,8 @@
     "purchase_end": "'05-06-2022 21:00",
     "submission_close": "'12-06-2022 14:00",
     "bid_open": "'13-06-2022 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "171",
@@ -2887,7 +3056,8 @@
     "purchase_end": "'16-05-2022 07:30",
     "submission_close": "'19-05-2022 14:30",
     "bid_open": "'24-05-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "172",
@@ -2904,7 +3074,8 @@
     "purchase_end": "'21-04-2022 14:18",
     "submission_close": "'27-04-2022 14:18",
     "bid_open": "'28-04-2022 12:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "173",
@@ -2921,7 +3092,8 @@
     "purchase_end": "'14-04-2022 13:00",
     "submission_close": "'28-04-2022 11:30",
     "bid_open": "'15-05-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "174",
@@ -2938,7 +3110,8 @@
     "purchase_end": "'03-02-2022 10:00",
     "submission_close": "'07-02-2022 14:30",
     "bid_open": "'09-02-2022 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "175",
@@ -2955,7 +3128,8 @@
     "purchase_end": "'24-11-2021 13:00",
     "submission_close": "'02-12-2021 14:30",
     "bid_open": "'05-12-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "176",
@@ -2972,7 +3146,8 @@
     "purchase_end": "'16-11-2021 15:00",
     "submission_close": "'18-11-2021 09:00",
     "bid_open": "'21-11-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "177",
@@ -2989,7 +3164,8 @@
     "purchase_end": "'15-11-2021 08:30",
     "submission_close": "'24-11-2021 14:30",
     "bid_open": "'02-12-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "178",
@@ -3006,7 +3182,8 @@
     "purchase_end": "'12-11-2021 11:54",
     "submission_close": "'17-11-2021 11:54",
     "bid_open": "'18-11-2021 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "179",
@@ -3023,7 +3200,8 @@
     "purchase_end": "'08-11-2021 10:28",
     "submission_close": "'11-11-2021 10:28",
     "bid_open": "'15-11-2021 20:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "180",
@@ -3040,7 +3218,8 @@
     "purchase_end": "'12-09-2021 10:45",
     "submission_close": "'14-09-2021 14:30",
     "bid_open": "'16-09-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "181",
@@ -3057,7 +3236,8 @@
     "purchase_end": "'27-07-2021 12:28",
     "submission_close": "'01-08-2021 12:28",
     "bid_open": "'08-08-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "182",
@@ -3074,7 +3254,8 @@
     "purchase_end": "'08-07-2021 12:30",
     "submission_close": "'12-07-2021 12:00",
     "bid_open": "'15-07-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "183",
@@ -3091,7 +3272,8 @@
     "purchase_end": "'24-06-2021 11:30",
     "submission_close": "'08-07-2021 11:30",
     "bid_open": "'21-07-2021 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "184",
@@ -3108,7 +3290,8 @@
     "purchase_end": "'06-05-2021 15:00",
     "submission_close": "'16-05-2021 09:00",
     "bid_open": "'18-05-2021 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "185",
@@ -3125,7 +3308,8 @@
     "purchase_end": "'08-12-2020 11:30",
     "submission_close": "'10-12-2020 14:30",
     "bid_open": "'13-12-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "186",
@@ -3142,7 +3326,8 @@
     "purchase_end": "'11-11-2020 12:00",
     "submission_close": "'24-11-2020 08:00",
     "bid_open": "'30-11-2020 12:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "187",
@@ -3159,7 +3344,8 @@
     "purchase_end": "'30-09-2020 15:07",
     "submission_close": "'05-10-2020 15:07",
     "bid_open": "'07-10-2020 12:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "188",
@@ -3176,7 +3362,8 @@
     "purchase_end": "'12-07-2020 12:20",
     "submission_close": "'15-07-2020 11:00",
     "bid_open": "'20-07-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "189",
@@ -3193,7 +3380,8 @@
     "purchase_end": "'30-06-2020 09:43",
     "submission_close": "'03-07-2020 09:43",
     "bid_open": "'05-07-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "190",
@@ -3210,7 +3398,8 @@
     "purchase_end": "'20-04-2020 09:28",
     "submission_close": "'23-04-2020 09:28",
     "bid_open": "'28-04-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "191",
@@ -3227,7 +3416,8 @@
     "purchase_end": "'06-04-2020 15:00",
     "submission_close": "'11-04-2020 08:00",
     "bid_open": "'12-04-2020 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "192",
@@ -3244,7 +3434,8 @@
     "purchase_end": "'19-03-2020 10:00",
     "submission_close": "'13-04-2020 10:00",
     "bid_open": "'15-04-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "193",
@@ -3261,7 +3452,8 @@
     "purchase_end": "'02-03-2020 07:30",
     "submission_close": "'08-03-2020 14:30",
     "bid_open": "'10-03-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "194",
@@ -3278,7 +3470,8 @@
     "purchase_end": "'18-02-2020 08:47",
     "submission_close": "'01-03-2020 13:47",
     "bid_open": "'04-03-2020 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "195",
@@ -3295,7 +3488,8 @@
     "purchase_end": "'03-02-2020 07:30",
     "submission_close": "'06-02-2020 14:30",
     "bid_open": "'11-02-2020 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "196",
@@ -3312,7 +3506,8 @@
     "purchase_end": "'20-11-2019 13:54",
     "submission_close": "'12-01-2020 14:00",
     "bid_open": "'14-01-2020 13:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "197",
@@ -3329,7 +3524,8 @@
     "purchase_end": "'04-11-2019 14:00",
     "submission_close": "'05-12-2019 12:00",
     "bid_open": "'23-12-2019 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "198",
@@ -3346,7 +3542,8 @@
     "purchase_end": "'23-09-2019 09:00",
     "submission_close": "'29-09-2019 10:00",
     "bid_open": "'07-10-2019 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "199",
@@ -3363,7 +3560,8 @@
     "purchase_end": "'10-09-2019 16:00",
     "submission_close": "'19-09-2019 12:00",
     "bid_open": "'22-09-2019 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "200",
@@ -3380,7 +3578,8 @@
     "purchase_end": "'24-10-2017 16:00",
     "submission_close": "'15-11-2017 20:00",
     "bid_open": "'10-01-2018 15:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "201",
@@ -3397,7 +3596,8 @@
     "purchase_end": "'20-04-2017 07:30",
     "submission_close": "'03-05-2017 13:30",
     "bid_open": "'10-05-2017 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "202",
@@ -3414,7 +3614,8 @@
     "purchase_end": "'06-07-2026 20:00",
     "submission_close": "'22-07-2026 23:00",
     "bid_open": "'28-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "203",
@@ -3431,7 +3632,8 @@
     "purchase_end": "'06-07-2026 20:00",
     "submission_close": "'19-07-2026 23:00",
     "bid_open": "'28-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "204",
@@ -3448,7 +3650,8 @@
     "purchase_end": "'07-07-2026 08:00",
     "submission_close": "'22-07-2026 13:00",
     "bid_open": "'30-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "205",
@@ -3465,7 +3668,8 @@
     "purchase_end": "'07-07-2026 14:00",
     "submission_close": "'14-07-2026 14:00",
     "bid_open": "'15-07-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "206",
@@ -3482,7 +3686,8 @@
     "purchase_end": "'07-07-2026 15:30",
     "submission_close": "'12-07-2026 15:30",
     "bid_open": "'15-07-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "207",
@@ -3499,7 +3704,8 @@
     "purchase_end": "'07-07-2026 15:00",
     "submission_close": "'12-07-2026 15:00",
     "bid_open": "'09-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "208",
@@ -3516,7 +3722,8 @@
     "purchase_end": "'08-07-2026 09:30",
     "submission_close": "'28-07-2026 09:30",
     "bid_open": "'17-08-2026 10:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "209",
@@ -3533,7 +3740,8 @@
     "purchase_end": "'08-07-2026 09:00",
     "submission_close": "'02-08-2026 14:00",
     "bid_open": "'16-08-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "210",
@@ -3550,7 +3758,8 @@
     "purchase_end": "'08-07-2026 07:01",
     "submission_close": "'15-07-2026 07:01",
     "bid_open": "'19-07-2026 07:01",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "211",
@@ -3567,7 +3776,8 @@
     "purchase_end": "'09-07-2026 09:15",
     "submission_close": "'14-07-2026 09:15",
     "bid_open": "'23-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "212",
@@ -3584,7 +3794,8 @@
     "purchase_end": "'08-07-2026 08:30",
     "submission_close": "'12-07-2026 23:30",
     "bid_open": "'15-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "213",
@@ -3601,7 +3812,8 @@
     "purchase_end": "'08-07-2026 14:30",
     "submission_close": "'15-07-2026 14:30",
     "bid_open": "'19-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "214",
@@ -3618,7 +3830,8 @@
     "purchase_end": "'08-07-2026 12:00",
     "submission_close": "'08-07-2026 13:00",
     "bid_open": "'16-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "215",
@@ -3635,7 +3848,8 @@
     "purchase_end": "'08-07-2026 12:30",
     "submission_close": "'20-07-2026 14:30",
     "bid_open": "'27-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "216",
@@ -3652,7 +3866,8 @@
     "purchase_end": "'08-07-2026 16:15",
     "submission_close": "'08-07-2026 17:15",
     "bid_open": "'13-07-2026 08:15",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "217",
@@ -3669,7 +3884,8 @@
     "purchase_end": "'08-07-2026 16:00",
     "submission_close": "'08-07-2026 17:00",
     "bid_open": "'14-07-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "218",
@@ -3686,7 +3902,8 @@
     "purchase_end": "'08-07-2026 15:00",
     "submission_close": "'13-08-2026 15:00",
     "bid_open": "'17-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "219",
@@ -3703,7 +3920,8 @@
     "purchase_end": "'09-07-2026 14:00",
     "submission_close": "'02-08-2026 14:00",
     "bid_open": "'05-08-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "220",
@@ -3720,7 +3938,8 @@
     "purchase_end": "'09-07-2026 13:30",
     "submission_close": "'16-07-2026 13:30",
     "bid_open": "'19-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "221",
@@ -3737,7 +3956,8 @@
     "purchase_end": "'12-07-2026 09:00",
     "submission_close": "'06-08-2026 11:00",
     "bid_open": "'16-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "222",
@@ -3754,7 +3974,8 @@
     "purchase_end": "'09-07-2026 12:30",
     "submission_close": "'28-07-2026 14:30",
     "bid_open": "'05-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "223",
@@ -3771,7 +3992,8 @@
     "purchase_end": "'12-07-2026 08:00",
     "submission_close": "'26-07-2026 14:00",
     "bid_open": "'28-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "224",
@@ -3788,7 +4010,8 @@
     "purchase_end": "'10-07-2026 09:53",
     "submission_close": "'20-07-2026 09:53",
     "bid_open": "'21-07-2026 09:53",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "225",
@@ -3805,7 +4028,8 @@
     "purchase_end": "'11-07-2026 17:10",
     "submission_close": "'27-07-2026 12:00",
     "bid_open": "'02-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "226",
@@ -3822,7 +4046,8 @@
     "purchase_end": "'12-07-2026 14:20",
     "submission_close": "'11-08-2026 14:20",
     "bid_open": "'18-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "227",
@@ -3839,7 +4064,8 @@
     "purchase_end": "'12-07-2026 11:00",
     "submission_close": "'17-07-2026 23:00",
     "bid_open": "'22-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "228",
@@ -3856,7 +4082,8 @@
     "purchase_end": "'12-07-2026 09:30",
     "submission_close": "'16-07-2026 09:30",
     "bid_open": "'19-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "229",
@@ -3873,7 +4100,8 @@
     "purchase_end": "'13-07-2026 09:00",
     "submission_close": "'06-08-2026 13:00",
     "bid_open": "'20-08-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "230",
@@ -3890,7 +4118,8 @@
     "purchase_end": "'12-07-2026 14:00",
     "submission_close": "'19-07-2026 12:00",
     "bid_open": "'22-07-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "231",
@@ -3907,7 +4136,8 @@
     "purchase_end": "'12-07-2026 14:00",
     "submission_close": "'14-07-2026 14:00",
     "bid_open": "'19-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "232",
@@ -3924,7 +4154,8 @@
     "purchase_end": "'12-07-2026 18:00",
     "submission_close": "'22-07-2026 14:00",
     "bid_open": "'29-07-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "233",
@@ -3941,7 +4172,8 @@
     "purchase_end": "'13-07-2026 14:30",
     "submission_close": "'21-07-2026 14:30",
     "bid_open": "'29-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "234",
@@ -3958,7 +4190,8 @@
     "purchase_end": "'14-07-2026 10:01",
     "submission_close": "'16-07-2026 23:59",
     "bid_open": "'20-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "235",
@@ -3975,7 +4208,8 @@
     "purchase_end": "'14-07-2026 10:00",
     "submission_close": "'16-07-2026 23:59",
     "bid_open": "'20-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "236",
@@ -3992,7 +4226,8 @@
     "purchase_end": "'14-07-2026 10:00",
     "submission_close": "'22-07-2026 10:00",
     "bid_open": "'23-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "237",
@@ -4009,7 +4244,8 @@
     "purchase_end": "'14-07-2026 11:35",
     "submission_close": "'30-07-2026 16:35",
     "bid_open": "'06-08-2026 08:35",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "238",
@@ -4026,7 +4262,8 @@
     "purchase_end": "'14-07-2026 10:55",
     "submission_close": "'20-07-2026 10:55",
     "bid_open": "'23-07-2026 10:55",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "239",
@@ -4043,7 +4280,8 @@
     "purchase_end": "'15-07-2026 16:00",
     "submission_close": "'19-07-2026 16:00",
     "bid_open": "'22-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "240",
@@ -4060,7 +4298,8 @@
     "purchase_end": "'15-07-2026 13:30",
     "submission_close": "'21-07-2026 13:30",
     "bid_open": "'23-07-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "241",
@@ -4077,7 +4316,8 @@
     "purchase_end": "'15-07-2026 14:00",
     "submission_close": "'24-07-2026 14:00",
     "bid_open": "'03-08-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "242",
@@ -4094,7 +4334,8 @@
     "purchase_end": "'15-07-2026 12:50",
     "submission_close": "'20-07-2026 12:50",
     "bid_open": "'03-08-2026 12:50",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "243",
@@ -4111,7 +4352,8 @@
     "purchase_end": "'15-07-2026 12:00",
     "submission_close": "'21-07-2026 12:00",
     "bid_open": "'23-07-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "244",
@@ -4128,7 +4370,8 @@
     "purchase_end": "'15-07-2026 12:00",
     "submission_close": "'15-07-2026 14:00",
     "bid_open": "'21-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "245",
@@ -4145,7 +4388,8 @@
     "purchase_end": "'15-07-2026 18:00",
     "submission_close": "'03-08-2026 10:00",
     "bid_open": "'09-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "246",
@@ -4162,7 +4406,8 @@
     "purchase_end": "'15-07-2026 17:35",
     "submission_close": "'16-07-2026 13:35",
     "bid_open": "'22-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "247",
@@ -4179,7 +4424,8 @@
     "purchase_end": "'15-07-2026 14:30",
     "submission_close": "'21-07-2026 14:30",
     "bid_open": "'26-07-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "248",
@@ -4196,7 +4442,8 @@
     "purchase_end": "'16-07-2026 10:00",
     "submission_close": "'22-07-2026 10:00",
     "bid_open": "'29-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "249",
@@ -4213,7 +4460,8 @@
     "purchase_end": "'16-07-2026 09:00",
     "submission_close": "'23-07-2026 13:00",
     "bid_open": "'26-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "250",
@@ -4230,7 +4478,8 @@
     "purchase_end": "'16-07-2026 09:00",
     "submission_close": "'23-07-2026 09:00",
     "bid_open": "'28-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "251",
@@ -4247,7 +4496,8 @@
     "purchase_end": "'16-07-2026 14:00",
     "submission_close": "'30-07-2026 14:00",
     "bid_open": "'02-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "252",
@@ -4264,7 +4514,8 @@
     "purchase_end": "'19-07-2026 11:00",
     "submission_close": "'23-07-2026 11:00",
     "bid_open": "'23-08-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "253",
@@ -4281,7 +4532,8 @@
     "purchase_end": "'16-07-2026 10:46",
     "submission_close": "'22-07-2026 10:46",
     "bid_open": "'26-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "254",
@@ -4298,7 +4550,8 @@
     "purchase_end": "'16-07-2026 15:46",
     "submission_close": "'16-08-2026 15:46",
     "bid_open": "'26-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "255",
@@ -4315,7 +4568,8 @@
     "purchase_end": "'16-07-2026 14:43",
     "submission_close": "'23-07-2026 14:43",
     "bid_open": "'26-07-2026 14:43",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "256",
@@ -4332,7 +4586,8 @@
     "purchase_end": "'16-07-2026 15:00",
     "submission_close": "'05-08-2026 10:00",
     "bid_open": "'16-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "257",
@@ -4349,7 +4604,8 @@
     "purchase_end": "'19-07-2026 14:30",
     "submission_close": "'06-08-2026 14:30",
     "bid_open": "'26-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "258",
@@ -4366,7 +4622,8 @@
     "purchase_end": "'19-07-2026 15:30",
     "submission_close": "'21-07-2026 08:30",
     "bid_open": "'22-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "259",
@@ -4383,7 +4640,8 @@
     "purchase_end": "'19-07-2026 15:00",
     "submission_close": "'22-07-2026 09:00",
     "bid_open": "'22-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "260",
@@ -4400,7 +4658,8 @@
     "purchase_end": "'26-07-2026 09:00",
     "submission_close": "'30-07-2026 09:00",
     "bid_open": "'09-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "261",
@@ -4417,7 +4676,8 @@
     "purchase_end": "'21-07-2026 10:00",
     "submission_close": "'29-07-2026 10:00",
     "bid_open": "'31-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "262",
@@ -4434,7 +4694,8 @@
     "purchase_end": "'20-07-2026 17:06",
     "submission_close": "'05-08-2026 17:06",
     "bid_open": "'06-08-2026 17:06",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "263",
@@ -4451,7 +4712,8 @@
     "purchase_end": "'20-07-2026 14:00",
     "submission_close": "'30-07-2026 09:00",
     "bid_open": "'03-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "264",
@@ -4468,7 +4730,8 @@
     "purchase_end": "'20-07-2026 13:00",
     "submission_close": "'20-07-2026 15:00",
     "bid_open": "'27-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "265",
@@ -4485,7 +4748,8 @@
     "purchase_end": "'20-07-2026 12:01",
     "submission_close": "'26-07-2026 13:00",
     "bid_open": "'28-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "266",
@@ -4502,7 +4766,8 @@
     "purchase_end": "'20-07-2026 12:00",
     "submission_close": "'28-07-2026 14:00",
     "bid_open": "'30-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "267",
@@ -4519,7 +4784,8 @@
     "purchase_end": "'22-07-2026 07:00",
     "submission_close": "'30-07-2026 07:00",
     "bid_open": "'12-08-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "268",
@@ -4536,7 +4802,8 @@
     "purchase_end": "'21-07-2026 10:30",
     "submission_close": "'25-08-2026 10:30",
     "bid_open": "'01-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "269",
@@ -4553,7 +4820,8 @@
     "purchase_end": "'21-07-2026 10:00",
     "submission_close": "'21-07-2026 12:00",
     "bid_open": "'23-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "270",
@@ -4570,7 +4838,8 @@
     "purchase_end": "'21-07-2026 08:00",
     "submission_close": "'26-07-2026 08:00",
     "bid_open": "'29-07-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "271",
@@ -4587,7 +4856,8 @@
     "purchase_end": "'21-07-2026 13:30",
     "submission_close": "'23-08-2026 14:30",
     "bid_open": "'30-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "272",
@@ -4604,7 +4874,8 @@
     "purchase_end": "'30-08-2026",
     "submission_close": "'30-07-2026",
     "bid_open": "'23-08-2026",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "273",
@@ -4621,7 +4892,8 @@
     "purchase_end": "'23-07-2026 09:00",
     "submission_close": "'28-07-2026 13:00",
     "bid_open": "'30-07-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "274",
@@ -4638,7 +4910,8 @@
     "purchase_end": "'23-07-2026 09:40",
     "submission_close": "'28-07-2026 09:40",
     "bid_open": "'04-08-2026 09:40",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "275",
@@ -4655,7 +4928,8 @@
     "purchase_end": "'23-07-2026 13:36",
     "submission_close": "'28-07-2026 13:36",
     "bid_open": "'11-08-2026 13:36",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "276",
@@ -4672,7 +4946,8 @@
     "purchase_end": "'23-07-2026 12:00",
     "submission_close": "'03-08-2026 12:00",
     "bid_open": "'09-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "277",
@@ -4689,7 +4964,8 @@
     "purchase_end": "'23-07-2026 11:30",
     "submission_close": "'28-07-2026 11:30",
     "bid_open": "'05-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "278",
@@ -4706,7 +4982,8 @@
     "purchase_end": "'23-07-2026 10:40",
     "submission_close": "'28-07-2026 10:40",
     "bid_open": "'11-08-2026 10:40",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "279",
@@ -4723,7 +5000,8 @@
     "purchase_end": "'23-07-2026 20:00",
     "submission_close": "'30-07-2026 20:00",
     "bid_open": "'05-08-2026 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "280",
@@ -4740,7 +5018,8 @@
     "purchase_end": "'23-07-2026 17:01",
     "submission_close": "'26-07-2026 18:00",
     "bid_open": "'27-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "281",
@@ -4757,7 +5036,8 @@
     "purchase_end": "'26-07-2026 15:00",
     "submission_close": "'26-07-2026 16:00",
     "bid_open": "'30-07-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "282",
@@ -4774,7 +5054,8 @@
     "purchase_end": "'26-07-2026 12:30",
     "submission_close": "'05-08-2026 10:00",
     "bid_open": "'11-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "283",
@@ -4791,7 +5072,8 @@
     "purchase_end": "'28-07-2026 10:23",
     "submission_close": "'08-08-2026 10:23",
     "bid_open": "'19-08-2026 10:23",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "284",
@@ -4808,7 +5090,8 @@
     "purchase_end": "'26-07-2026 11:00",
     "submission_close": "'31-07-2026 11:00",
     "bid_open": "'14-08-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "285",
@@ -4825,7 +5108,8 @@
     "purchase_end": "'27-07-2026 11:00",
     "submission_close": "'04-08-2026 13:00",
     "bid_open": "'05-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "286",
@@ -4842,7 +5126,8 @@
     "purchase_end": "'27-07-2026 15:59",
     "submission_close": "'29-07-2026 15:59",
     "bid_open": "'30-07-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "287",
@@ -4859,7 +5144,8 @@
     "purchase_end": "'28-07-2026 10:00",
     "submission_close": "'10-08-2026 10:00",
     "bid_open": "'12-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "288",
@@ -4876,7 +5162,8 @@
     "purchase_end": "'27-07-2026 13:00",
     "submission_close": "'10-08-2026 08:00",
     "bid_open": "'13-08-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "289",
@@ -4893,7 +5180,8 @@
     "purchase_end": "'12-07-2026 13:00",
     "submission_close": "'13-08-2026 13:00",
     "bid_open": "'21-08-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "290",
@@ -4910,7 +5198,8 @@
     "purchase_end": "'28-07-2026 02:00",
     "submission_close": "'16-08-2026 02:00",
     "bid_open": "'18-08-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "291",
@@ -4927,7 +5216,8 @@
     "purchase_end": "'28-07-2026 15:00",
     "submission_close": "'06-08-2026 15:00",
     "bid_open": "'09-08-2026 07:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "292",
@@ -4944,7 +5234,8 @@
     "purchase_end": "'29-07-2026 09:00",
     "submission_close": "'06-08-2026 13:00",
     "bid_open": "'11-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "293",
@@ -4961,7 +5252,8 @@
     "purchase_end": "'28-07-2026 17:15",
     "submission_close": "'03-08-2026 23:59",
     "bid_open": "'11-08-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "294",
@@ -4978,7 +5270,8 @@
     "purchase_end": "'28-07-2026 12:30",
     "submission_close": "'18-08-2026 14:30",
     "bid_open": "'26-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "295",
@@ -4995,7 +5288,8 @@
     "purchase_end": "'28-07-2026 10:00",
     "submission_close": "'02-08-2026 10:00",
     "bid_open": "'05-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "296",
@@ -5012,7 +5306,8 @@
     "purchase_end": "'28-07-2026 09:46",
     "submission_close": "'26-08-2026 09:46",
     "bid_open": "'06-09-2026 10:46",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "297",
@@ -5029,7 +5324,8 @@
     "purchase_end": "'28-07-2026 09:15",
     "submission_close": "'29-07-2026 02:30",
     "bid_open": "'03-08-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "298",
@@ -5046,7 +5342,8 @@
     "purchase_end": "'29-07-2026 21:00",
     "submission_close": "'06-08-2026 21:00",
     "bid_open": "'11-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "299",
@@ -5063,7 +5360,8 @@
     "purchase_end": "'29-07-2026 10:00",
     "submission_close": "'16-08-2026 10:00",
     "bid_open": "'19-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "300",
@@ -5080,7 +5378,8 @@
     "purchase_end": "'30-07-2026 08:00",
     "submission_close": "'13-08-2026 12:00",
     "bid_open": "'22-08-2026 23:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "301",
@@ -5097,7 +5396,8 @@
     "purchase_end": "'29-07-2026 09:30",
     "submission_close": "'05-08-2026 09:30",
     "bid_open": "'09-08-2026 02:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "302",
@@ -5114,7 +5414,8 @@
     "purchase_end": "'29-07-2026 09:17",
     "submission_close": "'03-08-2026 09:17",
     "bid_open": "'17-08-2026 09:17",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "303",
@@ -5131,7 +5432,8 @@
     "purchase_end": "'29-07-2026 16:00",
     "submission_close": "'03-08-2026 16:00",
     "bid_open": "'06-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "304",
@@ -5148,7 +5450,8 @@
     "purchase_end": "'06-08-2026 14:30",
     "submission_close": "'25-08-2026 14:30",
     "bid_open": "'09-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "305",
@@ -5165,7 +5468,8 @@
     "purchase_end": "'30-07-2026 08:58",
     "submission_close": "'31-07-2026 11:58",
     "bid_open": "'02-08-2026 11:58",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "306",
@@ -5182,7 +5486,8 @@
     "purchase_end": "'30-07-2026 15:01",
     "submission_close": "'05-08-2026 16:01",
     "bid_open": "'09-08-2026 08:01",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "307",
@@ -5199,7 +5504,8 @@
     "purchase_end": "'30-07-2026 13:40",
     "submission_close": "'03-08-2026 13:40",
     "bid_open": "'06-08-2026 09:40",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "308",
@@ -5216,7 +5522,8 @@
     "purchase_end": "'02-08-2026 07:00",
     "submission_close": "'06-08-2026 07:00",
     "bid_open": "'09-08-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "309",
@@ -5233,7 +5540,8 @@
     "purchase_end": "'30-07-2026 21:59",
     "submission_close": "'11-08-2026 23:59",
     "bid_open": "'13-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "310",
@@ -5250,7 +5558,8 @@
     "purchase_end": "'01-08-2026 10:53",
     "submission_close": "'05-08-2026 10:53",
     "bid_open": "'06-08-2026 10:53",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "311",
@@ -5267,7 +5576,8 @@
     "purchase_end": "'02-08-2026 14:00",
     "submission_close": "'16-08-2026 14:00",
     "bid_open": "'17-08-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "312",
@@ -5284,7 +5594,8 @@
     "purchase_end": "'02-08-2026 11:40",
     "submission_close": "'18-08-2026 12:00",
     "bid_open": "'30-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "313",
@@ -5301,7 +5612,8 @@
     "purchase_end": "'03-08-2026 10:00",
     "submission_close": "'04-08-2026 10:00",
     "bid_open": "'06-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "314",
@@ -5318,7 +5630,8 @@
     "purchase_end": "'02-08-2026 10:05",
     "submission_close": "'05-08-2026 10:05",
     "bid_open": "'09-08-2026 10:05",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "315",
@@ -5335,7 +5648,8 @@
     "purchase_end": "'02-08-2026 09:30",
     "submission_close": "'08-09-2026 16:00",
     "bid_open": "'15-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "316",
@@ -5352,7 +5666,8 @@
     "purchase_end": "'02-08-2026 14:00",
     "submission_close": "'16-08-2026 14:00",
     "bid_open": "'17-08-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "317",
@@ -5369,7 +5684,8 @@
     "purchase_end": "'02-08-2026 13:30",
     "submission_close": "'23-08-2026 13:30",
     "bid_open": "'30-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "318",
@@ -5386,7 +5702,8 @@
     "purchase_end": "'02-08-2026 15:51",
     "submission_close": "'18-08-2026 15:51",
     "bid_open": "'23-08-2026 14:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "319",
@@ -5403,7 +5720,8 @@
     "purchase_end": "'04-08-2026 09:00",
     "submission_close": "'09-08-2026 14:00",
     "bid_open": "'13-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "320",
@@ -5420,7 +5738,8 @@
     "purchase_end": "'03-08-2026 23:59",
     "submission_close": "'10-08-2026 23:59",
     "bid_open": "'17-08-2026 23:59",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "321",
@@ -5437,7 +5756,8 @@
     "purchase_end": "'03-08-2026 15:30",
     "submission_close": "'19-08-2026 15:30",
     "bid_open": "'01-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "322",
@@ -5454,7 +5774,8 @@
     "purchase_end": "'04-08-2026 12:35",
     "submission_close": "'19-08-2026 12:35",
     "bid_open": "'25-08-2026 11:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "323",
@@ -5471,7 +5792,8 @@
     "purchase_end": "'04-08-2026 11:00",
     "submission_close": "'04-08-2026 13:00",
     "bid_open": "'09-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "324",
@@ -5488,7 +5810,8 @@
     "purchase_end": "'04-08-2026 11:00",
     "submission_close": "'09-08-2026 11:00",
     "bid_open": "'13-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "325",
@@ -5505,7 +5828,8 @@
     "purchase_end": "'04-08-2026 14:01",
     "submission_close": "'09-08-2026 15:01",
     "bid_open": "'12-08-2026 08:01",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "326",
@@ -5522,7 +5846,8 @@
     "purchase_end": "'05-08-2026 08:00",
     "submission_close": "'06-08-2026 08:00",
     "bid_open": "'08-08-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "327",
@@ -5539,7 +5864,8 @@
     "purchase_end": "'04-08-2026 16:00",
     "submission_close": "'19-08-2026 16:00",
     "bid_open": "'25-08-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "328",
@@ -5556,7 +5882,8 @@
     "purchase_end": "'04-08-2026 15:54",
     "submission_close": "'12-08-2026 12:54",
     "bid_open": "'16-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "329",
@@ -5573,7 +5900,8 @@
     "purchase_end": "'05-08-2026 11:30",
     "submission_close": "'12-08-2026 13:30",
     "bid_open": "'16-08-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "330",
@@ -5590,7 +5918,8 @@
     "purchase_end": "'05-08-2026 11:00",
     "submission_close": "'05-08-2026 13:00",
     "bid_open": "'10-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "331",
@@ -5607,7 +5936,8 @@
     "purchase_end": "'05-08-2026 14:00",
     "submission_close": "'24-08-2026 14:00",
     "bid_open": "'06-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "332",
@@ -5624,7 +5954,8 @@
     "purchase_end": "'05-08-2026 15:00",
     "submission_close": "'05-08-2026 16:00",
     "bid_open": "'11-08-2026 08:08",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "333",
@@ -5641,7 +5972,8 @@
     "purchase_end": "'05-08-2026 13:40",
     "submission_close": "'17-08-2026 15:00",
     "bid_open": "'26-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "334",
@@ -5658,7 +5990,8 @@
     "purchase_end": "'05-08-2026 13:04",
     "submission_close": "'31-08-2026 13:04",
     "bid_open": "'13-09-2026 13:04",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "335",
@@ -5675,7 +6008,8 @@
     "purchase_end": "'05-08-2026 14:00",
     "submission_close": "'05-08-2026 15:00",
     "bid_open": "'10-08-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "336",
@@ -5692,7 +6026,8 @@
     "purchase_end": "'05-08-2026 12:58",
     "submission_close": "'31-08-2026 12:58",
     "bid_open": "'13-09-2026 12:58",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "337",
@@ -5709,7 +6044,8 @@
     "purchase_end": "'06-08-2026 07:30",
     "submission_close": "'19-08-2026 22:30",
     "bid_open": "'20-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "338",
@@ -5726,7 +6062,8 @@
     "purchase_end": "'06-08-2026 08:00",
     "submission_close": "'19-08-2026 20:00",
     "bid_open": "'20-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "339",
@@ -5743,7 +6080,8 @@
     "purchase_end": "'06-08-2026 12:24",
     "submission_close": "'11-08-2026 18:24",
     "bid_open": "'12-08-2026 08:24",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "340",
@@ -5760,7 +6098,8 @@
     "purchase_end": "'06-08-2026 09:35",
     "submission_close": "'10-08-2026 14:35",
     "bid_open": "'12-08-2026 08:35",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "341",
@@ -5777,7 +6116,8 @@
     "purchase_end": "'06-08-2026 16:00",
     "submission_close": "'11-08-2026 16:00",
     "bid_open": "'25-08-2026 16:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "342",
@@ -5794,7 +6134,8 @@
     "purchase_end": "'06-08-2026 14:10",
     "submission_close": "'18-08-2026 14:10",
     "bid_open": "'03-09-2026 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "343",
@@ -5811,7 +6152,8 @@
     "purchase_end": "'09-08-2026 11:15",
     "submission_close": "'13-08-2026 11:15",
     "bid_open": "'18-08-2026 11:15",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "344",
@@ -5828,7 +6170,8 @@
     "purchase_end": "'09-08-2026 12:00",
     "submission_close": "'18-08-2026 12:00",
     "bid_open": "'23-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "345",
@@ -5845,7 +6188,8 @@
     "purchase_end": "'09-08-2026 15:00",
     "submission_close": "'06-09-2026 10:00",
     "bid_open": "'20-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "346",
@@ -5862,7 +6206,8 @@
     "purchase_end": "'09-08-2026 15:00",
     "submission_close": "'11-08-2026 23:00",
     "bid_open": "'13-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "347",
@@ -5879,7 +6224,8 @@
     "purchase_end": "'09-08-2026 14:00",
     "submission_close": "'09-08-2026 16:00",
     "bid_open": "'16-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "348",
@@ -5896,7 +6242,8 @@
     "purchase_end": "'09-08-2026 12:00",
     "submission_close": "'23-08-2026 12:00",
     "bid_open": "'31-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "349",
@@ -5913,7 +6260,8 @@
     "purchase_end": "'10-08-2026 08:00",
     "submission_close": "'14-08-2026 08:00",
     "bid_open": "'16-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "350",
@@ -5930,7 +6278,8 @@
     "purchase_end": "'10-08-2026 13:40",
     "submission_close": "'15-08-2026 13:40",
     "bid_open": "'29-08-2026 13:40",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "351",
@@ -5947,7 +6296,8 @@
     "purchase_end": "'10-08-2026 12:07",
     "submission_close": "'01-09-2026 12:07",
     "bid_open": "'17-09-2026 12:07",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "352",
@@ -5964,7 +6314,8 @@
     "purchase_end": "'11-08-2026 08:30",
     "submission_close": "'16-08-2026 08:30",
     "bid_open": "'30-08-2026 08:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "353",
@@ -5981,7 +6332,8 @@
     "purchase_end": "'11-08-2026 10:30",
     "submission_close": "'22-08-2026 10:30",
     "bid_open": "'31-08-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "354",
@@ -5998,7 +6350,8 @@
     "purchase_end": "'11-08-2026 11:00",
     "submission_close": "'24-08-2026 11:00",
     "bid_open": "'31-08-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "355",
@@ -6015,7 +6368,8 @@
     "purchase_end": "'11-08-2026 14:00",
     "submission_close": "'23-08-2026 11:39",
     "bid_open": "'02-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "356",
@@ -6032,7 +6386,8 @@
     "purchase_end": "'11-08-2026 11:35",
     "submission_close": "'16-08-2026 11:35",
     "bid_open": "'30-08-2026 11:35",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "357",
@@ -6049,7 +6404,8 @@
     "purchase_end": "'12-08-2026 15:18",
     "submission_close": "'23-08-2026 15:18",
     "bid_open": "'24-08-2026 15:18",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "358",
@@ -6066,7 +6422,8 @@
     "purchase_end": "'12-08-2026 10:00",
     "submission_close": "'15-08-2026 10:00",
     "bid_open": "'16-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "359",
@@ -6083,7 +6440,8 @@
     "purchase_end": "'31-08-2026",
     "submission_close": "'18-08-2026",
     "bid_open": "'23-08-2026",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "360",
@@ -6100,7 +6458,8 @@
     "purchase_end": "'13-08-2026 08:00",
     "submission_close": "'16-08-2026 13:00",
     "bid_open": "'17-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "361",
@@ -6117,7 +6476,8 @@
     "purchase_end": "'13-08-2026 07:43",
     "submission_close": "'20-08-2026 07:43",
     "bid_open": "'23-08-2026 07:43",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "362",
@@ -6134,7 +6494,8 @@
     "purchase_end": "'13-08-2026 14:00",
     "submission_close": "'24-08-2026 14:00",
     "bid_open": "'07-09-2026 06:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "363",
@@ -6151,7 +6512,8 @@
     "purchase_end": "'14-08-2026 13:09",
     "submission_close": "'19-08-2026 13:09",
     "bid_open": "'22-08-2026 13:09",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "364",
@@ -6168,7 +6530,8 @@
     "purchase_end": "'16-08-2026 03:00",
     "submission_close": "'10-09-2026 03:00",
     "bid_open": "'22-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "365",
@@ -6185,7 +6548,8 @@
     "purchase_end": "'16-08-2026 14:30",
     "submission_close": "'27-08-2026 14:30",
     "bid_open": "'02-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "366",
@@ -6202,7 +6566,8 @@
     "purchase_end": "'16-08-2026 12:00",
     "submission_close": "'23-08-2026 12:00",
     "bid_open": "'30-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "367",
@@ -6219,7 +6584,8 @@
     "purchase_end": "'16-08-2026 12:00",
     "submission_close": "'23-08-2026 12:00",
     "bid_open": "'30-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "368",
@@ -6236,7 +6602,8 @@
     "purchase_end": "'16-08-2026 08:58",
     "submission_close": "'19-08-2026 16:58",
     "bid_open": "'23-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "369",
@@ -6253,7 +6620,8 @@
     "purchase_end": "'16-08-2026 16:00",
     "submission_close": "'23-08-2026 16:00",
     "bid_open": "'25-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "370",
@@ -6270,7 +6638,8 @@
     "purchase_end": "'17-08-2026 22:33",
     "submission_close": "'10-09-2026 22:33",
     "bid_open": "'22-09-2026 22:33",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "371",
@@ -6287,7 +6656,8 @@
     "purchase_end": "'17-08-2026 22:23",
     "submission_close": "'08-09-2026 22:23",
     "bid_open": "'22-09-2026 22:23",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "372",
@@ -6304,7 +6674,8 @@
     "purchase_end": "'17-08-2026 10:00",
     "submission_close": "'31-08-2026 10:00",
     "bid_open": "'14-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "373",
@@ -6321,7 +6692,8 @@
     "purchase_end": "'17-08-2026 09:47",
     "submission_close": "'22-08-2026 09:47",
     "bid_open": "'01-09-2026 09:47",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "374",
@@ -6338,7 +6710,8 @@
     "purchase_end": "'17-08-2026 14:00",
     "submission_close": "'09-09-2026 14:30",
     "bid_open": "'27-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "375",
@@ -6355,7 +6728,8 @@
     "purchase_end": "'17-08-2026 12:01",
     "submission_close": "'22-08-2026 01:01",
     "bid_open": "'24-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "376",
@@ -6372,7 +6746,8 @@
     "purchase_end": "'19-08-2026 09:55",
     "submission_close": "'21-08-2026 11:55",
     "bid_open": "'23-09-2026 11:55",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "377",
@@ -6389,7 +6764,8 @@
     "purchase_end": "'18-08-2026 10:00",
     "submission_close": "'25-08-2026 10:00",
     "bid_open": "'27-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "378",
@@ -6406,7 +6782,8 @@
     "purchase_end": "'18-08-2026 09:00",
     "submission_close": "'23-08-2026 10:00",
     "bid_open": "'24-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "379",
@@ -6423,7 +6800,8 @@
     "purchase_end": "'18-08-2026 08:00",
     "submission_close": "'20-08-2026 10:00",
     "bid_open": "'24-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "380",
@@ -6440,7 +6818,8 @@
     "purchase_end": "'18-08-2026 12:15",
     "submission_close": "'23-08-2026 12:15",
     "bid_open": "'06-09-2026 12:15",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "381",
@@ -6457,7 +6836,8 @@
     "purchase_end": "'19-08-2026 08:09",
     "submission_close": "'24-08-2026 08:09",
     "bid_open": "'26-08-2026 10:09",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "382",
@@ -6474,7 +6854,8 @@
     "purchase_end": "'18-08-2026 17:00",
     "submission_close": "'30-08-2026 17:00",
     "bid_open": "'01-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "383",
@@ -6491,7 +6872,8 @@
     "purchase_end": "'19-08-2026 05:19",
     "submission_close": "'24-08-2026 05:19",
     "bid_open": "'30-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "384",
@@ -6508,7 +6890,8 @@
     "purchase_end": "'19-08-2026 11:14",
     "submission_close": "'23-08-2026 11:14",
     "bid_open": "'26-08-2026 11:14",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "385",
@@ -6525,7 +6908,8 @@
     "purchase_end": "'19-08-2026 10:39",
     "submission_close": "'20-08-2026 10:39",
     "bid_open": "'23-08-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "386",
@@ -6542,7 +6926,8 @@
     "purchase_end": "'23-08-2026 14:00",
     "submission_close": "'06-09-2026 14:00",
     "bid_open": "'09-09-2026 13:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "387",
@@ -6559,7 +6944,8 @@
     "purchase_end": "'19-08-2026 10:30",
     "submission_close": "'20-08-2026 14:30",
     "bid_open": "'23-08-2026 09:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "388",
@@ -6576,7 +6962,8 @@
     "purchase_end": "'19-08-2026 17:05",
     "submission_close": "'24-08-2026 17:05",
     "bid_open": "'26-08-2026 12:05",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "389",
@@ -6593,7 +6980,8 @@
     "purchase_end": "'20-08-2026 08:55",
     "submission_close": "'25-08-2026 16:55",
     "bid_open": "'27-08-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "390",
@@ -6610,7 +6998,8 @@
     "purchase_end": "'24-08-2026 17:00",
     "submission_close": "'17-09-2026 17:00",
     "bid_open": "'29-09-2026 17:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "391",
@@ -6627,7 +7016,8 @@
     "purchase_end": "'20-08-2026 15:00",
     "submission_close": "'25-08-2026 15:00",
     "bid_open": "'26-08-2026 15:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "392",
@@ -6644,7 +7034,8 @@
     "purchase_end": "'20-08-2026 14:00",
     "submission_close": "'26-08-2026 12:00",
     "bid_open": "'31-08-2026 12:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "393",
@@ -6661,7 +7052,8 @@
     "purchase_end": "'20-08-2026 14:00",
     "submission_close": "'06-09-2026 14:00",
     "bid_open": "'10-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "394",
@@ -6678,7 +7070,8 @@
     "purchase_end": "'26-08-2026 10:00",
     "submission_close": "'09-09-2026 13:00",
     "bid_open": "'10-09-2026 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "395",
@@ -6695,7 +7088,8 @@
     "purchase_end": "'20-08-2026 11:45",
     "submission_close": "'01-09-2026 11:45",
     "bid_open": "'06-09-2026 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "396",
@@ -6712,7 +7106,8 @@
     "purchase_end": "'24-08-2026 08:20",
     "submission_close": "'10-09-2026 08:20",
     "bid_open": "'15-09-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "397",
@@ -6729,7 +7124,8 @@
     "purchase_end": "'23-08-2026 14:15",
     "submission_close": "'31-08-2026 14:15",
     "bid_open": "'07-09-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "398",
@@ -6746,7 +7142,8 @@
     "purchase_end": "'23-08-2026 13:00",
     "submission_close": "'26-08-2026 09:00",
     "bid_open": "'30-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "399",
@@ -6763,7 +7160,8 @@
     "purchase_end": "'23-08-2026 18:02",
     "submission_close": "'30-08-2026 18:02",
     "bid_open": "'02-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "400",
@@ -6780,7 +7178,8 @@
     "purchase_end": "'23-08-2026 12:00",
     "submission_close": "'02-09-2026 12:00",
     "bid_open": "'06-09-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "401",
@@ -6797,7 +7196,8 @@
     "purchase_end": "'23-08-2026 18:00",
     "submission_close": "'08-09-2026 14:00",
     "bid_open": "'15-09-2026 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "402",
@@ -6814,7 +7214,8 @@
     "purchase_end": "'25-08-2026 13:00",
     "submission_close": "'27-08-2026 15:00",
     "bid_open": "'29-08-2026 15:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "403",
@@ -6831,7 +7232,8 @@
     "purchase_end": "'24-08-2026 08:00",
     "submission_close": "'01-09-2026 14:00",
     "bid_open": "'03-09-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "404",
@@ -6848,7 +7250,8 @@
     "purchase_end": "'03-09-2026 13:00",
     "submission_close": "'13-09-2026 13:00",
     "bid_open": "'22-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "405",
@@ -6865,7 +7268,8 @@
     "purchase_end": "'24-08-2026 14:30",
     "submission_close": "'07-09-2026 14:30",
     "bid_open": "'16-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "406",
@@ -6882,7 +7286,8 @@
     "purchase_end": "'25-08-2026 07:00",
     "submission_close": "'30-08-2026 10:00",
     "bid_open": "'03-09-2026 10:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "407",
@@ -6899,7 +7304,8 @@
     "purchase_end": "'25-08-2026 07:30",
     "submission_close": "'24-09-2026 10:00",
     "bid_open": "'04-10-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "408",
@@ -6916,7 +7322,8 @@
     "purchase_end": "'25-08-2026 14:15",
     "submission_close": "'30-08-2026 14:15",
     "bid_open": "'02-09-2026 09:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "409",
@@ -6933,7 +7340,8 @@
     "purchase_end": "'25-08-2026 13:00",
     "submission_close": "'25-08-2026 15:00",
     "bid_open": "'30-08-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "410",
@@ -6950,7 +7358,8 @@
     "purchase_end": "'25-08-2026 11:30",
     "submission_close": "'02-09-2026 11:30",
     "bid_open": "'07-09-2026 11:30",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "411",
@@ -6967,7 +7376,8 @@
     "purchase_end": "'25-08-2026 15:00",
     "submission_close": "'31-08-2026 15:00",
     "bid_open": "'01-09-2026 08:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "412",
@@ -6984,7 +7394,8 @@
     "purchase_end": "'25-08-2026 15:00",
     "submission_close": "'31-08-2026 15:00",
     "bid_open": "'01-09-2026 15:00",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "413",
@@ -7001,7 +7412,8 @@
     "purchase_end": "'25-08-2026 14:00",
     "submission_close": "'17-09-2026 14:00",
     "bid_open": "'27-09-2026 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "414",
@@ -7018,7 +7430,8 @@
     "purchase_end": "'25-08-2026 14:15",
     "submission_close": "'31-08-2026 14:15",
     "bid_open": "'03-09-2026 08:15",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "415",
@@ -7035,7 +7448,8 @@
     "purchase_end": "'28-08-2026 10:00",
     "submission_close": "'09-09-2026 10:00",
     "bid_open": "'13-09-2026 09:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "416",
@@ -7052,7 +7466,8 @@
     "purchase_end": "'26-08-2026 08:06",
     "submission_close": "'01-09-2026 08:06",
     "bid_open": "'07-09-2026 08:06",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "417",
@@ -7069,7 +7484,8 @@
     "purchase_end": "'26-08-2026 15:00",
     "submission_close": "'03-09-2026 15:00",
     "bid_open": "'07-09-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "418",
@@ -7086,7 +7502,8 @@
     "purchase_end": "'31-08-2026 12:15",
     "submission_close": "'01-09-2026 12:15",
     "bid_open": "'02-09-2026 12:15",
-    "tender_url": ""
+    "tender_url": "",
+    "is_new": false
   },
   {
     "serial": "419",
@@ -7103,7 +7520,8 @@
     "purchase_end": "'31-08-2026 10:15",
     "submission_close": "'03-09-2026 16:15",
     "bid_open": "'07-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "420",
@@ -7120,7 +7538,8 @@
     "purchase_end": "'31-08-2026 14:00",
     "submission_close": "'13-09-2026 14:00",
     "bid_open": "'15-09-2026 13:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "421",
@@ -7137,7 +7556,8 @@
     "purchase_end": "'31-08-2026 09:30",
     "submission_close": "'02-09-2026 09:30",
     "bid_open": "'08-09-2026 09:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "422",
@@ -7154,7 +7574,8 @@
     "purchase_end": "'30-08-2026 15:00",
     "submission_close": "'03-09-2026 15:00",
     "bid_open": "'06-09-2026 07:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "423",
@@ -7171,7 +7592,8 @@
     "purchase_end": "'27-08-2026 23:00",
     "submission_close": "'22-09-2026 23:00",
     "bid_open": "'05-10-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "424",
@@ -7188,7 +7610,8 @@
     "purchase_end": "'01-09-2026 08:00",
     "submission_close": "'07-09-2026 08:00",
     "bid_open": "'10-09-2026 08:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "425",
@@ -7205,7 +7628,8 @@
     "purchase_end": "'02-09-2026 14:30",
     "submission_close": "'02-09-2026 15:30",
     "bid_open": "'07-09-2026 08:30",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "426",
@@ -7222,7 +7646,8 @@
     "purchase_end": "'02-09-2026 11:00",
     "submission_close": "'14-09-2026 11:00",
     "bid_open": "'15-09-2026 11:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "427",
@@ -7239,7 +7664,8 @@
     "purchase_end": "'01-09-2026 18:40",
     "submission_close": "'24-09-2026 18:40",
     "bid_open": "'07-10-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "428",
@@ -7256,7 +7682,8 @@
     "purchase_end": "'01-09-2026 16:00",
     "submission_close": "'10-09-2026 16:00",
     "bid_open": "'15-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "429",
@@ -7273,7 +7700,8 @@
     "purchase_end": "'01-09-2026 14:35",
     "submission_close": "'06-09-2026 14:35",
     "bid_open": "'17-09-2026 14:35",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "430",
@@ -7290,7 +7718,8 @@
     "purchase_end": "'01-09-2026 14:30",
     "submission_close": "'24-09-2026 14:30",
     "bid_open": "'07-10-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "431",
@@ -7307,7 +7736,8 @@
     "purchase_end": "'03-09-2026 14:35",
     "submission_close": "'08-09-2026 14:35",
     "bid_open": "'13-09-2026 07:35",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "432",
@@ -7324,7 +7754,8 @@
     "purchase_end": "'06-09-2026 12:00",
     "submission_close": "'10-09-2026 23:00",
     "bid_open": "'15-09-2026 14:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "433",
@@ -7341,7 +7772,8 @@
     "purchase_end": "'06-09-2026 12:00",
     "submission_close": "'07-09-2026 12:00",
     "bid_open": "'10-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   },
   {
     "serial": "434",
@@ -7358,7 +7790,8 @@
     "purchase_end": "'06-09-2026 08:00",
     "submission_close": "'04-10-2026 08:00",
     "bid_open": "'15-10-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97423&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=4848dd1ebeb74efcebbe90b1621f5ddb4e2ed198c617e09836e322bd542f8e74"
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97423&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=4848dd1ebeb74efcebbe90b1621f5ddb4e2ed198c617e09836e322bd542f8e74",
+    "is_new": false
   },
   {
     "serial": "435",
@@ -7375,6 +7808,7 @@
     "purchase_end": "'07-09-2026 09:30",
     "submission_close": "'13-09-2026 12:30",
     "bid_open": "'16-09-2026 10:00",
-    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value="
+    "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
+    "is_new": false
   }
 ]
