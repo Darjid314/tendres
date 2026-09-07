@@ -1209,22 +1209,13 @@ $("days").addEventListener(
    SORT CHANGE
    ========================================================= */
 
+/* =========================================================
+   SORT CHANGE
+   ========================================================= */
+
 $("sort").addEventListener(
     "change",
     function(){
-
-
-        /*
-           IMPORTANT:
-
-           If user selects NEWEST ADDED,
-           automatically switch date filter
-           to ALL DATES.
-
-           This prevents newly added tenders
-           from being hidden by the
-           "Next 3 days" filter.
-        */
 
         if(
             $("sort").value === "new"
@@ -1232,10 +1223,15 @@ $("sort").addEventListener(
 
             $("days").value =
                 "9999";
+
+        }
+
         render();
 
     }
 );
+
+
 /* =========================================================
    INITIAL LOAD
    ========================================================= */
