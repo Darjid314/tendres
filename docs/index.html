@@ -75,19 +75,12 @@ margin:14px 0
 input,
 select,
 button{
-
 width:100%;
-
 padding:11px;
-
 border-radius:10px;
-
 border:1px solid #2a405e;
-
 background:#0a1525;
-
 color:#e8eef7
-
 }
 
 button{
@@ -101,8 +94,7 @@ gap:10px
 
 .top{
 display:flex;
-justify-content:
-space-between;
+justify-content:space-between;
 gap:12px
 }
 
@@ -151,6 +143,36 @@ text-align:center;
 color:#91a2b9
 }
 
+
+/* NEW TENDER */
+
+.new-badge{
+display:inline-block;
+font-size:10px;
+font-weight:900;
+padding:4px 7px;
+border-radius:999px;
+margin-left:7px;
+background:#234a38;
+color:#a8f0c2
+}
+
+.new-card{
+border-width:2px
+}
+
+.new-info{
+background:#142b22;
+border:1px solid #29563f;
+color:#a8f0c2;
+padding:12px 15px;
+border-radius:14px;
+margin-bottom:12px;
+font-size:13px;
+font-weight:700
+}
+
+
 @media(max-width:700px){
 
 .stats{
@@ -182,18 +204,21 @@ flex-direction:column
 
 <div class="wrap">
 
+
 <h1>
 🇴🇲 Oman Tender Command Center
 </h1>
 
+
 <p>
 ICT / ELV tender monitor •
-direct tender links •
-automatic refresh
+new tender detection •
+direct tender links
 </p>
 
 
 <section class="stats">
+
 
 <div class="card stat">
 
@@ -230,18 +255,20 @@ Closing within 3 days
 
 <div class="card stat">
 
-<b id="refresh">—</b>
+<b id="newCount">—</b>
 
 <span>
-Last data refresh
+🆕 New this run
 </span>
 
 </div>
+
 
 </section>
 
 
 <div class="toolbar">
+
 
 <input
 id="search"
@@ -273,11 +300,19 @@ All dates
 <select id="sort">
 
 <option value="new">
-Newest
+🆕 Newest Added
 </option>
 
 <option value="close">
-Closing soon
+⏰ Closing Soon
+</option>
+
+<option value="sales">
+📅 Sales Start
+</option>
+
+<option value="serial">
+🔢 Latest Added Order
 </option>
 
 </select>
@@ -286,6 +321,16 @@ Closing soon
 <button onclick="load()">
 ↻ Refresh
 </button>
+
+
+</div>
+
+
+<div id="newInfo"
+class="new-info"
+style="display:none">
+
+🆕 These tenders were added in the latest scraper run.
 
 </div>
 
@@ -297,6 +342,7 @@ Loading tender data…
 </div>
 
 </div>
+
 
 </div>
 
@@ -319,6 +365,8 @@ const $ =
 x => document.getElementById(x);
 
 
+
+/* DATE PARSER */
 
 function pd(s){
 
@@ -347,6 +395,29 @@ new Date(
 
 
 
+/* SERIAL NUMBER */
+
+function serialNum(t){
+
+let n =
+parseInt(
+String(t.serial||'')
+.replace(/[^0-9]/g,''),
+10
+);
+
+return Number.isFinite(n)
+?
+n
+:
+0;
+
+}
+
+
+
+/* HTML ESCAPE */
+
 function esc(s){
 
 return String(s??"")
@@ -365,6 +436,8 @@ c => ({
 
 
 
+/* SAFE URL */
+
 function safeUrl(s){
 
 try{
@@ -373,7 +446,8 @@ let u =
 new URL(s);
 
 if(
-u.protocol === "https:" &&
+u.protocol === "https:"
+&&
 u.hostname.endsWith(
 "tenderboard.gov.om"
 )
@@ -394,6 +468,8 @@ return PORTAL_URL;
 }
 
 
+
+/* RENDER */
 
 function render(){
 
@@ -420,8 +496,10 @@ days*86400000
 );
 
 
+
 let arr =
 data.filter(t => {
+
 
 let text = [
 
@@ -436,6 +514,7 @@ t.state
 .toLowerCase();
 
 
+
 if(
 q &&
 !text.includes(q)
@@ -444,6 +523,7 @@ q &&
 return false;
 
 }
+
 
 
 if(days < 9999){
@@ -464,81 +544,192 @@ return false;
 }
 
 
+
 return true;
 
 });
 
 
 
+/* SORT */
+
 arr.sort(
 (a,b) => {
 
-const da =
-pd(a.submission_close);
 
-const db =
-pd(b.submission_close);
+let mode =
+$("sort").value;
 
+
+
+/* NEW FIRST */
 
 if(
-$("sort").value === "close"
+mode === "new"
 ){
 
-return (
-da?.getTime() || 9e15
+if(
+a.is_new !== b.is_new
+){
+
+return a.is_new
+?
+-1
+:
+1;
+
+}
+
+return
+serialNum(b)
+-
+serialNum(a);
+
+}
+
+
+
+/* CLOSING SOON */
+
+if(
+mode === "close"
+){
+
+let da =
+pd(a.submission_close);
+
+let db =
+pd(b.submission_close);
+
+return
+(
+da?.getTime()
+||
+9e15
 )
 -
 (
-db?.getTime() || 9e15
+db?.getTime()
+||
+9e15
 );
 
 }
 
 
-return (
-pd(b.sales_start)
-?.getTime() || 0
+
+/* SALES START */
+
+if(
+mode === "sales"
+){
+
+let da =
+pd(a.sales_start);
+
+let db =
+pd(b.sales_start);
+
+return
+(
+db?.getTime()
+||
+0
 )
 -
 (
-pd(a.sales_start)
-?.getTime() || 0
+da?.getTime()
+||
+0
 );
 
 }
-);
 
 
 
-$("showing").textContent =
+/* SERIAL */
+
+return
+serialNum(b)
+-
+serialNum(a);
+
+});
+
+
+
+$("showing")
+.textContent =
 arr.length;
 
 
 
+/* NEW COUNT */
+
+let newCount =
+data.filter(
+t => t.is_new
+).length;
+
+
+$("newCount")
+.textContent =
+newCount;
+
+
+
+if(newCount > 0){
+
+$("newInfo")
+.style.display =
+"block";
+
+}else{
+
+$("newInfo")
+.style.display =
+"none";
+
+}
+
+
+
+/* RENDER CARDS */
+
 $("list").innerHTML =
+
 arr.length
 
 ?
 
 arr.map(t => {
 
+
 let d =
-pd(t.submission_close);
+pd(
+t.submission_close
+);
 
 
 let diff =
 d
 ?
 Math.ceil(
-(d-now)/86400000
+(d-now)
+/86400000
 )
 :null;
 
 
 let direct =
-t.tender_url &&
-String(t.tender_url)
-.startsWith("http");
+t.tender_url
+&&
+String(
+t.tender_url
+)
+.startsWith(
+"http"
+);
 
 
 let link =
@@ -549,15 +740,28 @@ t.tender_url
 
 return `
 
-<article class="card">
+<article
+class="card ${t.is_new ? "new-card" : ""}"
+>
+
 
 <div class="top">
 
+
 <div>
+
 
 <div class="title">
 
 ${esc(t.title)}
+
+${
+t.is_new
+?
+'<span class="new-badge">🆕 NEW</span>'
+:
+""
+}
 
 </div>
 
@@ -568,6 +772,7 @@ Tender No:
 ${esc(t.tender_no)}
 
 </div>
+
 
 </div>
 
@@ -582,7 +787,8 @@ href="${esc(link)}"
 
 >
 
-${direct
+${
+direct
 ?
 "Open Tender ↗"
 :
@@ -591,91 +797,138 @@ ${direct
 
 </a>
 
+
 </div>
+
 
 
 <div class="meta">
 
+
 ${
 t.agency
 ?
-`<span class="pill">
-🏢 ${esc(t.agency)}
-</span>`
-:""
+`
+<span class="pill">
+
+🏢
+${esc(t.agency)}
+
+</span>
+`
+:
+""
 }
 
 
 ${
 t.governorate
 ?
-`<span class="pill">
-📍 ${esc(t.governorate)}
-</span>`
-:""
+`
+<span class="pill">
+
+📍
+${esc(t.governorate)}
+
+</span>
+`
+:
+""
 }
 
 
 ${
 t.state
 ?
-`<span class="pill">
-🏙 ${esc(t.state)}
-</span>`
-:""
+`
+<span class="pill">
+
+🏙
+${esc(t.state)}
+
+</span>
+`
+:
+""
 }
 
 
 ${
 t.fee
 ?
-`<span class="pill">
-💰 Fee: ${esc(t.fee)}
-</span>`
-:""
+`
+<span class="pill">
+
+💰 Fee:
+${esc(t.fee)}
+
+</span>
+`
+:
+""
 }
 
 
 ${
 t.bank_guarantee
 ?
-`<span class="pill">
+`
+<span class="pill">
+
 🛡 Guarantee:
 ${esc(t.bank_guarantee)}
-</span>`
-:""
+
+</span>
+`
+:
+""
 }
+
 
 </div>
 
 
-<div class="deadline
-${diff!==null && diff<=3
+
+<div
+class="deadline
+${
+diff!==null
+&&
+diff<=3
 ?
 "soon"
 :
-""}">
+""
+}"
+>
+
 
 ⏳ Submission close:
 
 ${esc(
-t.submission_close || "N/A"
+t.submission_close
+||
+"N/A"
 )}
 
 
 ${
 diff!==null
 ?
-` • ${
+`
+ •
+ ${
 diff<0
-?
-"Closed"
-:
-diff+" day(s) left"
-}`
+ ?
+ "Closed"
+ :
+ diff+" day(s) left"
+ }
+`
 :
 ""
 }
+
 
 </div>
 
@@ -685,6 +938,7 @@ diff+" day(s) left"
 `;
 
 })
+
 .join("")
 
 :
@@ -703,31 +957,43 @@ No matching tenders found.
 
 
 
+/* LOAD */
+
 async function load(){
 
 try{
 
+
 let r =
 await fetch(
-DATA_URL+
-"?v="+Date.now(),
+DATA_URL
++
+"?v="
++
+Date.now(),
 {
-cache:"no-store"
+cache:
+"no-store"
 }
 );
+
 
 
 if(!r.ok){
 
 throw Error(
-"HTTP "+r.status
+"HTTP "
++
+r.status
 );
 
 }
 
 
+
 let j =
 await r.json();
+
 
 
 data =
@@ -738,9 +1004,11 @@ j
 (j.tenders||[]);
 
 
+
 $("total")
 .textContent =
 data.length;
+
 
 
 let now =
@@ -755,26 +1023,26 @@ now.getTime()
 );
 
 
+
 $("closing")
 .textContent =
 data.filter(t => {
 
 let d =
-pd(t.submission_close);
+pd(
+t.submission_close
+);
 
 return (
-d &&
-d>=now &&
+d
+&&
+d>=now
+&&
 d<=three
 );
 
 }).length;
 
-
-$("refresh")
-.textContent =
-new Date()
-.toLocaleString();
 
 
 render();
@@ -782,7 +1050,9 @@ render();
 
 }catch(e){
 
-$("list").innerHTML = `
+
+$("list")
+.innerHTML = `
 
 <div class="card empty">
 
@@ -802,6 +1072,8 @@ ${esc(e.message)}
 
 
 
+/* EVENTS */
+
 $("search")
 .oninput =
 render;
@@ -817,13 +1089,22 @@ $("sort")
 render;
 
 
+
+/* FIRST LOAD */
+
 load();
 
 
+
+/*
+Refresh every 2 minutes.
+*/
+
 setInterval(
 load,
-300000
+120000
 );
+
 
 </script>
 
