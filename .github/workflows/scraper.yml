@@ -2,7 +2,7 @@ name: Oman Tenders Hourly Scraper
 
 on:
   schedule:
-    - cron: '15 */3 * * *'  # Har 3 ghante me ek baar
+    - cron: '15 * * * *'  # Har 1 ghante me ek baar
   push:
     branches:
       - main
