@@ -2,23 +2,29 @@ name: Oman Tenders Hourly Scraper
 
 on:
   schedule:
-    - cron: '15 */3 * * *'  # Har 3 ghante me ek baar (jaise: 00:15, 03:15, 06:15, etc.)
+    - cron: '15 */3 * * *'  # Har 3 ghante me ek baar
   push:
     branches:
-      - main              # Jab bhi code push karenge, yeh chalega
-  workflow_dispatch:      # Manual "Run workflow" button
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository Code
         uses: actions/checkout@v4
+
       - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'pip'
+
       - name: Install System Dependencies & Pip Packages
         run: |
           python -m pip install --upgrade pip
@@ -34,3 +40,25 @@ jobs:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         run: |
           python test2.py
+
+      - name: Export dashboard data
+        if: success()
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python scripts/export_dashboard_data.py
+
+      - name: Commit dashboard data
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/tenders.json
+
+          if git diff --cached --quiet; then
+            echo "No dashboard data changes."
+          else
+            git commit -m "Update tender dashboard data"
+            git push
+          fi
