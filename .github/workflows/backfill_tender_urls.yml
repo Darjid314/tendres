@@ -51,5 +51,6 @@ jobs:
             echo "No dashboard data changes."
           else
             git commit -m "Backfill tender direct URLs"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
