@@ -1,104 +1,832 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+
 <title>Oman Tender Command Center</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;background:#08111f;color:#e8eef7;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-.wrap{max-width:1100px;margin:auto;padding:18px}
-header{padding:8px 0 18px}h1{margin:0;font-size:28px}header p{margin:6px 0 0;color:#91a2b9}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
-.card,.toolbar{background:#101c2d;border:1px solid #20334d;border-radius:16px;padding:15px;box-shadow:0 8px 30px #0003}
-.stat b{display:block;font-size:25px}.stat span{font-size:12px;color:#91a2b9}
-.toolbar{display:grid;grid-template-columns:1.5fr .8fr .8fr auto;gap:9px;margin-bottom:14px}
-input,select,button{width:100%;padding:11px 12px;border-radius:10px;border:1px solid #2a405e;background:#0a1525;color:#e8eef7}
-button{cursor:pointer;font-weight:700}button:hover{filter:brightness(1.15)}
-.list{display:grid;gap:10px}.tender{padding:16px}.top{display:flex;justify-content:space-between;gap:12px}.title{font-weight:800;font-size:16px;line-height:1.35}.no{color:#70b7ff;font-size:12px;margin-top:5px}
-.meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.pill{font-size:11px;padding:5px 8px;border-radius:999px;background:#162941;color:#bcd0e8}
-.deadline{margin-top:12px;font-size:13px}.soon{font-weight:800}
-a{color:#75c1ff;text-decoration:none}.empty{text-align:center;padding:35px;color:#91a2b9}
-@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.top{flex-direction:column}}
+
+*{
+box-sizing:border-box
+}
+
+body{
+margin:0;
+background:#08111f;
+color:#e8eef7;
+font-family:system-ui,sans-serif
+}
+
+.wrap{
+max-width:1100px;
+margin:auto;
+padding:18px
+}
+
+h1{
+margin:0;
+font-size:28px
+}
+
+p{
+color:#91a2b9
+}
+
+.stats{
+display:grid;
+grid-template-columns:
+repeat(4,1fr);
+gap:10px
+}
+
+.card,
+.toolbar{
+background:#101c2d;
+border:1px solid #20334d;
+border-radius:16px;
+padding:15px;
+box-shadow:0 8px 30px #0003
+}
+
+.stat b{
+display:block;
+font-size:25px
+}
+
+.stat span{
+font-size:12px;
+color:#91a2b9
+}
+
+.toolbar{
+display:grid;
+grid-template-columns:
+1.5fr .8fr .8fr auto;
+gap:9px;
+margin:14px 0
+}
+
+input,
+select,
+button{
+
+width:100%;
+
+padding:11px;
+
+border-radius:10px;
+
+border:1px solid #2a405e;
+
+background:#0a1525;
+
+color:#e8eef7
+
+}
+
+button{
+font-weight:700
+}
+
+.list{
+display:grid;
+gap:10px
+}
+
+.top{
+display:flex;
+justify-content:
+space-between;
+gap:12px
+}
+
+.title{
+font-weight:800
+}
+
+.no{
+color:#70b7ff;
+font-size:12px;
+margin-top:5px
+}
+
+.meta{
+display:flex;
+flex-wrap:wrap;
+gap:7px;
+margin-top:10px
+}
+
+.pill{
+font-size:11px;
+padding:5px 8px;
+border-radius:999px;
+background:#162941;
+color:#bcd0e8
+}
+
+.deadline{
+margin-top:12px;
+font-size:13px
+}
+
+.soon{
+font-weight:800
+}
+
+a{
+color:#75c1ff;
+text-decoration:none;
+font-weight:800
+}
+
+.empty{
+text-align:center;
+color:#91a2b9
+}
+
+@media(max-width:700px){
+
+.stats{
+grid-template-columns:
+repeat(2,1fr)
+}
+
+.toolbar{
+grid-template-columns:
+1fr 1fr
+}
+
+.toolbar input{
+grid-column:1/-1
+}
+
+.top{
+flex-direction:column
+}
+
+}
+
 </style>
+
 </head>
+
+
 <body>
+
 <div class="wrap">
-<header><h1>🇴🇲 Oman Tender Command Center</h1><p>Live-style ICT / ELV tender monitor • hourly data refresh</p></header>
+
+<h1>
+🇴🇲 Oman Tender Command Center
+</h1>
+
+<p>
+ICT / ELV tender monitor •
+direct tender links •
+automatic refresh
+</p>
+
 
 <section class="stats">
-<div class="card stat"><b id="total">—</b><span>Total tenders</span></div>
-<div class="card stat"><b id="showing">—</b><span>Showing</span></div>
-<div class="card stat"><b id="closing">—</b><span>Closing within 3 days</span></div>
-<div class="card stat"><b id="refresh">—</b><span>Last data refresh</span></div>
+
+<div class="card stat">
+
+<b id="total">—</b>
+
+<span>
+Total tenders
+</span>
+
+</div>
+
+
+<div class="card stat">
+
+<b id="showing">—</b>
+
+<span>
+Showing
+</span>
+
+</div>
+
+
+<div class="card stat">
+
+<b id="closing">—</b>
+
+<span>
+Closing within 3 days
+</span>
+
+</div>
+
+
+<div class="card stat">
+
+<b id="refresh">—</b>
+
+<span>
+Last data refresh
+</span>
+
+</div>
+
 </section>
 
+
 <div class="toolbar">
-<input id="search" placeholder="🔎 Search tender, agency, number...">
-<select id="days"><option value="3">Next 3 days</option><option value="7">Next 7 days</option><option value="30">Next 30 days</option><option value="9999">All dates</option></select>
-<select id="sort"><option value="new">Newest</option><option value="close">Closing soon</option></select>
-<button onclick="load()">↻ Refresh</button>
+
+<input
+id="search"
+placeholder="🔎 Search tender, agency, number..."
+>
+
+
+<select id="days">
+
+<option value="3">
+Next 3 days
+</option>
+
+<option value="7">
+Next 7 days
+</option>
+
+<option value="30">
+Next 30 days
+</option>
+
+<option value="9999">
+All dates
+</option>
+
+</select>
+
+
+<select id="sort">
+
+<option value="new">
+Newest
+</option>
+
+<option value="close">
+Closing soon
+</option>
+
+</select>
+
+
+<button onclick="load()">
+↻ Refresh
+</button>
+
 </div>
 
-<div id="list" class="list"><div class="card empty">Loading tender data…</div></div>
+
+<div id="list">
+
+<div class="card empty">
+Loading tender data…
 </div>
+
+</div>
+
+</div>
+
 
 <script>
-const DATA_URL="./tenders.json";
-let data=[];
-const $=id=>document.getElementById(id);
 
-function parseDate(s){
-  if(!s)return null;
-  const m=String(s).replace(/^'/,'').match(/(\d{2})-(\d{2})-(\d{4})(?:\s+(\d{2}):(\d{2}))?/);
-  if(!m)return null;
-  return new Date(+m[3],+m[2]-1,+m[1],+(m[4]||0),+(m[5]||0));
+
+const DATA_URL =
+"./tenders.json";
+
+
+const PORTAL_URL =
+"https://etendering.tenderboard.gov.om/product/publicDash?switchLangFlag=1&viewFlag=NewTenders";
+
+
+let data=[];
+
+
+const $ =
+x => document.getElementById(x);
+
+
+
+function pd(s){
+
+if(!s)
+return null;
+
+let m =
+String(s)
+.replace(/^'/,'')
+.match(
+/(\d{2})-(\d{2})-(\d{4})(?:\s+(\d{2}):(\d{2}))?/
+);
+
+return m
+?
+new Date(
++m[3],
++m[2]-1,
++m[1],
++(m[4]||0),
++(m[5]||0)
+)
+:null;
+
 }
-function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+
+
+
+function esc(s){
+
+return String(s??"")
+.replace(
+/[&<>"']/g,
+c => ({
+"&":"&amp;",
+"<":"&lt;",
+">":"&gt;",
+'"':"&quot;",
+"'":"&#39;"
+}[c])
+);
+
+}
+
+
+
+function safeUrl(s){
+
+try{
+
+let u =
+new URL(s);
+
+if(
+u.protocol === "https:" &&
+u.hostname.endsWith(
+"tenderboard.gov.om"
+)
+){
+
+return u.href;
+
+}
+
+return PORTAL_URL;
+
+}catch{
+
+return PORTAL_URL;
+
+}
+
+}
+
+
+
 function render(){
-  const q=$("search").value.toLowerCase().trim(), days=+$("days").value, now=new Date(), limit=new Date(now.getTime()+days*86400000);
-  let arr=data.filter(t=>{
-    const text=[t.tender_no,t.title,t.agency,t.governorate,t.state].join(" ").toLowerCase();
-    if(q&&!text.includes(q))return false;
-    if(days<9999){const d=parseDate(t.submission_close);if(!d||d<now||d>limit)return false}
-    return true;
-  });
-  arr.sort((a,b)=>{
-    const da=parseDate(a.submission_close), db=parseDate(b.submission_close);
-    if($("sort").value==="close")return (da?.getTime()||9e15)-(db?.getTime()||9e15);
-    return (parseDate(b.sales_start)?.getTime()||0)-(parseDate(a.sales_start)?.getTime()||0);
-  });
-  $("showing").textContent=arr.length;
-  $("list").innerHTML=arr.length?arr.map(t=>{
-    const d=parseDate(t.submission_close), diff=d?Math.ceil((d-now)/86400000):null, soon=diff!==null&&diff<=3;
-    return `<article class="card tender">
-      <div class="top"><div><div class="title">${esc(t.title)}</div><div class="no">Tender No: ${esc(t.tender_no)}</div></div>
-      <a target="_blank" rel="noopener" href="https://etendering.tenderboard.gov.om/product/publicDash?switchLangFlag=1&viewFlag=NewTenders">Open Portal ↗</a></div>
-      <div class="meta">
-        ${t.agency?`<span class="pill">🏢 ${esc(t.agency)}</span>`:""}
-        ${t.governorate?`<span class="pill">📍 ${esc(t.governorate)}</span>`:""}
-        ${t.state?`<span class="pill">🏙 ${esc(t.state)}</span>`:""}
-        ${t.fee?`<span class="pill">💰 Fee: ${esc(t.fee)}</span>`:""}
-        ${t.bank_guarantee?`<span class="pill">🛡 Guarantee: ${esc(t.bank_guarantee)}</span>`:""}
-      </div>
-      <div class="deadline ${soon?'soon':''}">⏳ Submission close: ${esc(t.submission_close||"N/A")}${diff!==null?` • ${diff<0?"Closed":diff+" day(s) left"}`:""}</div>
-    </article>`;
-  }).join(""):`<div class="card empty">No matching tenders found.</div>`;
+
+let q =
+$("search")
+.value
+.toLowerCase()
+.trim();
+
+
+let now =
+new Date();
+
+
+let days =
++$("days").value;
+
+
+let limit =
+new Date(
+now.getTime()
++
+days*86400000
+);
+
+
+let arr =
+data.filter(t => {
+
+let text = [
+
+t.tender_no,
+t.title,
+t.agency,
+t.governorate,
+t.state
+
+]
+.join(" ")
+.toLowerCase();
+
+
+if(
+q &&
+!text.includes(q)
+){
+
+return false;
+
 }
+
+
+if(days < 9999){
+
+let d =
+pd(t.submission_close);
+
+if(
+!d ||
+d < now ||
+d > limit
+){
+
+return false;
+
+}
+
+}
+
+
+return true;
+
+});
+
+
+
+arr.sort(
+(a,b) => {
+
+const da =
+pd(a.submission_close);
+
+const db =
+pd(b.submission_close);
+
+
+if(
+$("sort").value === "close"
+){
+
+return (
+da?.getTime() || 9e15
+)
+-
+(
+db?.getTime() || 9e15
+);
+
+}
+
+
+return (
+pd(b.sales_start)
+?.getTime() || 0
+)
+-
+(
+pd(a.sales_start)
+?.getTime() || 0
+);
+
+}
+);
+
+
+
+$("showing").textContent =
+arr.length;
+
+
+
+$("list").innerHTML =
+arr.length
+
+?
+
+arr.map(t => {
+
+let d =
+pd(t.submission_close);
+
+
+let diff =
+d
+?
+Math.ceil(
+(d-now)/86400000
+)
+:null;
+
+
+let direct =
+t.tender_url &&
+String(t.tender_url)
+.startsWith("http");
+
+
+let link =
+safeUrl(
+t.tender_url
+);
+
+
+return `
+
+<article class="card">
+
+<div class="top">
+
+<div>
+
+<div class="title">
+
+${esc(t.title)}
+
+</div>
+
+
+<div class="no">
+
+Tender No:
+${esc(t.tender_no)}
+
+</div>
+
+</div>
+
+
+<a
+
+target="_blank"
+
+rel="noopener"
+
+href="${esc(link)}"
+
+>
+
+${direct
+?
+"Open Tender ↗"
+:
+"Open Portal ↗"
+}
+
+</a>
+
+</div>
+
+
+<div class="meta">
+
+${
+t.agency
+?
+`<span class="pill">
+🏢 ${esc(t.agency)}
+</span>`
+:""
+}
+
+
+${
+t.governorate
+?
+`<span class="pill">
+📍 ${esc(t.governorate)}
+</span>`
+:""
+}
+
+
+${
+t.state
+?
+`<span class="pill">
+🏙 ${esc(t.state)}
+</span>`
+:""
+}
+
+
+${
+t.fee
+?
+`<span class="pill">
+💰 Fee: ${esc(t.fee)}
+</span>`
+:""
+}
+
+
+${
+t.bank_guarantee
+?
+`<span class="pill">
+🛡 Guarantee:
+${esc(t.bank_guarantee)}
+</span>`
+:""
+}
+
+</div>
+
+
+<div class="deadline
+${diff!==null && diff<=3
+?
+"soon"
+:
+""}">
+
+⏳ Submission close:
+
+${esc(
+t.submission_close || "N/A"
+)}
+
+
+${
+diff!==null
+?
+` • ${
+diff<0
+?
+"Closed"
+:
+diff+" day(s) left"
+}`
+:
+""
+}
+
+</div>
+
+
+</article>
+
+`;
+
+})
+.join("")
+
+:
+
+`
+
+<div class="card empty">
+
+No matching tenders found.
+
+</div>
+
+`;
+
+}
+
+
+
 async function load(){
-  try{
-    const r=await fetch(DATA_URL+"?v="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error("HTTP "+r.status);
-    const j=await r.json(); data=Array.isArray(j)?j:(j.tenders||[]);
-    $("total").textContent=data.length;
-    const now=new Date(), three=new Date(now.getTime()+3*86400000);
-    $("closing").textContent=data.filter(t=>{const d=parseDate(t.submission_close);return d&&d>=now&&d<=three}).length;
-    $("refresh").textContent=new Date().toLocaleString();
-    render();
-  }catch(e){$("list").innerHTML=`<div class="card empty">Tender data not available yet.<br><small>${esc(e.message)}</small></div>`}
+
+try{
+
+let r =
+await fetch(
+DATA_URL+
+"?v="+Date.now(),
+{
+cache:"no-store"
 }
-["search","days","sort"].forEach(id=>$(id).addEventListener("input",render));
-["days","sort"].forEach(id=>$(id).addEventListener("change",render));
-load();setInterval(load,5*60*1000);
+);
+
+
+if(!r.ok){
+
+throw Error(
+"HTTP "+r.status
+);
+
+}
+
+
+let j =
+await r.json();
+
+
+data =
+Array.isArray(j)
+?
+j
+:
+(j.tenders||[]);
+
+
+$("total")
+.textContent =
+data.length;
+
+
+let now =
+new Date();
+
+
+let three =
+new Date(
+now.getTime()
++
+3*86400000
+);
+
+
+$("closing")
+.textContent =
+data.filter(t => {
+
+let d =
+pd(t.submission_close);
+
+return (
+d &&
+d>=now &&
+d<=three
+);
+
+}).length;
+
+
+$("refresh")
+.textContent =
+new Date()
+.toLocaleString();
+
+
+render();
+
+
+}catch(e){
+
+$("list").innerHTML = `
+
+<div class="card empty">
+
+Tender data not available yet.
+
+<br>
+
+${esc(e.message)}
+
+</div>
+
+`;
+
+}
+
+}
+
+
+
+$("search")
+.oninput =
+render;
+
+
+$("days")
+.onchange =
+render;
+
+
+$("sort")
+.onchange =
+render;
+
+
+load();
+
+
+setInterval(
+load,
+300000
+);
+
 </script>
+
 </body>
-</html>
+
+  </html>
