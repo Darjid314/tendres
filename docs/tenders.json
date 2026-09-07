@@ -7810,5 +7810,41 @@
     "bid_open": "'16-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
     "is_new": false
+  },
+  {
+    "serial": "436",
+    "tender_no": "2026/6/م ظ/ م ر -6",
+    "title": "Strengthening the communication infrastructure of mobile phones.....",
+    "agency": "Dhofar Governorate",
+    "governorate": "Dhofar Governorate",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'07-09-2026",
+    "sales_end": "'07-09-2026 14:00",
+    "purchase_start": "'27-09-2026 10:00",
+    "purchase_end": "'07-09-2026 14:15",
+    "submission_close": "'27-09-2026 10:30",
+    "bid_open": "'29-09-2026 10:00",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=96917&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=100855850aaa6529d751c6e58bfba784e2ef8ea9d292415bb74354681677e42a",
+    "is_new": true
+  },
+  {
+    "serial": "437",
+    "tender_no": "2026/18/ج س ق/ م ر -18",
+    "title": "تطوير منصة توظيف مدعومة بالذ.....",
+    "agency": "جامعة السلطان قابوس",
+    "governorate": "محافظة مسقط",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'07-09-2026",
+    "sales_end": "'07-09-2026 14:30",
+    "purchase_start": "'21-09-2026 14:30",
+    "purchase_end": "'07-09-2026 14:30",
+    "submission_close": "'08-10-2026 14:30",
+    "bid_open": "'15-10-2026 06:30",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97559&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=68409460076c95ea90b8140e1e7c61b2255fcdba95881f6639e4c673d1c70b7a",
+    "is_new": true
   }
 ]
