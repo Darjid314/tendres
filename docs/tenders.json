@@ -7881,7 +7881,7 @@
     "submission_close": "'16-09-2026 15:00",
     "bid_open": "'22-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97642&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=dc4896ada12bdc9c9c21c15cb83682ff5cdf8648d77cf67e8b2272d5586f4a39",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "440",
@@ -7899,7 +7899,7 @@
     "submission_close": "'30-09-2026 14:30",
     "bid_open": "'14-10-2026 09:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=96440&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=89093ef193aa1487085412a4b8129b53a2787b69916adc550e2965084f2f22ba",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "441",
@@ -7917,7 +7917,7 @@
     "submission_close": "'10-09-2026 13:00",
     "bid_open": "'17-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97605&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=2838ba153fa3530c4934c0c60003a61770c0e7ff7db6103472aac7123f1bc114",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "442",
@@ -7935,7 +7935,7 @@
     "submission_close": "'22-09-2026 14:30",
     "bid_open": "'07-10-2026 09:30",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=96042&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=18e4c89c75f9def9f76efa557777618394689213809ed584727550994ab61c15",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "443",
@@ -7953,6 +7953,6 @@
     "submission_close": "'16-09-2026 10:41",
     "bid_open": "'22-09-2026 10:41",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97251&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=52b28a49826db90fef6510e9059d78790586b648e141190aecad02b9aee2ee87",
-    "is_new": true
+    "is_new": false
   }
 ]
