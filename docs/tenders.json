@@ -8080,5 +8080,23 @@
     "bid_open": "'20-09-2026 12:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97507&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=2491ef7c82a93b41be764bb1cb5cfff8444d1636b378864069b9cdab68dd782f",
     "is_new": false
+  },
+  {
+    "serial": "451",
+    "tender_no": "2026/3719/و ص/م ع ص ج ش-2",
+    "title": "Supplying devices for monitoring indicators.....",
+    "agency": "Ministry of Health",
+    "governorate": "South Al Sharqiyah Governorate states",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'10-09-2026",
+    "sales_end": "'10-09-2026 09:00",
+    "purchase_start": "'20-09-2026 09:00",
+    "purchase_end": "'10-09-2026 13:00",
+    "submission_close": "'15-09-2026 13:00",
+    "bid_open": "'24-09-2026 13:00",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97475&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=97c113372af1875bc58715e2c0ab8c57caec81a5c280472820e4ab81e9de16cc",
+    "is_new": true
   }
 ]
