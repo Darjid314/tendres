@@ -8115,7 +8115,7 @@
     "submission_close": "'20-09-2026 14:30",
     "bid_open": "'23-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97390&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=def0e6d0e3b94352d48030d276cffff6614f6f50a55b15bf425a81ab9a0177c2",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "453",
@@ -8133,7 +8133,7 @@
     "submission_close": "'01-10-2026 14:30",
     "bid_open": "'21-10-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=96283&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=557efd9b9d4ed808f7f38886ac00ea832e94a5138f6922698187eddd468f48e7",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "454",
@@ -8151,7 +8151,7 @@
     "submission_close": "'15-09-2026 14:05",
     "bid_open": "'17-09-2026 08:05",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97619&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=098116d729b97e697a4ff0067343c520d6fdd2231a8d7279a93df5c87e27ef76",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "455",
@@ -8169,7 +8169,7 @@
     "submission_close": "'10-09-2026 16:00",
     "bid_open": "'17-09-2026 08:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=95783&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=59971845de5d8240f150e15a6e78b0e16ab10f5f88ba08bd2de6e6e80b3de4b5",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "456",
@@ -8187,7 +8187,7 @@
     "submission_close": "'17-09-2026 10:00",
     "bid_open": "'20-09-2026 11:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97817&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=17064a560bcaa6197833ad6d4c399dfac7c4fcdffecccb252eb2cecb4d56f311",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "457",
@@ -8205,7 +8205,7 @@
     "submission_close": "'29-09-2026 14:00",
     "bid_open": "'01-10-2026 08:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97729&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=ffc578648a265b25fc84599a4b37b7f78d779f73d3cdeae7571dc3117cbb32fb",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "458",
@@ -8223,7 +8223,7 @@
     "submission_close": "'13-09-2026 16:00",
     "bid_open": "'17-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97678&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=a14bd67a51326c1fc4b72ff7a10f3c12918a6dde54282b5ce946b20dab00ea42",
-    "is_new": true
+    "is_new": false
   },
   {
     "serial": "459",
@@ -8241,6 +8241,24 @@
     "submission_close": "'17-09-2026 12:00",
     "bid_open": "'23-09-2026 10:00",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=95852&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=18967751dd3152a85e0fe0f993e75d67444e5ad1dfeb76332911ead95fa9d0fa",
+    "is_new": false
+  },
+  {
+    "serial": "460",
+    "tender_no": "2026/43/ب م ع/د ح م-2",
+    "title": "Outsourced consulting service...",
+    "agency": "Central Bank of Oman",
+    "governorate": "Muscat Governorate states",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'10-09-2026",
+    "sales_end": "'10-09-2026 15:30",
+    "purchase_start": "'17-09-2026 15:30",
+    "purchase_end": "'10-09-2026 15:30",
+    "submission_close": "'20-09-2026 15:30",
+    "bid_open": "'27-09-2026 12:30",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97379&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=8759e58dde3ac42a9897bbd8c43a55d1bd33f6f82daa8e85cc8c3b60e756305e",
     "is_new": true
   }
 ]
