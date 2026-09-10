@@ -8259,6 +8259,6 @@
     "submission_close": "'20-09-2026 15:30",
     "bid_open": "'27-09-2026 12:30",
     "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97379&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=8759e58dde3ac42a9897bbd8c43a55d1bd33f6f82daa8e85cc8c3b60e756305e",
-    "is_new": true
+    "is_new": false
   }
 ]
