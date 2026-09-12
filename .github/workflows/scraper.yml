@@ -42,6 +42,7 @@ jobs:
           python test2.py
 
       - name: Run Sultan Qaboos University SQU Scraper
+        continue-on-error: true
         run: |
           python scripts/scrape_squ.py
 
@@ -56,7 +57,7 @@ jobs:
         if: success()
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json portal_seen_tenders.json
 
