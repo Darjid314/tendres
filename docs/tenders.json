@@ -1,5 +1,51 @@
 [
   {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5077",
+    "tender_no": "tender_5077",
+    "title": "PTP AND PMP MW LINK 2026 tender - FIXED AND MOBILE BACKHAULING- UNLICENSED",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ],
+    "is_new": true
+  },
+  {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5108",
+    "tender_no": "tender_5108",
+    "title": "Field Maintenance of Omantel DWDM and FOC Network",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ],
+    "is_new": true
+  },
+  {
     "source": "Oman Tender Board",
     "source_name": "Oman Tender Board",
     "serial": "10",
