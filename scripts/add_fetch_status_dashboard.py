@@ -42,7 +42,9 @@ loadFetchStatus();
 
 def patch(path: Path):
     text = path.read_text(encoding="utf-8")
-    if MARKER in text:
+    # The redesigned dashboard owns its own source-health UI. Keep the legacy
+    # injector for older templates, but never add a duplicate block to the new one.
+    if MARKER in text or 'id="sources"' in text:
         return False
     text = text.replace("</style>", STYLE + "</style>", 1)
     anchor = '<div id="updateStatus" class="update-status">'
