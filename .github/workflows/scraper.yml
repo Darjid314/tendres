@@ -2,7 +2,7 @@ name: Oman Tenders Hourly Scraper
 
 on:
   schedule:
-    - cron: '15 * * * *'  # Har 1 ghante me ek baar
+    - cron: '15 * * * *'
   push:
     branches:
       - main
@@ -28,20 +28,24 @@ jobs:
       - name: Install System Dependencies & Pip Packages
         run: |
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 gspread google-auth deep-translator
+          pip install playwright beautifulsoup4 gspread google-auth deep-translator requests pypdf
 
       - name: Install Playwright Chromium Browser
         run: |
           playwright install chromium --with-deps
 
-      - name: Run Scraper Script & Trigger Email Alerts
+      - name: Run Oman Tender Board Scraper
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         run: |
           python test2.py
 
-      - name: Export dashboard data
+      - name: Run Sultan Qaboos University SQU Scraper
+        run: |
+          python scripts/scrape_squ.py
+
+      - name: Export combined dashboard data
         if: success()
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
@@ -52,13 +56,13 @@ jobs:
         if: success()
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+users.noreply.github.com"
 
-          git add docs/tenders.json docs/new_tenders.json docs/last_update.json portal_seen_tenders.json
+          git add docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json portal_seen_tenders.json
 
           if git diff --cached --quiet; then
             echo "No dashboard data changes."
           else
-            git commit -m "Update tender dashboard data"
+            git commit -m "Update Oman and SQU tender dashboard data"
             git push
           fi
