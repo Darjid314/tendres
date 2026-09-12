@@ -115,6 +115,11 @@ jobs:
           fi
           exit 0
 
+      - name: Verify JAGGAER Portal Health
+        continue-on-error: true
+        run: |
+          python scripts/verify_jaggaer.py
+
       - name: Inject Source Fetch Status Widget
         run: |
           python scripts/add_fetch_status_dashboard.py
@@ -145,4 +150,4 @@ jobs:
             git push
           fi
 
-# Force-run marker: per-source fetch status tracking enabled.
+# Force-run marker: per-source fetch status tracking + JAGGAER health verification enabled.
