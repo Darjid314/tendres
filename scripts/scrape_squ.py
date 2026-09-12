@@ -27,6 +27,13 @@ HEADERS = {
 }
 
 
+# Common SQU UOM values. Kept broad because the portal uses several variants.
+UOM_PATTERN = (
+    r"Each|Eachs|Nos|No|Pieces|Piece|Sets|Set|Units|Unit|Pair|Pairs|Lot|Lots|"
+    r"Box|Boxes|Pack|Packs|Meter|Meters|M|Kg|Kgs|Litre|Liters|Liter|Hours|Hour"
+)
+
+
 def clean(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
@@ -56,6 +63,52 @@ def extract_pdf_text(session, pdf_url):
     except Exception as exc:
         print(f"⚠️ SQU PDF read failed: {pdf_url}: {exc}")
         return ""
+
+
+def extract_primary_description(pdf_text):
+    """
+    Extract the actual first-item Description from an SQU requisition PDF.
+
+    The PDF header is normally:
+        S.N. SQU Product Code Description Qty UOM Remarks
+
+    and the first item is normally:
+        1 PRODUCT_CODE ACTUAL DESCRIPTION 1 Each ...
+
+    The previous implementation matched the header itself and could therefore
+    produce the bogus dashboard title 'Qty UOM'.
+    """
+    text = clean(pdf_text)
+    if not text:
+        return ""
+
+    # First, explicitly anchor after the table header and capture the first
+    # numbered product row. This handles examples such as:
+    # 1 COMNTNET0006 DESKTOP with Monitor 1 Each Mac Studio with...
+    row_pattern = re.compile(
+        rf"(?:S\.N\.\s+)?SQU\s+Product\s+Code\s+Description\s+Qty\s+UOM\s+Remarks\s+"
+        rf"1\s+[A-Z0-9_-]+\s+(.+?)\s+\d+(?:\.\d+)?\s+(?:{UOM_PATTERN})\b",
+        flags=re.IGNORECASE,
+    )
+    match = row_pattern.search(text)
+    if match:
+        title = clean(match.group(1))
+        if title and title.lower() not in {"qty uom", "qty", "uom"}:
+            return title
+
+    # Fallback: search for a numbered product row even if the PDF extractor
+    # altered/removed the table header text.
+    fallback_pattern = re.compile(
+        rf"\b1\s+[A-Z][A-Z0-9_-]{{5,}}\s+(.+?)\s+\d+(?:\.\d+)?\s+(?:{UOM_PATTERN})\b",
+        flags=re.IGNORECASE,
+    )
+    match = fallback_pattern.search(text)
+    if match:
+        title = clean(match.group(1))
+        if title and title.lower() not in {"qty uom", "qty", "uom"}:
+            return title
+
+    return ""
 
 
 def parse_rows(html):
@@ -130,16 +183,11 @@ def main():
             print(f"⏭️ SQU skip (no existing keyword): {tender_no}")
             continue
 
-        # Prefer the first useful description from the requisition PDF.
-        title = item["category"] or "SQU Request for Quotation"
-        if pdf_text:
-            m = re.search(
-                r"Description\s+(?:Qty\s+)?(?:UOM\s+)?(.{5,180}?)(?:Remarks|A\.\s*BRIEF|$)",
-                pdf_text,
-                flags=re.IGNORECASE | re.DOTALL,
-            )
-            if m:
-                title = clean(m.group(1))
+        # IMPORTANT: use the real first-item Description from the PDF, not
+        # the HTML category and never the PDF header text "Qty UOM".
+        title = extract_primary_description(pdf_text)
+        if not title:
+            title = item["category"] or "SQU Request for Quotation"
 
         output.append({
             "source": "SQU",
