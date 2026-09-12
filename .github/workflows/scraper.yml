@@ -34,27 +34,86 @@ jobs:
         run: |
           playwright install chromium --with-deps
 
+      - name: Initialize Fetch Status
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          path = 'docs/fetch_status.json'
+          try:
+              with open(path, encoding='utf-8') as f:
+                  data = json.load(f)
+          except Exception:
+              data = {}
+          data['updated_at'] = datetime.now(timezone.utc).isoformat()
+          data.setdefault('sources', {})
+          for source in ['Oman Tender Board','SQU','BEAH','OMANTEL','JAGGAER']:
+              data['sources'].setdefault(source, {'status':'unknown','fetched_at':None})
+          with open(path, 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+              f.write('\n')
+          PY
+
       - name: Run Oman Tender Board Scraper
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        continue-on-error: true
         run: |
+          set +e
           python test2.py
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            python scripts/update_fetch_status.py "Oman Tender Board" success
+          else
+            python scripts/update_fetch_status.py "Oman Tender Board" failed "exit code $rc"
+          fi
+          exit 0
 
       - name: Run Sultan Qaboos University SQU Scraper
         continue-on-error: true
         run: |
+          set +e
           python scripts/scrape_squ.py
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            python scripts/update_fetch_status.py SQU success
+          else
+            python scripts/update_fetch_status.py SQU failed "exit code $rc"
+          fi
+          exit 0
 
       - name: Run BEAH Omantel JAGGAER Scrapers
         continue-on-error: true
         run: |
+          set +e
           python scripts/scrape_external_tenders.py
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            python scripts/update_fetch_status.py BEAH success
+            python scripts/update_fetch_status.py OMANTEL success
+            python scripts/update_fetch_status.py JAGGAER success
+          else
+            python scripts/update_fetch_status.py BEAH failed "external scraper exit code $rc"
+            python scripts/update_fetch_status.py OMANTEL failed "external scraper exit code $rc"
+            python scripts/update_fetch_status.py JAGGAER failed "external scraper exit code $rc"
+          fi
+          exit 0
 
       - name: Run Legacy-Compatible Omantel JAGGAER Fallback
         continue-on-error: true
         run: |
+          set +e
           python scripts/scrape_portal_fallback.py
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            python scripts/update_fetch_status.py OMANTEL success "fallback" --fallback
+            python scripts/update_fetch_status.py JAGGAER success "fallback" --fallback
+          else
+            python scripts/update_fetch_status.py OMANTEL failed "fallback exit code $rc" --fallback
+            python scripts/update_fetch_status.py JAGGAER failed "fallback exit code $rc" --fallback
+          fi
+          exit 0
 
       - name: Install Multi-Source Dashboard
         run: |
@@ -73,7 +132,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/index.html docs/dashboard_multi_source.html docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json docs/external_tenders.json portal_seen_tenders.json
+          git add docs/index.html docs/dashboard_multi_source.html docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json docs/external_tenders.json docs/fetch_status.json portal_seen_tenders.json
 
           if git diff --cached --quiet; then
             echo "No dashboard data changes."
@@ -82,4 +141,4 @@ jobs:
             git push
           fi
 
-# Force-run marker: execute latest scraper code after JAGGAER parser update.
+# Force-run marker: per-source fetch status tracking enabled.
