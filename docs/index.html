@@ -360,7 +360,7 @@ style="display:none"
 id="updateStatus"
 class="update-status"
 >
-Checking tender data...
+🕐 Last Tender Fetch: Checking...
 </div>
 
 
@@ -386,6 +386,7 @@ Loading tender data…
    ========================================================= */
 
 const DATA_URL = "./tenders.json";
+const UPDATE_URL = "./last_update.json";
 
 const PORTAL_URL =
 "https://etendering.tenderboard.gov.om/product/publicDash?viewFlag=NewTenders";
@@ -1152,9 +1153,33 @@ async function load(){
 
         /* LAST UPDATE */
 
-        $("updateStatus").textContent =
-            "🟢 Live • Updated " +
-            new Date().toLocaleTimeString();
+        const updateResponse = await fetch(
+    UPDATE_URL + "?v=" + Date.now(),
+    {
+        cache: "no-store"
+    }
+);
+
+if(!updateResponse.ok){
+    throw new Error(
+        "Could not load last update time"
+    );
+}
+
+const updateMeta =
+    await updateResponse.json();
+
+const fetchTime =
+    new Date(updateMeta.updated_at);
+
+$("updateStatus").textContent =
+    "🕐 Last Tender Fetch: " +
+    fetchTime.toLocaleString("en-IN", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Asia/Muscat"
+    }) +
+    " (Oman time)";
 
 
         render();
