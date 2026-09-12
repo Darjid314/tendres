@@ -51,6 +51,10 @@ jobs:
         run: |
           python scripts/scrape_external_tenders.py
 
+      - name: Install Multi-Source Dashboard
+        run: |
+          cp docs/dashboard_multi_source.html docs/index.html
+
       - name: Export combined dashboard data
         if: success()
         env:
@@ -64,11 +68,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json docs/external_tenders.json portal_seen_tenders.json
+          git add docs/index.html docs/dashboard_multi_source.html docs/tenders.json docs/new_tenders.json docs/last_update.json docs/squ_tenders.json docs/external_tenders.json portal_seen_tenders.json
 
           if git diff --cached --quiet; then
             echo "No dashboard data changes."
           else
-            git commit -m "Update Oman SQU BEAH Omantel and JAGGAER tender data"
+            git commit -m "Update multi-source Oman tender dashboard data"
             git push
           fi
