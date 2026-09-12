@@ -24,38 +24,27 @@ JAGGAER_ALT = [
     "https://oo.oma.app.jaggaer.com/esop/guest/go/opportunity/list.do",
     "https://oo.oma.app.jaggaer.com/esop/guest/go/opportunity/opportunity-list",
 ]
-
 UAS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/110.0.0.0 Safari/537.36",
 ]
 
-
 def clean(s):
     return re.sub(r"\s+", " ", str(s or "")).strip()
-
 
 def matches(s):
     s = clean(s).lower()
     return [k for k in KEYWORDS if k.lower() in s]
 
-
 def normalize_date(s):
     s = clean(s).replace("–", "-").replace("—", "-")
-    for fmt in (
-        "%d %b %Y %I:%M %p", "%d %b %Y %H:%M",
-        "%d %B %Y %I:%M %p", "%d %B %Y %H:%M",
-        "%d-%m-%Y %H:%M", "%d-%m-%Y",
-        "%d/%m/%Y %H:%M", "%d/%m/%Y",
-        "%Y-%m-%d %H:%M", "%Y-%m-%d",
-    ):
+    for fmt in ("%d %b %Y %I:%M %p", "%d %b %Y %H:%M", "%d %B %Y %I:%M %p", "%d %B %Y %H:%M", "%d-%m-%Y %H:%M", "%d-%m-%Y", "%d/%m/%Y %H:%M", "%d/%m/%Y", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
         try:
             return datetime.strptime(s, fmt).strftime("%d-%m-%Y %H:%M")
         except ValueError:
             pass
     return s
-
 
 def active(deadline):
     if not deadline:
@@ -65,7 +54,6 @@ def active(deadline):
         return dt.replace(tzinfo=timezone.utc) > datetime.now(timezone.utc)
     except ValueError:
         return True
-
 
 def fetch(session, url, bootstrap=None):
     last = None
@@ -86,7 +74,6 @@ def fetch(session, url, bootstrap=None):
         except Exception as exc:
             print(f"⚠️ fallback GET failed {url}: {exc}")
     return last if last else (url, "")
-
 
 def build_record(base, text, detail, source, source_name, title_hint=""):
     km = matches(text)
@@ -115,7 +102,6 @@ def build_record(base, text, detail, source, source_name, title_hint=""):
         "bid_open": "", "tender_url": detail or base, "keyword_matches": km,
     }
 
-
 def extract_records(base, html, source, source_name, allow_missing_detail=False):
     soup = BeautifulSoup(html, "html.parser")
     records, seen = [], set()
@@ -123,14 +109,12 @@ def extract_records(base, html, source, source_name, allow_missing_detail=False)
     nodes += soup.select("[role='row'], .tableRow, .table-row, .rfpRow, .rfp-row, .opportunity, .opportunityRow")
     if not nodes:
         nodes = soup.find_all("div")
-
     for node in nodes:
         text = clean(node.get_text(" ", strip=True))
         if len(text) < 20 or not matches(text):
             continue
         links = [urljoin(base, a.get("href")) for a in node.find_all("a", href=True)]
-        raw_attrs = " ".join(str(x) for tag in node.find_all(True) for x in tag.attrs.values())
-        raw_attrs += " " + " ".join(str(x) for x in node.attrs.values())
+        raw_attrs = " ".join(str(x) for tag in node.find_all(True) for x in tag.attrs.values()) + " " + " ".join(str(x) for x in node.attrs.values())
         for raw in (raw_attrs, text):
             for m in re.finditer(r"(?:rfp(?:Id)?|opportunityId|eventId|tender(?:Id)?)[=/'\" :]+([A-Za-z0-9_-]{3,})", raw, re.I):
                 ident = m.group(1)
@@ -156,18 +140,12 @@ def extract_records(base, html, source, source_name, allow_missing_detail=False)
         records.append(rec)
     return records
 
-
 def extract_omantel_fallback(base, html):
-    """Omantel's legacy RFP page can contain tender data in non-row containers and JS attributes."""
     soup = BeautifulSoup(html, "html.parser")
     records, seen = [], set()
-
-    # First pass: normal rows, but do not require a tender detail link.
     records.extend(extract_records(base, html, "OMANTEL", "Omantel", allow_missing_detail=True))
     for r in records:
         seen.add(f"{r['tender_no']}|{r['title']}")
-
-    # Second pass: anchors/buttons whose parent block contains a keyword.
     for tag in soup.find_all(["a", "button", "input"]):
         raw = clean(" ".join([tag.get_text(" ", strip=True), str(tag.get("value", "")), str(tag.get("onclick", "")), str(tag.get("href", ""))]))
         parent = tag
@@ -191,39 +169,77 @@ def extract_omantel_fallback(base, html):
         if key not in seen:
             seen.add(key)
             records.append(rec)
-
     print(f"🔎 OMANTEL fallback keyword blocks: {len(records)}")
     for r in records[:20]:
         print(f"   OMANTEL match: {r['tender_no']} | {r['title'][:180]} | {r['submission_close']}")
     return records
 
-
 def extract_jaggaer(html, base):
+    """Parse public Current Opportunities even when JAGGAER renders the table through JS/config blobs."""
     soup = BeautifulSoup(html, "html.parser")
-    records = extract_records(base, html, "JAGGAER", "JAGGAER eSourcing (OO)", allow_missing_detail=False)
-    if records:
-        return records
-    # Published Opportunities can be rendered in scripts/JSON rather than visible rows.
-    text = soup.get_text(" ", strip=True)
-    if matches(text):
-        print("🔎 JAGGAER page contains ICT/ELV text but no structured opportunity rows")
-    return []
-
+    records, seen = [], set()
+    records.extend(extract_records(base, html, "JAGGAER", "JAGGAER eSourcing (OO)", allow_missing_detail=False))
+    for r in records:
+        seen.add(f"{r['tender_no']}|{r['title']}")
+    # Public JAGGAER pages often expose opportunity links in anchors/scripts even when rows are not
+    # represented as <tr>. Inspect every detail URL and its nearby HTML text.
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        if "opportunity/detail" not in href.lower():
+            continue
+        detail = urljoin(base, href)
+        parent = a
+        for _ in range(5):
+            if parent.parent:
+                parent = parent.parent
+        block = clean(parent.get_text(" ", strip=True))
+        if not block:
+            block = clean(a.get_text(" ", strip=True))
+        rec = build_record(base, block, detail, "JAGGAER", "JAGGAER eSourcing (OO)", clean(a.get_text(" ", strip=True)))
+        if rec:
+            key = f"{rec['tender_no']}|{rec['title']}"
+            if key not in seen:
+                seen.add(key)
+                records.append(rec)
+    # Last-resort extraction from inline JS/JSON. Keep only contexts that actually contain our
+    # existing ICT/ELV keywords, and require a public opportunityId before creating a record.
+    raw = str(html)
+    for m in re.finditer(r"opportunityId\s*[=:]\s*[\"']?([0-9]+)", raw, re.I):
+        oid = m.group(1)
+        lo = max(0, m.start() - 900)
+        hi = min(len(raw), m.end() + 1800)
+        context = BeautifulSoup(raw[lo:hi], "html.parser").get_text(" ", strip=True)
+        if not matches(context):
+            continue
+        detail = urljoin(base, "/esop/guest/go/opportunity/detail?opportunityId=" + oid)
+        # Prefer a quoted/string field that looks like a title; otherwise use the keyword context.
+        title = ""
+        for pat in (r"(?:name|title|description)\"?\s*[:=]\s*\"([^\"]{8,180})\"", r"(?:name|title|description)\"?\s*[:=]\s*'([^']{8,180})'"):
+            tm = re.search(pat, raw[lo:hi], re.I)
+            if tm:
+                title = clean(tm.group(1))
+                break
+        rec = build_record(base, context, detail, "JAGGAER", "JAGGAER eSourcing (OO)", title)
+        if rec:
+            key = f"{rec['tender_no']}|{rec['title']}"
+            if key not in seen:
+                seen.add(key)
+                records.append(rec)
+    print(f"🔎 JAGGAER public parser records: {len(records)}")
+    for r in records[:20]:
+        print(f"   JAGGAER match: {r['tender_no']} | {r['title'][:180]} | {r['submission_close']}")
+    return records
 
 def main():
     session = requests.Session()
     session.headers.update({"Accept-Language": "en-US,en;q=0.9", "Referer": "https://tenders.omantel.om/"})
     all_new = []
-
-    # Omantel: bootstrap public landing page so the legacy RFP list receives its session cookies.
     final_url, html = fetch(session, OMANTEL, bootstrap=OMANTEL_LOGIN)
     if html:
         print(f"🔎 OMANTEL fallback final URL: {final_url}")
         recs = extract_omantel_fallback(final_url, html)
         print(f"OMANTEL fallback ICT/ELV matches: {len(recs)}")
         all_new.extend(recs)
-
-    # JAGGAER: establish guest session first, then try published-opportunity routes.
     j_session = requests.Session()
     j_session.headers.update({"Accept-Language": "en-US,en;q=0.9", "Referer": JAGGAER_HOME})
     try:
@@ -243,14 +259,12 @@ def main():
             break
     print(f"JAGGAER fallback ICT/ELV matches: {len(jaggaer_recs)}")
     all_new.extend(jaggaer_recs)
-
     try:
         with open(OUTPUT, "r", encoding="utf-8") as f:
             existing = json.load(f)
     except Exception:
         existing = []
-    merged = []
-    seen = set()
+    merged, seen = [], set()
     for item in existing + all_new:
         key = f"{item.get('source','')}|{item.get('tender_no','')}|{item.get('tender_url','')}"
         if key not in seen:
@@ -259,7 +273,6 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
     print(f"✅ External fallback merged: {len(all_new)} new candidates; {len(merged)} total external records")
-
 
 if __name__ == "__main__":
     main()
