@@ -51,6 +51,11 @@ jobs:
         run: |
           python scripts/scrape_external_tenders.py
 
+      - name: Run Legacy-Compatible Omantel JAGGAER Fallback
+        continue-on-error: true
+        run: |
+          python scripts/scrape_portal_fallback.py
+
       - name: Install Multi-Source Dashboard
         run: |
           cp docs/dashboard_multi_source.html docs/index.html
