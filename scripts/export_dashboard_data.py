@@ -10,6 +10,7 @@ OUTPUT_FILE = "docs/tenders.json"
 NEW_FILE = "docs/new_tenders.json"
 LAST_UPDATE_FILE = "docs/last_update.json"
 SQU_FILE = "docs/squ_tenders.json"
+EXTERNAL_FILE = "docs/external_tenders.json"
 
 SCOPE = [
     "https://spreadsheets.google.com/feeds",
@@ -39,15 +40,15 @@ def load_previous_data():
         return {}
 
 
-def load_squ_data():
-    if not os.path.exists(SQU_FILE):
+def load_json_list(path):
+    if not os.path.exists(path):
         return []
     try:
-        with open(SQU_FILE, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data if isinstance(data, list) else []
     except Exception as exc:
-        print(f"⚠️ SQU data read failed: {exc}")
+        print(f"⚠️ {path} read failed: {exc}")
         return []
 
 
@@ -102,8 +103,7 @@ def main():
         tenders.append(tender)
 
     # Merge SQU into the SAME dashboard feed.
-    squ_tenders = load_squ_data()
-    for tender in squ_tenders:
+    for tender in load_json_list(SQU_FILE):
         tender = dict(tender)
         tender["source"] = "SQU"
         tender["source_name"] = "Sultan Qaboos University"
@@ -111,8 +111,18 @@ def main():
         tender["is_new"] = key not in previous
         tenders.append(tender)
 
-    # Stable ordering: newest source records first, while preserving the
-    # existing dashboard's serial ordering for Oman Tender Board records.
+    # Merge the three additional public procurement portals into the same feed.
+    # Each portal has its own source label so filters and NEW detection remain
+    # independent of Oman Tender Board/SQU records.
+    for tender in load_json_list(EXTERNAL_FILE):
+        tender = dict(tender)
+        source = clean(tender.get("source")) or "External"
+        tender["source"] = source
+        key = f"{source}|{clean(tender.get('tender_no'))}"
+        tender["is_new"] = key not in previous
+        tenders.append(tender)
+
+    # New records first, then stable serial ordering.
     tenders.sort(key=lambda x: (not bool(x.get("is_new")), str(x.get("serial", ""))), reverse=False)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -126,9 +136,14 @@ def main():
     with open(LAST_UPDATE_FILE, "w", encoding="utf-8") as f:
         json.dump({"updated_at": updated_at}, f, ensure_ascii=False, indent=2)
 
+    source_counts = {}
+    for item in tenders:
+        source = clean(item.get("source")) or "Unknown"
+        source_counts[source] = source_counts.get(source, 0) + 1
+
     print("======================================")
-    print(f"Oman Tender Board tenders: {len(tenders) - len(squ_tenders)}")
-    print(f"SQU matched tenders: {len(squ_tenders)}")
+    for source, count in sorted(source_counts.items()):
+        print(f"{source}: {count}")
     print(f"Total dashboard tenders: {len(tenders)}")
     print(f"NEW tenders this run: {len(new_tenders)}")
     print(f"Updated at: {updated_at}")
