@@ -8,9 +8,12 @@ STATUS_FILE = "docs/fetch_status.json"
 
 def main():
     if len(sys.argv) < 3:
-        raise SystemExit("Usage: update_fetch_status.py SOURCE STATUS [MESSAGE]")
+        raise SystemExit("Usage: update_fetch_status.py SOURCE STATUS [MESSAGE] [--fallback]")
     source, status = sys.argv[1], sys.argv[2].lower()
-    message = sys.argv[3] if len(sys.argv) > 3 else ""
+    args = sys.argv[3:]
+    fallback = "--fallback" in args
+    message_parts = [a for a in args if a != "--fallback"]
+    message = " ".join(message_parts)
     now = datetime.now(timezone.utc).isoformat()
 
     try:
@@ -21,6 +24,10 @@ def main():
 
     payload.setdefault("sources", {})
     previous = payload["sources"].get(source, {})
+    if fallback and previous.get("status") == "success":
+        print(f"Fetch status: {source} remains success (fallback did not override primary result)")
+        return
+
     payload["sources"][source] = {
         **previous,
         "status": status,
