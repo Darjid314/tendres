@@ -115,6 +115,10 @@ jobs:
           fi
           exit 0
 
+      - name: Inject Source Fetch Status Widget
+        run: |
+          python scripts/add_fetch_status_dashboard.py
+
       - name: Install Multi-Source Dashboard
         run: |
           cp docs/dashboard_multi_source.html docs/index.html
