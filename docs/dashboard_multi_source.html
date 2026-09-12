@@ -6,6 +6,8 @@
 <title>Oman Tender Command Center</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#08111f;color:#e8eef7;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:1100px;margin:auto;padding:18px}h1{margin:0;font-size:28px}p{color:#91a2b9;margin-top:8px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.card,.toolbar{background:#101c2d;border:1px solid #20334d;border-radius:16px;padding:15px;box-shadow:0 8px 30px #0003}.stat b{display:block;font-size:25px}.stat span{font-size:12px;color:#91a2b9}.toolbar{display:grid;grid-template-columns:1.6fr .9fr .8fr .9fr;gap:9px;margin:14px 0}input,select{width:100%;padding:11px;border-radius:10px;border:1px solid #2a405e;background:#0a1525;color:#e8eef7;outline:none}.input:focus,input:focus,select:focus{border-color:#4b83b5}.list{display:grid;gap:10px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.title{font-weight:800;line-height:1.4}.no{color:#70b7ff;font-size:12px;margin-top:5px}.meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.pill{font-size:11px;padding:5px 8px;border-radius:999px;background:#162941;color:#bcd0e8}.source-squ{background:#3a2b12;color:#ffd98a}.source-ext{background:#21344a;color:#bfe0ff}.deadline{margin-top:12px;font-size:13px}.soon{font-weight:800}.empty{text-align:center;color:#91a2b9}a{color:#75c1ff;text-decoration:none;font-weight:800;white-space:nowrap}a:hover{text-decoration:underline}.new-badge{display:inline-block;font-size:10px;font-weight:900;padding:4px 7px;border-radius:999px;margin-left:7px;background:#234a38;color:#a8f0c2;vertical-align:middle}.new-card{border:2px solid #29563f}.new-info{background:#142b22;border:1px solid #29563f;color:#a8f0c2;padding:12px 15px;border-radius:14px;margin-bottom:12px;font-size:13px;font-weight:700}.update-status{margin-top:10px;font-size:11px;color:#71849d;text-align:right}@media(max-width:800px){.stats{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr}.top{flex-direction:column}a{white-space:normal}}
+
+.fetch-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0}.fetch-card{background:#101c2d;border:1px solid #20334d;border-radius:14px;padding:12px}.fetch-name{font-weight:800;font-size:13px}.fetch-time{font-size:11px;color:#91a2b9;margin-top:6px}.fetch-ok{color:#8ff0ae;font-weight:900}.fetch-fail{color:#ff8d8d;font-weight:900}.fetch-unknown{color:#ffd98a;font-weight:900}@media(max-width:900px){.fetch-grid{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -26,6 +28,36 @@
 <select id="sort"><option value="new">🆕 Newest Added</option><option value="close">⏰ Closing Soon</option><option value="sales">📅 Sales Start</option><option value="serial">🔢 Latest Added Order</option></select>
 </div>
 <div id="newInfo" class="new-info" style="display:none">🆕 These tenders were added in the latest scraper run.</div>
+
+<!-- FETCH_STATUS_WIDGET -->
+<section class="fetch-grid" id="fetchStatusGrid">
+  <div class="fetch-card"><div class="fetch-name">🇴🇲 Tender Board</div><div class="fetch-time" id="fetch-Oman-Tender-Board">Checking…</div></div>
+  <div class="fetch-card"><div class="fetch-name">🏛 SQU</div><div class="fetch-time" id="fetch-SQU">Checking…</div></div>
+  <div class="fetch-card"><div class="fetch-name">♻️ be'ah</div><div class="fetch-time" id="fetch-BEAH">Checking…</div></div>
+  <div class="fetch-card"><div class="fetch-name">📡 Omantel</div><div class="fetch-time" id="fetch-OMANTEL">Checking…</div></div>
+  <div class="fetch-card"><div class="fetch-name">🛒 JAGGAER</div><div class="fetch-time" id="fetch-JAGGAER">Checking…</div></div>
+</section>
+<script>
+async function loadFetchStatus(){
+  const ids={"Oman Tender Board":"fetch-Oman-Tender-Board",SQU:"fetch-SQU",BEAH:"fetch-BEAH",OMANTEL:"fetch-OMANTEL",JAGGAER:"fetch-JAGGAER"};
+  try{
+    const r=await fetch("./fetch_status.json?v="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw Error("HTTP "+r.status);
+    const j=await r.json();
+    for(const [name,id] of Object.entries(ids)){
+      const el=document.getElementById(id),s=(j.sources||{})[name]||{};
+      const status=String(s.status||"unknown").toLowerCase();
+      const label=status==="success"?"✅ SUCCESS":status==="failed"?"❌ FAILED":"⚠️ UNKNOWN";
+      el.className="fetch-time "+(status==="success"?"fetch-ok":status==="failed"?"fetch-fail":"fetch-unknown");
+      const t=s.fetched_at?new Date(s.fetched_at).toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short",timeZone:"Asia/Muscat"})+" (Oman)":"No fetch yet";
+      el.textContent=label+" • "+t;
+    }
+  }catch(e){
+    for(const id of Object.values(ids)){const el=document.getElementById(id);if(el){el.textContent="⚠️ Status unavailable";el.className="fetch-time fetch-unknown";}}
+  }
+}
+loadFetchStatus();
+</script>
 <div id="updateStatus" class="update-status">🕐 Last Tender Fetch: Checking...</div>
 <div id="list"><div class="card empty">Loading tender data…</div></div>
 </div>
