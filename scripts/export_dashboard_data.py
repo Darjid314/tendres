@@ -6,10 +6,22 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 
+# =====================================================
+# CONFIG
+# =====================================================
+
 SHEET_NAME = "Oman Tenders"
+
 OUTPUT_FILE = "docs/tenders.json"
+
 NEW_FILE = "docs/new_tenders.json"
+
 LAST_UPDATE_FILE = "docs/last_update.json"
+
+
+# =====================================================
+# GOOGLE API SCOPE
+# =====================================================
 
 SCOPE = [
     "https://spreadsheets.google.com/feeds",
@@ -17,13 +29,24 @@ SCOPE = [
 ]
 
 
+# =====================================================
+# CLEAN VALUE
+# =====================================================
+
 def clean(value):
+
     if value is None:
         return ""
+
     return str(value).strip()
 
 
+# =====================================================
+# CHECK REAL TENDER URL
+# =====================================================
+
 def is_real_url(value):
+
     value = clean(value)
 
     return (
@@ -32,16 +55,24 @@ def is_real_url(value):
     )
 
 
+# =====================================================
+# LOAD PREVIOUS DASHBOARD DATA
+# =====================================================
+
 def load_previous_data():
+
     """
     Previous dashboard data.
-    Used to detect which tender numbers are genuinely new.
+
+    Used to detect which tender numbers
+    are genuinely new.
     """
 
     if not os.path.exists(OUTPUT_FILE):
         return {}
 
     try:
+
         with open(
             OUTPUT_FILE,
             "r",
@@ -50,7 +81,9 @@ def load_previous_data():
 
             old = json.load(f)
 
+
         result = {}
+
 
         for item in old:
 
@@ -58,10 +91,14 @@ def load_previous_data():
                 item.get("tender_no")
             )
 
+
             if tender_no:
+
                 result[tender_no] = item
 
+
         return result
+
 
     except Exception as e:
 
@@ -72,16 +109,31 @@ def load_previous_data():
         return {}
 
 
+# =====================================================
+# MAIN
+# =====================================================
+
 def main():
+
+    # -------------------------------------------------
+    # GOOGLE CREDENTIALS
+    # -------------------------------------------------
 
     credentials_json = os.environ.get(
         "GOOGLE_CREDENTIALS"
     )
 
+
     if not credentials_json:
+
         raise RuntimeError(
             "GOOGLE_CREDENTIALS secret is missing."
         )
+
+
+    # -------------------------------------------------
+    # CREATE TEMP CREDENTIAL FILE
+    # -------------------------------------------------
 
     with open(
         "credentials.json",
@@ -91,6 +143,11 @@ def main():
 
         f.write(credentials_json)
 
+
+    # -------------------------------------------------
+    # GOOGLE AUTH
+    # -------------------------------------------------
+
     creds = (
         Credentials
         .from_service_account_file(
@@ -99,7 +156,13 @@ def main():
         )
     )
 
+
     client = gspread.authorize(creds)
+
+
+    # -------------------------------------------------
+    # OPEN GOOGLE SHEET
+    # -------------------------------------------------
 
     sheet = (
         client
@@ -107,21 +170,52 @@ def main():
         .sheet1
     )
 
+
     rows = sheet.get_all_values()
 
+
     if not rows:
-        print("Google Sheet is empty.")
+
+        print(
+            "Google Sheet is empty."
+        )
+
         return
 
 
+    # -------------------------------------------------
+    # TIMESTAMP
+    #
+    # Create ONE timestamp for the whole run.
+    # The same timestamp is used in:
+    #
+    # 1. new_tenders.json
+    # 2. last_update.json
+    #
+    # -------------------------------------------------
+
     previous = load_previous_data()
-    updated_at = datetime.now(timezone.utc).isoformat()
+
+    updated_at = datetime.now(
+        timezone.utc
+    ).isoformat()
+
 
     print(
         f"Previous dashboard tenders: "
         f"{len(previous)}"
     )
 
+
+    print(
+        f"Dashboard update timestamp: "
+        f"{updated_at}"
+    )
+
+
+    # -------------------------------------------------
+    # BUILD TENDER DATA
+    # -------------------------------------------------
 
     tenders = []
 
@@ -130,41 +224,60 @@ def main():
 
         r = list(row) + [""] * 15
 
-        tender_no = clean(r[1])
+
+        tender_no = clean(
+            r[1]
+        )
+
 
         if not tender_no:
+
             continue
 
 
         tender = {
 
-            "serial": clean(r[0]),
+            "serial":
+                clean(r[0]),
 
-            "tender_no": tender_no,
+            "tender_no":
+                tender_no,
 
-            "title": clean(r[2]),
+            "title":
+                clean(r[2]),
 
-            "agency": clean(r[3]),
+            "agency":
+                clean(r[3]),
 
-            "governorate": clean(r[4]),
+            "governorate":
+                clean(r[4]),
 
-            "state": clean(r[5]),
+            "state":
+                clean(r[5]),
 
-            "bank_guarantee": clean(r[6]),
+            "bank_guarantee":
+                clean(r[6]),
 
-            "fee": clean(r[7]),
+            "fee":
+                clean(r[7]),
 
-            "sales_start": clean(r[8]),
+            "sales_start":
+                clean(r[8]),
 
-            "sales_end": clean(r[9]),
+            "sales_end":
+                clean(r[9]),
 
-            "purchase_start": clean(r[10]),
+            "purchase_start":
+                clean(r[10]),
 
-            "purchase_end": clean(r[11]),
+            "purchase_end":
+                clean(r[11]),
 
-            "submission_close": clean(r[12]),
+            "submission_close":
+                clean(r[12]),
 
-            "bid_open": clean(r[13]),
+            "bid_open":
+                clean(r[13]),
 
             "tender_url":
                 clean(r[14]),
@@ -172,21 +285,23 @@ def main():
         }
 
 
-        # A tender is NEW only when its
-        # tender number did not exist in
-        # the previous dashboard export.
+        # -------------------------------------------------
+        # NEW TENDER DETECTION
+        # -------------------------------------------------
 
         tender["is_new"] = (
             tender_no not in previous
         )
 
 
-        tenders.append(tender)
+        tenders.append(
+            tender
+        )
 
 
-    # -------------------------------------------------
+    # =================================================
     # SAVE MAIN DASHBOARD DATA
-    # -------------------------------------------------
+    # =================================================
 
     with open(
         OUTPUT_FILE,
@@ -202,16 +317,24 @@ def main():
         )
 
 
-    # -------------------------------------------------
-    # SAVE ONLY NEW TENDERS
-    # -------------------------------------------------
+    # =================================================
+    # FIND NEW TENDERS
+    # =================================================
 
     new_tenders = [
-        t
-        for t in tenders
-        if t["is_new"]
+
+        tender
+
+        for tender in tenders
+
+        if tender["is_new"]
+
     ]
 
+
+    # =================================================
+    # SAVE NEW TENDERS
+    # =================================================
 
     with open(
         NEW_FILE,
@@ -221,7 +344,8 @@ def main():
 
         json.dump(
             {
-                "updated_at": updated_at,
+                "updated_at":
+                    updated_at,
 
                 "count":
                     len(new_tenders),
@@ -235,14 +359,43 @@ def main():
         )
 
 
+    # =================================================
+    # SAVE LAST UPDATE METADATA
+    #
+    # This file is read by the dashboard.
+    # =================================================
+
+    with open(
+        LAST_UPDATE_FILE,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            {
+                "updated_at":
+                    updated_at
+            },
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+
+    # =================================================
+    # LOG
+    # =================================================
+
     print(
         "======================================"
     )
+
 
     print(
         f"Total tenders exported: "
         f"{len(tenders)}"
     )
+
 
     print(
         f"NEW tenders this run: "
@@ -250,19 +403,37 @@ def main():
     )
 
 
+    print(
+        f"Last update file: "
+        f"{LAST_UPDATE_FILE}"
+    )
+
+
+    print(
+        f"Updated at: "
+        f"{updated_at}"
+    )
+
+
+    # =================================================
+    # SHOW NEW TENDERS
+    # =================================================
+
     if new_tenders:
 
         print(
             "\n🆕 NEW TENDERS:"
         )
 
-        for t in new_tenders:
+
+        for tender in new_tenders:
 
             print(
                 f"  • "
-                f"{t['tender_no']} - "
-                f"{t['title']}"
+                f"{tender['tender_no']} - "
+                f"{tender['title']}"
             )
+
 
     else:
 
@@ -276,5 +447,10 @@ def main():
     )
 
 
+# =====================================================
+# ENTRY POINT
+# =====================================================
+
 if __name__ == "__main__":
+
     main()
