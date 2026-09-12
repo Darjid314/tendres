@@ -317,6 +317,15 @@ All dates
 </select>
 
 
+<select id="source" aria-label="Tender source">
+
+<option value="all" selected>All sources</option>
+<option value="Oman Tender Board">Oman Tender Board</option>
+<option value="Sultan Qaboos University">Sultan Qaboos University</option>
+
+</select>
+
+
 <select id="sort">
 
 <option value="new">
@@ -390,6 +399,8 @@ const UPDATE_URL = "./last_update.json";
 
 const PORTAL_URL =
 "https://etendering.tenderboard.gov.om/product/publicDash?viewFlag=NewTenders";
+
+const SQU_PORTAL_URL = "https://www.squ.edu.om/tenders";
 
 const AUTO_REFRESH_MS = 120000;
 
@@ -490,7 +501,7 @@ function esc(value){
    SAFE URL
    ========================================================= */
 
-function safeUrl(value){
+function safeUrl(value, source){
 
     try{
 
@@ -502,7 +513,9 @@ function safeUrl(value){
             url.protocol === "https:" &&
             (
                 url.hostname === "tenderboard.gov.om" ||
-                url.hostname.endsWith(".tenderboard.gov.om")
+                url.hostname.endsWith(".tenderboard.gov.om") ||
+                url.hostname === "squ.edu.om" ||
+                url.hostname.endsWith(".squ.edu.om")
             )
         ){
 
@@ -510,11 +523,15 @@ function safeUrl(value){
 
         }
 
-        return PORTAL_URL;
+        return source === "Sultan Qaboos University"
+            ? SQU_PORTAL_URL
+            : PORTAL_URL;
 
     }catch(error){
 
-        return PORTAL_URL;
+        return source === "Sultan Qaboos University"
+            ? SQU_PORTAL_URL
+            : PORTAL_URL;
 
     }
 }
@@ -542,7 +559,9 @@ function hasDirectUrl(tender){
             url.protocol === "https:" &&
             (
                 url.hostname === "tenderboard.gov.om" ||
-                url.hostname.endsWith(".tenderboard.gov.om")
+                url.hostname.endsWith(".tenderboard.gov.om") ||
+                url.hostname === "squ.edu.om" ||
+                url.hostname.endsWith(".squ.edu.om")
             )
         );
 
@@ -601,6 +620,15 @@ function render(){
         if(
             query &&
             !text.includes(query)
+        ){
+
+            return false;
+
+        }
+
+        if(
+            $("source").value !== "all" &&
+            (tender.source || "Oman Tender Board") !== $("source").value
         ){
 
             return false;
@@ -850,7 +878,7 @@ function render(){
 
 
             const link =
-                safeUrl(tender.tender_url);
+                safeUrl(tender.tender_url, tender.source);
 
 
             const newClass =
@@ -883,6 +911,13 @@ function render(){
                 `
                 :
                 "";
+
+            const source =
+                `
+                <span class="pill">
+                    🏛 ${esc(tender.source || "Oman Tender Board")}
+                </span>
+                `;
 
 
             const governorate =
@@ -1020,6 +1055,8 @@ function render(){
                     <div class="meta">
 
                         ${agency}
+
+                        ${source}
 
                         ${governorate}
 
@@ -1225,6 +1262,11 @@ $("search").addEventListener(
    ========================================================= */
 
 $("days").addEventListener(
+    "change",
+    render
+);
+
+$("source").addEventListener(
     "change",
     render
 );

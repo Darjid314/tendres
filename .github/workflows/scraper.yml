@@ -28,7 +28,7 @@ jobs:
       - name: Install System Dependencies & Pip Packages
         run: |
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 gspread google-auth deep-translator
+          pip install -r requirements.txt
 
       - name: Install Playwright Chromium Browser
         run: |
@@ -40,6 +40,15 @@ jobs:
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
         run: |
           python test2.py
+
+      - name: Run Sultan Qaboos University tender scraper
+        if: success()
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          # Override this only if SQU changes its public tender page.
+          SQU_TENDERS_URL: ${{ vars.SQU_TENDERS_URL }}
+        run: |
+          python scripts/scrape_squ_tenders.py
 
       - name: Export dashboard data
         if: success()

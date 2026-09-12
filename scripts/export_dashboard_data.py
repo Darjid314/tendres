@@ -12,6 +12,12 @@ from google.oauth2.service_account import Credentials
 
 SHEET_NAME = "Oman Tenders"
 
+OMAN_SOURCE = "Oman Tender Board"
+SQU_SOURCE = "Sultan Qaboos University"
+SHEET_SOURCES = {
+    "SQU Tenders": SQU_SOURCE,
+}
+
 OUTPUT_FILE = "docs/tenders.json"
 
 NEW_FILE = "docs/new_tenders.json"
@@ -59,6 +65,11 @@ def is_real_url(value):
 # LOAD PREVIOUS DASHBOARD DATA
 # =====================================================
 
+def tender_key(tender_no, source):
+    """Keep identically numbered tenders from different publishers distinct."""
+    return f"{clean(source) or OMAN_SOURCE}:{clean(tender_no)}"
+
+
 def load_previous_data():
 
     """
@@ -94,7 +105,7 @@ def load_previous_data():
 
             if tender_no:
 
-                result[tender_no] = item
+                result[tender_key(tender_no, item.get("source"))] = item
 
 
         return result
@@ -164,23 +175,7 @@ def main():
     # OPEN GOOGLE SHEET
     # -------------------------------------------------
 
-    sheet = (
-        client
-        .open(SHEET_NAME)
-        .sheet1
-    )
-
-
-    rows = sheet.get_all_values()
-
-
-    if not rows:
-
-        print(
-            "Google Sheet is empty."
-        )
-
-        return
+    spreadsheet = client.open(SHEET_NAME)
 
 
     # -------------------------------------------------
@@ -220,22 +215,43 @@ def main():
     tenders = []
 
 
-    for row in rows[1:]:
+    # sheet1 remains the Oman Tender Board source regardless of its display
+    # name, preserving the established workbook configuration.
+    worksheets = [(spreadsheet.sheet1, OMAN_SOURCE)]
 
-        r = list(row) + [""] * 15
+    for worksheet_name, source in SHEET_SOURCES.items():
 
-
-        tender_no = clean(
-            r[1]
-        )
-
-
-        if not tender_no:
-
+        try:
+            worksheet = spreadsheet.worksheet(worksheet_name)
+        except gspread.WorksheetNotFound:
+            # The SQU worksheet is created by its scraper.  Its absence must
+            # never stop the established Oman Tender Board export.
+            print(f"Worksheet not found, skipping: {worksheet_name}")
             continue
 
+        worksheets.append((worksheet, source))
 
-        tender = {
+    for worksheet, default_source in worksheets:
+
+        rows = worksheet.get_all_values()
+        if not rows:
+            continue
+
+        for row in rows[1:]:
+
+            r = list(row) + [""] * 16
+
+
+            tender_no = clean(r[1])
+
+
+            if not tender_no:
+
+                continue
+
+
+            source = clean(r[15]) or default_source
+            tender = {
 
             "serial":
                 clean(r[0]),
@@ -279,24 +295,21 @@ def main():
             "bid_open":
                 clean(r[13]),
 
-            "tender_url":
-                clean(r[14]),
+                "tender_url": clean(r[14]),
 
-        }
+                "source": source,
+
+            }
 
 
         # -------------------------------------------------
         # NEW TENDER DETECTION
         # -------------------------------------------------
 
-        tender["is_new"] = (
-            tender_no not in previous
-        )
+            tender["is_new"] = tender_key(tender_no, source) not in previous
 
 
-        tenders.append(
-            tender
-        )
+            tenders.append(tender)
 
 
     # =================================================
