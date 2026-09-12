@@ -81,3 +81,5 @@ jobs:
             git commit -m "Update multi-source Oman tender dashboard data"
             git push
           fi
+
+# Force-run marker: execute latest scraper code after JAGGAER parser update.
