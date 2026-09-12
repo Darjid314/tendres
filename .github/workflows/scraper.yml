@@ -54,8 +54,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/tenders.json portal_seen_tenders.json
-          last_update.json portal_seen_tenders.json
+          git add docs/tenders.json docs/new_tenders.json docs/last_update.json portal_seen_tenders.json
 
           if git diff --cached --quiet; then
             echo "No dashboard data changes."
