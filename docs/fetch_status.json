@@ -1,0 +1,10 @@
+{
+  "updated_at": null,
+  "sources": {
+    "Oman Tender Board": {"status": "unknown", "fetched_at": null},
+    "SQU": {"status": "unknown", "fetched_at": null},
+    "BEAH": {"status": "unknown", "fetched_at": null},
+    "OMANTEL": {"status": "unknown", "fetched_at": null},
+    "JAGGAER": {"status": "unknown", "fetched_at": null}
+  }
+}
