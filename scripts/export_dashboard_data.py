@@ -9,6 +9,7 @@ from google.oauth2.service_account import Credentials
 SHEET_NAME = "Oman Tenders"
 OUTPUT_FILE = "docs/tenders.json"
 NEW_FILE = "docs/new_tenders.json"
+LAST_UPDATE_FILE = "docs/last_update.json"
 
 SCOPE = [
     "https://spreadsheets.google.com/feeds",
@@ -114,6 +115,7 @@ def main():
 
 
     previous = load_previous_data()
+    updated_at = datetime.now(timezone.utc).isoformat()
 
     print(
         f"Previous dashboard tenders: "
@@ -219,10 +221,7 @@ def main():
 
         json.dump(
             {
-                "updated_at":
-                    datetime.now(
-                        timezone.utc
-                    ).isoformat(),
+                "updated_at": updated_at,
 
                 "count":
                     len(new_tenders),
