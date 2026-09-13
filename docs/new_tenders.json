@@ -1,46 +1,5 @@
 {
-  "updated_at": "2026-09-13T12:03:01.010206+00:00",
-  "count": 2,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "463",
-      "tender_no": "2026/86/و ت ص/ا ت ص ظ ع-1",
-      "title": "حفر بئر مع توفير وتركيب شبكة.....",
-      "agency": "وزارة التجارة والصناعة",
-      "governorate": "محافظة الظاهرة الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'13-09-2026",
-      "sales_end": "'13-09-2026 13:30",
-      "purchase_start": "'17-09-2026 13:30",
-      "purchase_end": "'14-09-2026 08:30",
-      "submission_close": "'16-09-2026 13:30",
-      "bid_open": "'21-09-2026 10:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97788&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=618aa5441a13d3558d42be6f7926b68825b39348b1921a71ea8532dd1f192ad4",
-      "is_new": true
-    },
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "464",
-      "tender_no": "2026/711/و ت ت/ق م-351",
-      "title": "تقديم الدعم والصيانة لبعض أج.....",
-      "agency": "وزارة التعليم",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'13-09-2026",
-      "sales_end": "'13-09-2026 11:00",
-      "purchase_start": "'06-10-2026 14:30",
-      "purchase_end": "'13-09-2026 11:00",
-      "submission_close": "'06-10-2026 14:30",
-      "bid_open": "'13-10-2026 10:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97864&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=759d5d4148e5b214f1a23e0bd3dcacf7561a51b63ca5df2e18104d400230ff9f",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-09-13T16:22:31.771808+00:00",
+  "count": 0,
+  "tenders": []
 }

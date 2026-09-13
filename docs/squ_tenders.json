@@ -86,28 +86,5 @@
     "keyword_matches": [
       "software"
     ]
-  },
-  {
-    "source": "SQU",
-    "source_name": "Sultan Qaboos University",
-    "serial": "1295/26/0017",
-    "tender_no": "1295/26/0017",
-    "title": "Rebehitation",
-    "agency": "Sultan Qaboos University",
-    "governorate": "Muscat",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "25/08/2026",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "21/09/2026",
-    "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=1295/26/0017&param_sub_date=21/09/2026",
-    "keyword_matches": [
-      "network",
-      "cable"
-    ]
   }
 ]
