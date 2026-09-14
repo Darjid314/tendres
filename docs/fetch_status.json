@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-13T22:56:12.276004+00:00",
+  "updated_at": "2026-09-14T01:38:02.562018+00:00",
   "sources": {
     "Oman Tender Board": {
       "status": "success",
-      "fetched_at": "2026-09-13T22:26:35.756440+00:00",
+      "fetched_at": "2026-09-14T01:08:26.319150+00:00",
       "message": ""
     },
     "SQU": {
       "status": "success",
-      "fetched_at": "2026-09-13T22:26:43.018894+00:00",
+      "fetched_at": "2026-09-14T01:08:33.006050+00:00",
       "message": ""
     },
     "BEAH": {
       "status": "success",
-      "fetched_at": "2026-09-13T22:33:24.286229+00:00",
+      "fetched_at": "2026-09-14T01:15:14.544675+00:00",
       "message": ""
     },
     "OMANTEL": {
       "status": "success",
-      "fetched_at": "2026-09-13T22:33:24.309260+00:00",
+      "fetched_at": "2026-09-14T01:15:14.565890+00:00",
       "message": ""
     },
     "JAGGAER": {
       "status": "failed",
-      "fetched_at": "2026-09-13T22:56:12.276004+00:00",
+      "fetched_at": "2026-09-14T01:38:02.562018+00:00",
       "message": "Portal access failed: https://oo.oma.app.jaggaer.com/esop/guest/go/opportunity/opportunity-list: TimeoutError"
     }
   }
