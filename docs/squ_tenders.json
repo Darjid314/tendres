@@ -2,6 +2,28 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
+    "serial": "7038/26/0114",
+    "tender_no": "7038/26/0114",
+    "title": "LAPTOP",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "15/09/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "28/09/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7038/26/0114&param_sub_date=28/09/2026",
+    "keyword_matches": [
+      "computer"
+    ]
+  },
+  {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
     "serial": "7026/26/0108",
     "tender_no": "7026/26/0108",
     "title": "UV-VISIBLE SPERCTROPHOTOMETER",
