@@ -2,9 +2,9 @@
   {
     "source": "BEAH",
     "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0088",
-    "tender_no": "TD26-0088",
-    "title": "Earthwork of Izz LF Landfill (Cell 4)",
+    "serial": "TD26-0089",
+    "tender_no": "TD26-0089",
+    "title": "Provision of Stickers for HCW Entities - Riyada Card Holders Only",
     "agency": "be'ah",
     "governorate": "",
     "state": "Oman",
@@ -14,11 +14,33 @@
     "sales_end": "",
     "purchase_start": "",
     "purchase_end": "",
-    "submission_close": "04-10-2026 12:47",
+    "submission_close": "04-10-2026 13:00",
     "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFAKYAo%3D",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFEKYAo%3D",
     "keyword_matches": [
       "network",
+      "cable"
+    ]
+  },
+  {
+    "source": "BEAH",
+    "source_name": "be'ah / Bidmate",
+    "serial": "TD26-0045",
+    "tender_no": "TD26-0045",
+    "title": "Frame Contract - Provide Supply and Refilling of Specialized Gases for IWTF be’ah Laboratory",
+    "agency": "be'ah",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "21-09-2026 13:00",
+    "bid_open": "",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=Ii4jMGAKYAo%3D",
+    "keyword_matches": [
       "cable"
     ]
   },
