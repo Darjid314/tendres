@@ -2,6 +2,26 @@
   {
     "source": "Oman Tender Board",
     "source_name": "Oman Tender Board",
+    "serial": "484",
+    "tender_no": "2026/27/م ع ل ط/م وع-20",
+    "title": "تجديد رخص برامج الإحصاء",
+    "agency": "المجلس العماني للإختصاصات الطبية",
+    "governorate": "محافظة مسقط الولايات",
+    "state": "N/A",
+    "bank_guarantee": "N/A",
+    "fee": "N/A",
+    "sales_start": "'17-09-2026",
+    "sales_end": "'17-09-2026 10:30",
+    "purchase_start": "'21-09-2026 13:30",
+    "purchase_end": "'17-09-2026 11:00",
+    "submission_close": "'21-09-2026 14:00",
+    "bid_open": "'23-09-2026 10:00",
+    "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98142&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=ceac56df714f5b96480963f0a2c25343bab939243994f05d3894e46c916078da",
+    "is_new": true
+  },
+  {
+    "source": "Oman Tender Board",
+    "source_name": "Oman Tender Board",
     "serial": "10",
     "tender_no": "2026/562/ج ت ع ت/ع ك ت م ع -66- اعادة طرح - 1",
     "title": "Purchase the Free Peak Teams program",
@@ -9046,29 +9066,6 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
-    "serial": "7023/26/0011",
-    "tender_no": "7023/26/0011",
-    "title": "CONFERENCE SYSTEM 1",
-    "agency": "Sultan Qaboos University",
-    "governorate": "Muscat",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "15/09/2026",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "28/09/2026",
-    "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7023/26/0011&param_sub_date=28/09/2026",
-    "keyword_matches": [
-      "cable"
-    ],
-    "is_new": false
-  },
-  {
-    "source": "SQU",
-    "source_name": "Sultan Qaboos University",
     "serial": "7026/26/0106",
     "tender_no": "7026/26/0106",
     "title": "SOUND SYSTEM",
@@ -9851,29 +9848,6 @@
     "submission_close": "'18-04-2026 12:30",
     "bid_open": "'02-05-2026 12:30",
     "tender_url": "https://etendering.tenderboard.gov.om/product/;    function ShowNewTenders(n){        document.bDashboard.newTenderPubpageNo.value=n;        document.bDashboard.callvalue.value=",
-    "is_new": false
-  },
-  {
-    "source": "BEAH",
-    "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0075",
-    "tender_no": "TD26-0075",
-    "title": "PMC- NORM Project",
-    "agency": "be'ah",
-    "governorate": "",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "17-09-2026 10:00",
-    "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzNFUKYAo%3D",
-    "keyword_matches": [
-      "cable"
-    ],
     "is_new": false
   },
   {

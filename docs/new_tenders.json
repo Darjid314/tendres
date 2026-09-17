@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-09-17T01:29:41.816037+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-09-17T07:45:19.007274+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "484",
+      "tender_no": "2026/27/م ع ل ط/م وع-20",
+      "title": "تجديد رخص برامج الإحصاء",
+      "agency": "المجلس العماني للإختصاصات الطبية",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'17-09-2026",
+      "sales_end": "'17-09-2026 10:30",
+      "purchase_start": "'21-09-2026 13:30",
+      "purchase_end": "'17-09-2026 11:00",
+      "submission_close": "'21-09-2026 14:00",
+      "bid_open": "'23-09-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98142&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=ceac56df714f5b96480963f0a2c25343bab939243994f05d3894e46c916078da",
+      "is_new": true
+    }
+  ]
 }
