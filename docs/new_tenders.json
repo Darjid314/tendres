@@ -1,5 +1,46 @@
 {
-  "updated_at": "2026-09-18T11:21:19.298399+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-09-18T16:28:59.474089+00:00",
+  "count": 2,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "488",
+      "tender_no": "2026/144/م م/ م ك-112",
+      "title": "اعمال صيانة ودعم قواعد البيا.....",
+      "agency": "بلدية مسقط",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'18-09-2026",
+      "sales_end": "'18-09-2026 20:00",
+      "purchase_start": "'04-10-2026 20:00",
+      "purchase_end": "'20-09-2026 20:00",
+      "submission_close": "'11-10-2026 20:00",
+      "bid_open": "'25-10-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98022&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=ed5746ec85685370ca705be2119bc578f1af7cd33dc4d74edda7ba00aa2b3e10",
+      "is_new": true
+    },
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "489",
+      "tender_no": "2026/146/م م/ م ك-114",
+      "title": "صيانة منصة اعتمد (المرحلة ال.....",
+      "agency": "بلدية مسقط",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'18-09-2026",
+      "sales_end": "'18-09-2026 20:00",
+      "purchase_start": "'04-10-2026 20:00",
+      "purchase_end": "'20-09-2026 20:00",
+      "submission_close": "'11-10-2026 20:00",
+      "bid_open": "'25-10-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97996&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=59f26e98570f45ee0d557707de38111a22267935532344778d491a9d6e036334",
+      "is_new": true
+    }
+  ]
 }
