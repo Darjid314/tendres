@@ -25,9 +25,9 @@
   {
     "source": "BEAH",
     "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0086",
-    "tender_no": "TD26-0086",
-    "title": "SUPPLY, INSTALLATION AND COMMISSION OF LANDFILL BIO-GAS EXTRACTION AND COLLECTION SYSTEM FOR AL-MULTAQA LANDFILL CELL-2",
+    "serial": "TD26-0088",
+    "tender_no": "TD26-0088",
+    "title": "Earthwork of Izz LF Landfill (Cell 4)",
     "agency": "be'ah",
     "governorate": "",
     "state": "Oman",
@@ -37,33 +37,11 @@
     "sales_end": "",
     "purchase_start": "",
     "purchase_end": "",
-    "submission_close": "01-10-2026 15:00",
+    "submission_close": "04-10-2026 12:47",
     "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzOFgKYAo%3D",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFAKYAo%3D",
     "keyword_matches": [
       "network",
-      "cable"
-    ]
-  },
-  {
-    "source": "BEAH",
-    "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0071",
-    "tender_no": "TD26-0071",
-    "title": "Electrical Leak Location Survey for be’ah Landfills",
-    "agency": "be'ah",
-    "governorate": "",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "07-10-2026 15:00",
-    "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzNFEKYAo%3D",
-    "keyword_matches": [
       "cable"
     ]
   },
@@ -95,6 +73,28 @@
     "serial": "tender_5108",
     "tender_no": "tender_5108",
     "title": "Field Maintenance of Omantel DWDM and FOC Network",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ]
+  },
+  {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5128",
+    "tender_no": "tender_5128",
+    "title": "Firewall AMC, EOL Replacement & Network Security Architecture Refresh",
     "agency": "Omantel",
     "governorate": "",
     "state": "Oman",
