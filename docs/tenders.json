@@ -1,5 +1,28 @@
 [
   {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
+    "serial": "7038/26/0105",
+    "tender_no": "7038/26/0105",
+    "title": "Heavy AI / Digital Twin Workstation",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "21/09/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "05/10/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7038/26/0105&param_sub_date=05/10/2026",
+    "keyword_matches": [
+      "computer"
+    ],
+    "is_new": true
+  },
+  {
     "source": "Oman Tender Board",
     "source_name": "Oman Tender Board",
     "serial": "10",
