@@ -1,46 +1,5 @@
 {
-  "updated_at": "2026-09-24T10:06:46.288498+00:00",
-  "count": 2,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "501",
-      "tender_no": "2026/661/و ز ث س م/م ع ز س م ظ-37",
-      "title": "صيانة وتأهيل آبار مراقبة منا.....",
-      "agency": "وزارة الثروة الزراعية والسمكية وموارد المياه",
-      "governorate": "محافظة ظفار الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'24-09-2026",
-      "sales_end": "'24-09-2026 14:00",
-      "purchase_start": "'05-10-2026 14:00",
-      "purchase_end": "'24-09-2026 16:00",
-      "submission_close": "'05-10-2026 16:00",
-      "bid_open": "'15-10-2026 11:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98515&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=56aefbf41f58833b39e7b6fd42928ed2406a7f0bebbbbde290f13a2b6e5de08f",
-      "is_new": true
-    },
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "502",
-      "tender_no": "2026/289/و ع/ق م-242",
-      "title": "شاشة تفاعلية عدد2",
-      "agency": "وزارة الإعلام",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'24-09-2026",
-      "sales_end": "'24-09-2026 13:32",
-      "purchase_start": "'08-10-2026 13:32",
-      "purchase_end": "'24-09-2026 13:32",
-      "submission_close": "'29-09-2026 13:32",
-      "bid_open": "'08-10-2026 13:32",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98510&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=9decdad8293ef254217fd19a7b0b8c349c5ddb2ee405b37e11454cdd42527c87",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-09-24T15:11:32.357889+00:00",
+  "count": 0,
+  "tenders": []
 }
