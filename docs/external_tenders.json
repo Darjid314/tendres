@@ -2,6 +2,28 @@
   {
     "source": "BEAH",
     "source_name": "be'ah / Bidmate",
+    "serial": "TD26-0096",
+    "tender_no": "TD26-0096",
+    "title": "Supply of Stationary [only for Riyada card holders]",
+    "agency": "be'ah",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "14-10-2026 11:00",
+    "bid_open": "",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzQFEKYAo%3D",
+    "keyword_matches": [
+      "cable"
+    ]
+  },
+  {
+    "source": "BEAH",
+    "source_name": "be'ah / Bidmate",
     "serial": "TD26-0092",
     "tender_no": "TD26-0092",
     "title": "ManageEngine Renewal",
