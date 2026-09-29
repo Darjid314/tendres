@@ -1,5 +1,74 @@
 {
-  "updated_at": "2026-09-29T02:01:53.999393+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-09-29T08:36:44.562791+00:00",
+  "count": 3,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "516",
+      "tender_no": "2026/40/م م ج ش/ب ج ش-16",
+      "title": "تصميم وتنفيذ شبكة ري حديثة و.....",
+      "agency": "مكتب محافظ جنوب الشرقيه",
+      "governorate": "محافظة جنوب الشرقية الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'29-09-2026",
+      "sales_end": "'29-09-2026 12:00",
+      "purchase_start": "'04-10-2026 23:59",
+      "purchase_end": "'05-10-2026 08:00",
+      "submission_close": "'12-10-2026 12:00",
+      "bid_open": "'14-10-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98635&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=22d6b9b1eaadf46adbe5a150039a7be37326c97e4d14e9722c61f25f85b2c8ba",
+      "is_new": true
+    },
+    {
+      "source": "BEAH",
+      "source_name": "be'ah / Bidmate",
+      "serial": "TD26-0089",
+      "tender_no": "TD26-0089",
+      "title": "Provision of Stickers for HCW Entities - Riyada Card Holders Only",
+      "agency": "be'ah",
+      "governorate": "",
+      "state": "Oman",
+      "bank_guarantee": "",
+      "fee": "",
+      "sales_start": "",
+      "sales_end": "",
+      "purchase_start": "",
+      "purchase_end": "",
+      "submission_close": "04-10-2026 13:00",
+      "bid_open": "",
+      "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFEKYAo%3D",
+      "keyword_matches": [
+        "network",
+        "cable"
+      ],
+      "is_new": true
+    },
+    {
+      "source": "BEAH",
+      "source_name": "be'ah / Bidmate",
+      "serial": "TD26-0093",
+      "tender_no": "TD26-0093",
+      "title": "Supply of Laboratory supportive instrument to Sohar IWTF be’ah lab-Only Riyada Card Holders",
+      "agency": "be'ah",
+      "governorate": "",
+      "state": "Oman",
+      "bank_guarantee": "",
+      "fee": "",
+      "sales_start": "",
+      "sales_end": "",
+      "purchase_start": "",
+      "purchase_end": "",
+      "submission_close": "18-10-2026 15:00",
+      "bid_open": "",
+      "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFcKYAo%3D",
+      "keyword_matches": [
+        "software",
+        "cable"
+      ],
+      "is_new": true
+    }
+  ]
 }

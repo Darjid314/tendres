@@ -24,9 +24,9 @@
   {
     "source": "BEAH",
     "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0092",
-    "tender_no": "TD26-0092",
-    "title": "ManageEngine Renewal",
+    "serial": "TD26-0093",
+    "tender_no": "TD26-0093",
+    "title": "Supply of Laboratory supportive instrument to Sohar IWTF be’ah lab-Only Riyada Card Holders",
     "agency": "be'ah",
     "governorate": "",
     "state": "Oman",
@@ -36,9 +36,9 @@
     "sales_end": "",
     "purchase_start": "",
     "purchase_end": "",
-    "submission_close": "11-10-2026 11:47",
+    "submission_close": "18-10-2026 15:00",
     "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFYKYAo%3D",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFcKYAo%3D",
     "keyword_matches": [
       "software",
       "cable"
@@ -47,9 +47,9 @@
   {
     "source": "BEAH",
     "source_name": "be'ah / Bidmate",
-    "serial": "TD26-0088",
-    "tender_no": "TD26-0088",
-    "title": "Earthwork of Izz LF Landfill (Cell 4)",
+    "serial": "TD26-0089",
+    "tender_no": "TD26-0089",
+    "title": "Provision of Stickers for HCW Entities - Riyada Card Holders Only",
     "agency": "be'ah",
     "governorate": "",
     "state": "Oman",
@@ -59,34 +59,12 @@
     "sales_end": "",
     "purchase_start": "",
     "purchase_end": "",
-    "submission_close": "04-10-2026 12:47",
+    "submission_close": "04-10-2026 13:00",
     "bid_open": "",
-    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFAKYAo%3D",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzPFEKYAo%3D",
     "keyword_matches": [
       "network",
       "cable"
-    ]
-  },
-  {
-    "source": "OMANTEL",
-    "source_name": "Omantel",
-    "serial": "tender_5077",
-    "tender_no": "tender_5077",
-    "title": "PTP AND PMP MW LINK 2026 tender - FIXED AND MOBILE BACKHAULING- UNLICENSED",
-    "agency": "Omantel",
-    "governorate": "",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "",
-    "bid_open": "",
-    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
-    "keyword_matches": [
-      "network"
     ]
   },
   {
