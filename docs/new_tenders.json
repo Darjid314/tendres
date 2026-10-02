@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-10-01T23:57:04.161634+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "538",
-      "tender_no": "2026/151/م م/ م ك-119",
-      "title": "نظام صيانة الأصول  وإدارة ال.....",
-      "agency": "بلدية مسقط",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'01-10-2026",
-      "sales_end": "'01-10-2026 23:59",
-      "purchase_start": "'19-10-2026 23:59",
-      "purchase_end": "'02-10-2026 23:59",
-      "submission_close": "'28-10-2026 23:59",
-      "bid_open": "'08-11-2026 10:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98829&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=7693b672ef035d7d1b5e0c316fcd8df90b3febb1bc4f76b7ceee25785506bb40",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-10-02T05:43:52.387467+00:00",
+  "count": 0,
+  "tenders": []
 }
