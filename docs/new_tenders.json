@@ -1,5 +1,46 @@
 {
-  "updated_at": "2026-10-04T00:42:33.812932+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-10-04T07:00:52.729502+00:00",
+  "count": 2,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "539",
+      "tender_no": "2026/49/ب م ع/ م ر -28",
+      "title": "المركز الوطني للابتكار في مج.....",
+      "agency": "البنك المركزي العماني",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'03-10-2026",
+      "sales_end": "'04-10-2026 08:00",
+      "purchase_start": "'11-10-2026 08:00",
+      "purchase_end": "'04-10-2026 09:00",
+      "submission_close": "'15-10-2026 09:00",
+      "bid_open": "'05-11-2026 13:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=97269&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=e4a76cfcd68bf6defd8114fabcd977bf6f1052bd6c784fbba866ffdb30d652e3",
+      "is_new": true
+    },
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "540",
+      "tender_no": "2026/487/و ت أ/ م ر -43",
+      "title": "مشروع تطوير البوابة الإلكترو.....",
+      "agency": "وزارة التنمية الاجتماعية",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'30-09-2026",
+      "sales_end": "'04-10-2026 08:00",
+      "purchase_start": "'23-10-2026 14:00",
+      "purchase_end": "'05-10-2026 09:00",
+      "submission_close": "'22-10-2026 14:00",
+      "bid_open": "'12-11-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=98842&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=14f02e7ce495f3cf712d12789891e73ee261141a549bb92f7140adcd24e86882",
+      "is_new": true
+    }
+  ]
 }
