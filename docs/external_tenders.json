@@ -110,27 +110,5 @@
     "keyword_matches": [
       "network"
     ]
-  },
-  {
-    "source": "OMANTEL",
-    "source_name": "Omantel",
-    "serial": "tender_5128",
-    "tender_no": "tender_5128",
-    "title": "Firewall AMC, EOL Replacement & Network Security Architecture Refresh",
-    "agency": "Omantel",
-    "governorate": "",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "",
-    "bid_open": "",
-    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
-    "keyword_matches": [
-      "network"
-    ]
   }
 ]
