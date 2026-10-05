@@ -1,46 +1,5 @@
 {
-  "updated_at": "2026-10-05T16:06:33.249015+00:00",
-  "count": 2,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "550",
-      "tender_no": "2026/42/م م ج ش/ب ج ش-18",
-      "title": "نظام تتبع السيارات والمركبا.....",
-      "agency": "مكتب محافظ جنوب الشرقيه",
-      "governorate": "محافظة جنوب الشرقية الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'05-10-2026",
-      "sales_end": "'05-10-2026 14:00",
-      "purchase_start": "'29-10-2026 23:00",
-      "purchase_end": "'06-10-2026 08:00",
-      "submission_close": "'29-10-2026 12:00",
-      "bid_open": "'13-11-2026 23:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99094&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=4ad4598b07a69807f33810815f42b0deb142d1dab3b0e1547cf85d48463cdecb",
-      "is_new": true
-    },
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "551",
-      "tender_no": "2026/771/و ت ت/ق م-393",
-      "title": "مناقصة توريد شاشة تفاعلية مق.....",
-      "agency": "وزارة التعليم",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'05-10-2026",
-      "sales_end": "'05-10-2026 12:00",
-      "purchase_start": "'12-10-2026 08:00",
-      "purchase_end": "'05-10-2026 12:00",
-      "submission_close": "'05-10-2026 13:00",
-      "bid_open": "'12-10-2026 09:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99151&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=832281f39b67a1b6ed60576aa23fbb97acbc58f10c24755ef94161ffc3842a5f",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-10-05T22:42:06.818496+00:00",
+  "count": 0,
+  "tenders": []
 }
