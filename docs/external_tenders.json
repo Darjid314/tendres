@@ -110,5 +110,27 @@
     "keyword_matches": [
       "network"
     ]
+  },
+  {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5008",
+    "tender_no": "tender_5008",
+    "title": "Please wait until page loading is complete .. Continue page loading in background Enter Numbers (e.g. 123,456.78) Enter an integer Enter a Numeric Percentage Numeric Percentage, max 1 decimal digit Numeric Percentage, ma",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ]
   }
 ]
