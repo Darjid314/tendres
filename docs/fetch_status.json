@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-09T02:14:35.185269+00:00",
+  "updated_at": "2026-10-09T09:14:10.753848+00:00",
   "sources": {
     "Oman Tender Board": {
       "status": "success",
-      "fetched_at": "2026-10-09T02:12:59.549008+00:00",
+      "fetched_at": "2026-10-09T09:12:42.491177+00:00",
       "message": ""
     },
     "SQU": {
       "status": "success",
-      "fetched_at": "2026-10-09T02:13:06.820811+00:00",
+      "fetched_at": "2026-10-09T09:12:50.378229+00:00",
       "message": ""
     },
     "BEAH": {
       "status": "success",
-      "fetched_at": "2026-10-09T02:14:09.169476+00:00",
+      "fetched_at": "2026-10-09T09:13:46.333208+00:00",
       "message": ""
     },
     "OMANTEL": {
       "status": "success",
-      "fetched_at": "2026-10-09T02:14:09.187563+00:00",
+      "fetched_at": "2026-10-09T09:13:46.354407+00:00",
       "message": ""
     },
     "JAGGAER": {
       "status": "failed",
-      "fetched_at": "2026-10-09T02:14:35.185269+00:00",
+      "fetched_at": "2026-10-09T09:14:10.753848+00:00",
       "message": "Portal access failed: HTTP 401 at https://oo.oma.app.jaggaer.com/esop/guest/go/opportunity/opportunity-list"
     }
   }
