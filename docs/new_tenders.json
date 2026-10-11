@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-10-10T23:37:02.218319+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-10-11T05:53:29.362396+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "575",
+      "tender_no": "2026/37/ه ع ا أ/م ش ت-21",
+      "title": "شراء برنامج ادوبي اكروبات بر.....",
+      "agency": "الهيئة العمانية للاعتماد الأكاديمي وضمان جودة التعليم",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'08-10-2026",
+      "sales_end": "'11-10-2026 08:00",
+      "purchase_start": "'15-10-2026 14:00",
+      "purchase_end": "'11-10-2026 08:00",
+      "submission_close": "'18-10-2026 14:00",
+      "bid_open": "'20-10-2026 11:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99425&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=6f7d34c046977b02bcb72c67d03939a2fd28558fc162f0b4ec344c08a2ca0caa",
+      "is_new": true
+    }
+  ]
 }
