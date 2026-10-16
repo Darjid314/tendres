@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-10-16T21:14:55.213976+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "608",
-      "tender_no": "2026/115/ش  ت ن ع/ق م ش-90",
-      "title": "صيانة وإصلاح أنظمة الحماية م.....",
-      "agency": "شركة تنمية نخيل عمان",
-      "governorate": "محافظة الداخلية الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'16-10-2026",
-      "sales_end": "'16-10-2026 23:00",
-      "purchase_start": "'30-10-2026 23:00",
-      "purchase_end": "'16-10-2026 23:00",
-      "submission_close": "'21-10-2026 23:00",
-      "bid_open": "'04-11-2026 23:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99940&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=181dd284cbdd110297379cc063710c5a76be6ede1035132da3d02af684077a22",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-10-16T23:41:18.820383+00:00",
+  "count": 0,
+  "tenders": []
 }
