@@ -2,6 +2,29 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
+    "serial": "7038/26/0132",
+    "tender_no": "7038/26/0132",
+    "title": "PRINTER",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "18/10/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "26/10/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7038/26/0132&param_sub_date=26/10/2026",
+    "keyword_matches": [
+      "computer",
+      "cable"
+    ]
+  },
+  {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
     "serial": "7024/26/0054",
     "tender_no": "7024/26/0054",
     "title": "SERVER",
