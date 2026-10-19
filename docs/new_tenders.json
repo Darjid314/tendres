@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-10-18T23:18:09.969842+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-10-19T04:46:42.090544+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "611",
+      "tender_no": "2026/4339/و ص/م إ م م-68",
+      "title": "توريد شاشة لوحة التشلرات",
+      "agency": "وزارة الصحة",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'19-10-2026",
+      "sales_end": "'19-10-2026 08:00",
+      "purchase_start": "'01-11-2026 12:00",
+      "purchase_end": "'19-10-2026 12:00",
+      "submission_close": "'01-11-2026 08:00",
+      "bid_open": "'03-11-2026 08:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99932&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=d0574071412bd2123a4f0d6ffe6841a0f86e529f6ef101f29c8c970e715d4996",
+      "is_new": true
+    }
+  ]
 }
