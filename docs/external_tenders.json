@@ -20,5 +20,94 @@
     "keyword_matches": [
       "cable"
     ]
+  },
+  {
+    "source": "BEAH",
+    "source_name": "be'ah / Bidmate",
+    "serial": "TD26-0083",
+    "tender_no": "TD26-0083",
+    "title": "Network Infrastructure AMC",
+    "agency": "be'ah",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "29-10-2026 11:00",
+    "bid_open": "",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzOFUKYAo%3D",
+    "keyword_matches": [
+      "network",
+      "cable"
+    ]
+  },
+  {
+    "source": "BEAH",
+    "source_name": "be'ah / Bidmate",
+    "serial": "TD26-0071",
+    "tender_no": "TD26-0071",
+    "title": "Electrical Leak Location Survey for be’ah Landfills",
+    "agency": "be'ah",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "29-10-2026 15:00",
+    "bid_open": "",
+    "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzNFEKYAo%3D",
+    "keyword_matches": [
+      "cable"
+    ]
+  },
+  {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5151",
+    "tender_no": "tender_5151",
+    "title": "Supply of Spare Parts for Service Delivery Maintenance",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ]
+  },
+  {
+    "source": "OMANTEL",
+    "source_name": "Omantel",
+    "serial": "tender_5142",
+    "tender_no": "tender_5142",
+    "title": "Please wait until page loading is complete .. Continue page loading in background Enter Numbers (e.g. 123,456.78) Enter an integer Enter a Numeric Percentage Numeric Percentage, max 1 decimal digit Numeric Percentage, ma",
+    "agency": "Omantel",
+    "governorate": "",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "",
+    "bid_open": "",
+    "tender_url": "https://tenders.omantel.om/esop/oma-host/public/omantel/rfpList.jsp?rfpType=InFlight",
+    "keyword_matches": [
+      "network"
+    ]
   }
 ]
