@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-10-20T01:53:23.159707+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-10-20T07:39:47.263248+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "619",
+      "tender_no": "2026/4383/و ص/م ع خ ص ج ب م-165",
+      "title": "شراء ملحقات اجهزة حاسب آلي",
+      "agency": "وزارة الصحة",
+      "governorate": "محافظة جنوب الباطنة الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'20-10-2026",
+      "sales_end": "'20-10-2026 09:40",
+      "purchase_start": "'26-10-2026 09:40",
+      "purchase_end": "'20-10-2026 09:40",
+      "submission_close": "'26-10-2026 09:40",
+      "bid_open": "'29-10-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=99960&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=a1ca0f491408ca9e85f42cfdfa0accab4e4e8dfda7dc5591832d565db5bda4d8",
+      "is_new": true
+    }
+  ]
 }
