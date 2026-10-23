@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:37:21.834736+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "637",
-      "tender_no": "2026/79/م ع م م/ق م-33",
-      "title": "ترميم شبكة الصرف وتوريد وترك.....",
-      "agency": "مركز عُمان للمؤتمرات والمعارض",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'22-10-2026",
-      "sales_end": "'22-10-2026 12:00",
-      "purchase_start": "'29-10-2026 12:00",
-      "purchase_end": "'22-10-2026 12:00",
-      "submission_close": "'27-10-2026 12:00",
-      "bid_open": "'02-11-2026 12:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=100293&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=babf4a66ebe2d1f18f849cdbee1d3f076e47e52c709731daa667f1d0ac4ed110",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-10-23T13:31:05.024358+00:00",
+  "count": 0,
+  "tenders": []
 }
