@@ -2,43 +2,21 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
-    "serial": "7022/26/0078",
-    "tender_no": "7022/26/0078",
-    "title": "READER",
+    "serial": "7038/26/0138",
+    "tender_no": "7038/26/0138",
+    "title": "Computers",
     "agency": "Sultan Qaboos University",
     "governorate": "Muscat",
     "state": "Oman",
     "bank_guarantee": "",
     "fee": "",
-    "sales_start": "25/10/2026",
+    "sales_start": "27/10/2026",
     "sales_end": "",
     "purchase_start": "",
     "purchase_end": "",
     "submission_close": "02/11/2026",
     "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7022/26/0078&param_sub_date=02/11/2026",
-    "keyword_matches": [
-      "cable"
-    ]
-  },
-  {
-    "source": "SQU",
-    "source_name": "Sultan Qaboos University",
-    "serial": "7022/26/0076",
-    "tender_no": "7022/26/0076",
-    "title": "GAS ANALYZER",
-    "agency": "Sultan Qaboos University",
-    "governorate": "Muscat",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "20/10/2026",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "02/11/2026",
-    "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7022/26/0076&param_sub_date=02/11/2026",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7038/26/0138&param_sub_date=02/11/2026",
     "keyword_matches": [
       "computer"
     ]
@@ -46,31 +24,9 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
-    "serial": "7022/26/0079",
-    "tender_no": "7022/26/0079",
-    "title": "DENTAL MULTIMEDIA KIT",
-    "agency": "Sultan Qaboos University",
-    "governorate": "Muscat",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "19/10/2026",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "02/11/2026",
-    "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7022/26/0079&param_sub_date=02/11/2026",
-    "keyword_matches": [
-      "cable"
-    ]
-  },
-  {
-    "source": "SQU",
-    "source_name": "Sultan Qaboos University",
     "serial": "7024/26/0054",
     "tender_no": "7024/26/0054",
-    "title": "SERVER",
+    "title": "Computers",
     "agency": "Sultan Qaboos University",
     "governorate": "Muscat",
     "state": "Oman",
@@ -84,12 +40,7 @@
     "bid_open": "",
     "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7024/26/0054&param_sub_date=02/11/2026",
     "keyword_matches": [
-      "network",
-      "networking",
-      "software",
-      "server",
-      "computer",
-      "cable"
+      "computer"
     ]
   }
 ]
