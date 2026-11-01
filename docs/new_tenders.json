@@ -1,46 +1,5 @@
 {
-  "updated_at": "2026-11-01T15:15:58.770993+00:00",
-  "count": 2,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "669",
-      "tender_no": "2026/116/و ت ص/د م-27",
-      "title": "توفير شاشة عرض",
-      "agency": "وزارة التجارة والصناعة",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'01-11-2026",
-      "sales_end": "'01-11-2026 15:00",
-      "purchase_start": "'05-11-2026 15:00",
-      "purchase_end": "'01-11-2026 15:00",
-      "submission_close": "'03-11-2026 15:00",
-      "bid_open": "'08-11-2026 10:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=100872&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=5538ce93dfbb10e1f727ca004dff207b8e3221d30b27159bb38577d1842a5ff2",
-      "is_new": true
-    },
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "670",
-      "tender_no": "2026/155/و ت س/د ش م-127",
-      "title": "مشروع تنفيذ حلول وأدوات النف.....",
-      "agency": "وزارة التراث والسياحة",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'01-11-2026",
-      "sales_end": "'01-11-2026 13:17",
-      "purchase_start": "'05-11-2026 13:17",
-      "purchase_end": "'01-11-2026 13:17",
-      "submission_close": "'05-11-2026 13:17",
-      "bid_open": "'11-11-2026 13:17",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=100857&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=3e466e1b0930e89026edb15bb2740fea10979f305ea9e061bb7a897db9fceeaf",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-11-01T19:47:42.847103+00:00",
+  "count": 0,
+  "tenders": []
 }
