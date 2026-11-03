@@ -1,5 +1,72 @@
 {
-  "updated_at": "2026-11-02T23:35:58.139047+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-11-03T06:53:52.237578+00:00",
+  "count": 3,
+  "tenders": [
+    {
+      "source": "SQU",
+      "source_name": "Sultan Qaboos University",
+      "serial": "1295/26/0027",
+      "tender_no": "1295/26/0027",
+      "title": "TABLET",
+      "agency": "Sultan Qaboos University",
+      "governorate": "Muscat",
+      "state": "Oman",
+      "bank_guarantee": "",
+      "fee": "",
+      "sales_start": "03/11/2026",
+      "sales_end": "",
+      "purchase_start": "",
+      "purchase_end": "",
+      "submission_close": "09/11/2026",
+      "bid_open": "",
+      "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=1295/26/0027&param_sub_date=09/11/2026",
+      "keyword_matches": [
+        "computer"
+      ],
+      "is_new": true
+    },
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "675",
+      "tender_no": "2026/1097/ج ت ع ت/ك ت ع م ع -340- اعادة طرح - 3",
+      "title": "توفير احتياجات فعالية يوم ال.....",
+      "agency": "جامعة التقنية والعلوم التطبيقية",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'03-11-2026",
+      "sales_end": "'03-11-2026 07:00",
+      "purchase_start": "'03-11-2026 16:00",
+      "purchase_end": "'03-11-2026 08:00",
+      "submission_close": "'03-11-2026 12:00",
+      "bid_open": "'03-11-2026 17:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=100956&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=abc60e8aefbc4a7f1bc9be9e4f086ead1368663e680b06f24bd7d8fac930a2ed",
+      "is_new": true
+    },
+    {
+      "source": "BEAH",
+      "source_name": "be'ah / Bidmate",
+      "serial": "TD26-0103",
+      "tender_no": "TD26-0103",
+      "title": "ENHANCEMENT OF EXISTING LEACHATE TREATMENT PLANT CAPACITY AT BARKA ENGINEERED SANITARY LANDFILL SOUTH AL BATINAH GOVERNORATE, OMAN",
+      "agency": "be'ah",
+      "governorate": "",
+      "state": "Oman",
+      "bank_guarantee": "",
+      "fee": "",
+      "sales_start": "",
+      "sales_end": "",
+      "purchase_start": "",
+      "purchase_end": "",
+      "submission_close": "03-01-2027 10:00",
+      "bid_open": "",
+      "tender_url": "https://bidmate.beah.om/front-tender/tender-preview/O0+1vHJsO6KyJgVySpNIacAth5ExIDuk6iIifaK7ip0=?id=IywzRFAKYAo%3D",
+      "keyword_matches": [
+        "cable"
+      ],
+      "is_new": true
+    }
+  ]
 }
