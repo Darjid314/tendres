@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-11-03T21:06:28.149443+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "678",
-      "tender_no": "2026/96/م م/ م ك -85- اعادة طرح - 1",
-      "title": "توريد أحبار وقطع غيار وصيانة.....",
-      "agency": "بلدية مسقط",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'03-11-2026",
-      "sales_end": "'03-11-2026 19:39",
-      "purchase_start": "'12-11-2026 19:39",
-      "purchase_end": "'04-11-2026 19:39",
-      "submission_close": "'15-11-2026 19:39",
-      "bid_open": "'22-11-2026 10:39",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=100883&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=865e8b2b350f850e82596594954f3feb9d208c120b95f0abb21730ea7d68a237",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-11-04T01:26:47.096305+00:00",
+  "count": 0,
+  "tenders": []
 }
