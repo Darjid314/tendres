@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-11-08T23:47:06.244525+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-11-09T06:40:23.544337+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "694",
+      "tender_no": "2026/32/هـ م م م (داخلى)/د م-14",
+      "title": "توريد وتركيب شاشة عرض تفاعلية",
+      "agency": "هيئة المشاريع والمناقصات والمحتوى المحلي الداخلية",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'09-11-2026",
+      "sales_end": "'09-11-2026 09:30",
+      "purchase_start": "'12-11-2026 09:30",
+      "purchase_end": "'09-11-2026 09:40",
+      "submission_close": "'16-11-2026 11:40",
+      "bid_open": "'19-11-2026 09:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=101297&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=0783b4830772b13ae93bceae111e9f9083bee644df72ad612347a5ec9b4f5c48",
+      "is_new": true
+    }
+  ]
 }
