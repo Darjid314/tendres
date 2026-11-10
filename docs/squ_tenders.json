@@ -2,6 +2,72 @@
   {
     "source": "SQU",
     "source_name": "Sultan Qaboos University",
+    "serial": "7038/26/0147",
+    "tender_no": "7038/26/0147",
+    "title": "LAPTOP",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "10/11/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "16/11/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7038/26/0147&param_sub_date=16/11/2026",
+    "keyword_matches": [
+      "computer"
+    ]
+  },
+  {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
+    "serial": "7025/26/0073",
+    "tender_no": "7025/26/0073",
+    "title": "DUCTLESS FUME HOOD",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "10/11/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "30/11/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7025/26/0073&param_sub_date=30/11/2026",
+    "keyword_matches": [
+      "switch"
+    ]
+  },
+  {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
+    "serial": "7025/26/0072",
+    "tender_no": "7025/26/0072",
+    "title": "FREEZER",
+    "agency": "Sultan Qaboos University",
+    "governorate": "Muscat",
+    "state": "Oman",
+    "bank_guarantee": "",
+    "fee": "",
+    "sales_start": "10/11/2026",
+    "sales_end": "",
+    "purchase_start": "",
+    "purchase_end": "",
+    "submission_close": "30/11/2026",
+    "bid_open": "",
+    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=7025/26/0072&param_sub_date=30/11/2026",
+    "keyword_matches": [
+      "switch"
+    ]
+  },
+  {
+    "source": "SQU",
+    "source_name": "Sultan Qaboos University",
     "serial": "1234/26/0133",
     "tender_no": "1234/26/0133",
     "title": "TWIN-ROTOR DYNAMIC EXPERIMENT SYSTEM (3-DOF HELICOPTER)",
