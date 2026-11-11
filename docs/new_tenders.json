@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-11-10T23:27:14.216065+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-11-11T06:30:22.436864+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "Oman Tender Board",
+      "source_name": "Oman Tender Board",
+      "serial": "705",
+      "tender_no": "2026/27/ه ب ع إ/ق م م-20",
+      "title": "توفير تراخيص اوتوكاد و اس بي.....",
+      "agency": "هيئة البحث العلمي و الإبتكار",
+      "governorate": "محافظة مسقط الولايات",
+      "state": "N/A",
+      "bank_guarantee": "N/A",
+      "fee": "N/A",
+      "sales_start": "'10-11-2026",
+      "sales_end": "'11-11-2026 07:30",
+      "purchase_start": "'15-11-2026 14:30",
+      "purchase_end": "'11-11-2026 14:30",
+      "submission_close": "'16-11-2026 14:30",
+      "bid_open": "'17-11-2026 10:00",
+      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=101377&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=67b4b3d4007f59bdf517d1830a62ecabdd98114f8bd2d753ce0ad1ac3badad00",
+      "is_new": true
+    }
+  ]
 }
