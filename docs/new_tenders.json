@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:53:09.144798+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "710",
-      "tender_no": "2026/4712/و ص/م ع خ ص د م-227",
-      "title": "توريد وتركيب شبكة أنابيب غاز.....",
-      "agency": "وزارة الصحة",
-      "governorate": "محافظة الداخلية الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'11-11-2026",
-      "sales_end": "'12-11-2026 22:58",
-      "purchase_start": "'17-11-2026 22:58",
-      "purchase_end": "'12-11-2026 22:58",
-      "submission_close": "'17-11-2026 22:58",
-      "bid_open": "'20-12-2026 22:58",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=101404&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=1133e2875779703fb9ca433599a6521661450834838450ecdab64584e51a4990",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-11-13T01:53:16.051633+00:00",
+  "count": 0,
+  "tenders": []
 }
