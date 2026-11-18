@@ -42,27 +42,5 @@
     "keyword_matches": [
       "switch"
     ]
-  },
-  {
-    "source": "SQU",
-    "source_name": "Sultan Qaboos University",
-    "serial": "1286/26/0072",
-    "tender_no": "1286/26/0072",
-    "title": "WHITE BOARD-350X120",
-    "agency": "Sultan Qaboos University",
-    "governorate": "Muscat",
-    "state": "Oman",
-    "bank_guarantee": "",
-    "fee": "",
-    "sales_start": "05/11/2026",
-    "sales_end": "",
-    "purchase_start": "",
-    "purchase_end": "",
-    "submission_close": "18/11/2026",
-    "bid_open": "",
-    "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=1286/26/0072&param_sub_date=18/11/2026",
-    "keyword_matches": [
-      "computer"
-    ]
   }
 ]
