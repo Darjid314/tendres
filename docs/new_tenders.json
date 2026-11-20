@@ -1,5 +1,29 @@
 {
-  "updated_at": "2026-11-20T03:21:53.176621+00:00",
-  "count": 0,
-  "tenders": []
+  "updated_at": "2026-11-20T12:58:42.230813+00:00",
+  "count": 1,
+  "tenders": [
+    {
+      "source": "SQU",
+      "source_name": "Sultan Qaboos University",
+      "serial": "1234/26/0133",
+      "tender_no": "1234/26/0133",
+      "title": "TWIN-ROTOR DYNAMIC EXPERIMENT SYSTEM (3-DOF HELICOPTER)",
+      "agency": "Sultan Qaboos University",
+      "governorate": "Muscat",
+      "state": "Oman",
+      "bank_guarantee": "",
+      "fee": "",
+      "sales_start": "05/11/2026",
+      "sales_end": "",
+      "purchase_start": "",
+      "purchase_end": "",
+      "submission_close": "30/11/2026",
+      "bid_open": "",
+      "tender_url": "https://tenders.squ.edu.om/tender/pdf?param_ref_no=1234/26/0133&param_sub_date=30/11/2026",
+      "keyword_matches": [
+        "cable"
+      ],
+      "is_new": true
+    }
+  ]
 }
