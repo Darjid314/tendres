@@ -1,26 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:41:55.987202+00:00",
-  "count": 1,
-  "tenders": [
-    {
-      "source": "Oman Tender Board",
-      "source_name": "Oman Tender Board",
-      "serial": "739",
-      "tender_no": "2026/927/و ت ت/ م ر -172",
-      "title": "المناقصة الخاصة بتشغيل وصيان.....",
-      "agency": "وزارة التعليم",
-      "governorate": "محافظة مسقط الولايات",
-      "state": "N/A",
-      "bank_guarantee": "N/A",
-      "fee": "N/A",
-      "sales_start": "'19-11-2026",
-      "sales_end": "'19-11-2026 22:00",
-      "purchase_start": "'03-12-2026 22:00",
-      "purchase_end": "'19-11-2026 22:00",
-      "submission_close": "'03-12-2026 11:00",
-      "bid_open": "'08-12-2026 10:00",
-      "tender_url": "https://etendering.tenderboard.gov.om/product/nitParameterView?mode=public&tenderNo=101932&PublicUrl=1&CTRL_STRDIRECTION=RTL&encparam=mode,tenderNo,PublicUrl,CTRL_STRDIRECTION,randomno&hashval=06ebdf1e177577469923d3e1964200f43ea22aa9580d79fa4fde40b2b73ceb97",
-      "is_new": true
-    }
-  ]
+  "updated_at": "2026-11-20T03:21:53.176621+00:00",
+  "count": 0,
+  "tenders": []
 }
